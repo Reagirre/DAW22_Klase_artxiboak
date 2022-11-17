@@ -1,0 +1,1 @@
+print("Kaixo\nMundua\n!")
