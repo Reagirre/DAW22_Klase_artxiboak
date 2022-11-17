@@ -1,0 +1,1 @@
+print('Kaixo Mundua!')

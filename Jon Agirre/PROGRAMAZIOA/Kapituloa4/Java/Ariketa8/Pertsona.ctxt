@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Pertsona
+comment1.params=
+comment1.target=Pertsona()
+comment2.params=i\ a
+comment2.target=Pertsona(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=int\ getKontadorea()
+comment4.params=i
+comment4.target=void\ setIzena(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getIzena()
+comment6.params=a
+comment6.target=void\ setAbizena(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getAbizena()
+comment8.params=
+comment8.target=void\ erakutsi()
+comment9.params=h
+comment9.target=void\ erakutsi(java.lang.String)
+numComments=10

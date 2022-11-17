@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Kontua
+comment1.params=
+comment1.target=Kontua()
+comment2.params=z
+comment2.target=Kontua(double)
+comment3.params=
+comment3.target=int\ getKontadorea()
+comment4.params=z
+comment4.target=void\ setSaldoa(double)
+comment5.params=
+comment5.target=double\ getSaldoa()
+comment6.params=z
+comment6.target=void\ abonatu(double)
+comment7.params=z
+comment7.target=void\ kargatu(double)
+comment8.params=
+comment8.target=void\ erakutsi()
+comment9.params=hizkuntza
+comment9.target=void\ erakutsi(java.lang.String)
+numComments=10

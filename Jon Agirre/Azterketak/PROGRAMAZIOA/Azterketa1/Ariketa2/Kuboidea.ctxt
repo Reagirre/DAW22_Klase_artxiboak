@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Kuboidea
+comment1.params=
+comment1.target=Kuboidea()
+comment10.params=h
+comment10.target=void\ erakutsi(java.lang.String)
+comment11.params=
+comment11.target=int\ azalera()
+comment12.params=
+comment12.target=int\ bolumena()
+comment2.params=z\ l\ a
+comment2.target=Kuboidea(int,\ int,\ int)
+comment3.params=l
+comment3.target=void\ setLuzera(int)
+comment4.params=
+comment4.target=int\ getLuzera()
+comment5.params=z
+comment5.target=void\ setZabalera(int)
+comment6.params=
+comment6.target=int\ getZabalera()
+comment7.params=a
+comment7.target=void\ setAltuera(int)
+comment8.params=
+comment8.target=int\ getAltuera()
+comment9.params=
+comment9.target=void\ erakutsi()
+numComments=13
