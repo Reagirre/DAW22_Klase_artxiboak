@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Kanta
+comment1.params=
+comment1.target=Kanta()
+comment2.params=z\ a\ b\ c\ d
+comment2.target=Kanta(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getIzena()
+comment4.params=
+comment4.target=java.lang.String\ getEgilea()
+comment5.params=
+comment5.target=java.lang.String\ getUrtea()
+comment6.params=
+comment6.target=int\ getIraupena()
+comment7.params=
+comment7.target=void\ MenuanErakutsi()
+comment8.params=
+comment8.target=void\ setEntzuten()
+numComments=9

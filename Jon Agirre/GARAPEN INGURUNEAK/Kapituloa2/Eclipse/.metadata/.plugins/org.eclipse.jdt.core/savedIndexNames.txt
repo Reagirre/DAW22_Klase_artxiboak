@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Lea Artibai\Desktop\GARAPEN INGURUNEAK\Kapituloa2\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1603149842.index
+1865797976.index
+3959137331.index

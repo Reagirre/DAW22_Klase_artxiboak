@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Jony's Cars</title>
+		<style>
+			* {margin: 0; padding: 0}
+			body{
+				margin:auto;
+				padding: 0px;
+			}
+			header{
+				display: flex;
+				place-content: normal center; 
+				width:auto;
+				border-top: rgb(0, 0, 0) 1px solid;
+				border-left: rgb(0, 0, 0) 1px solid;
+				border-right: rgb(0, 0, 0) 1px solid;
+				background-color: rgb(153, 80, 93);
+			}
+			nav{
+				padding: 15px;
+				border-bottom: rgb(0, 0, 0) 1px solid;
+				border-left: rgb(0, 0, 0) 1px solid;
+				border-right: rgb(0, 0, 0) 1px solid;
+				background-color: rgb(153, 80, 93);
+			}
+			main{
+				padding: 10px;
+				background-color: rgb(141, 125, 128);
+			}
+			footer{
+				padding: 10px;
+				background-color: rgb(141, 125, 128);
+			}
+			img{
+				height:100%;
+				width: 100%;
+			}
+			li{
+				display: inline;
+				margin:5px;
+				padding-right: 10px;
+				border-right: rgb(0, 0, 0) 1px solid;
+			}
+			.dropdown {
+				display: inline-block;
+				position: relative;
+			}
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				width: 100%;
+				overflow: auto;
+				box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+				background-color: rgb(213, 213, 213);
+			}
+			.dropdown:hover .dropdown-content {
+				display: block;
+			}
+			.dropdown-content a {
+				display: block;
+				color: #000000;
+				padding: 5px;
+				text-decoration: none;
+			}
+			.dropdown-content a:hover {
+				color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Jony's Cars</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Hasiera</a></li>
+				<li>
+					<div class="dropdown">
+						<p>Katalogoa</p>
+						<div class="dropdown-content">
+							<a href="estiloak.html">Estiloak</a>
+							<a href="markak.html">Markak</a>
+						</div>
+					</div>
+				</li>
+				<li><a href="gehiago.html">Gehiago</a></li>
+				<li><a href="zerbitzuak.html">Zerbitzuak</a></li>
+				<li><a href="laguntza.html">Laguntza</a></li>
+			</ul>
+		</nav>
+		<main>
+			<img src="img/Index1.jpeg" alt="logoa">
+		</main>
+		<footer>
+			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
+		</footer>
+	</body>
+</html>
