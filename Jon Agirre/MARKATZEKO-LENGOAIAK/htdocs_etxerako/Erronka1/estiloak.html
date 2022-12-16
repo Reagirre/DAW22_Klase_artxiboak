@@ -36,18 +36,39 @@
 				padding-right: 10px;
 				border-right: rgb(0, 0, 0) 1px solid;
 			}
-			#container {
-				display: grid;
-				grid: repeat(2, 100px) / auto-flow 20%;
-			}
-
-			#container > div {
-				display: flex;
-				flex-wrap: wrap;
-				place-content: space-around center;
+			section {
+				display: flexbox;
 			}
 			img{
 				width: 100%;
+			}
+			li{
+				display: inline;
+				margin:5px;
+				padding-right: 10px;
+				border-right: rgb(0, 0, 0) 1px solid;
+			}
+			.dropdown {
+				display: inline-block;
+				position: relative;
+			}
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				overflow: auto;
+				background-color: rgb(213, 213, 213);
+			}
+			.dropdown:hover .dropdown-content {
+				display: block;
+			}
+			.dropdown-content a {
+				display: block;
+				color: #000000;
+				padding: 5px;
+				text-decoration: none;
+			}
+			.dropdown-content a:hover {
+				color: #000000;
 			}
 		</style>
 	</head>
@@ -56,27 +77,29 @@
 			<h1>Estiloak</h1>
 		</header>
 		<nav>
-			<p><a href="index.html">Hasiera</a>
-				<a href="katalogoa.html">Katalogoa</a>
-				<a href="gehiago.html">Gehiago</a>
-				<a href="zerbitzuak.html">Zerbitzuak</a>
-				<a href="laguntza.html">Laguntza</a>
-			</p>
+			<ul>
+				<li><a href="index.html">Hasiera</a></li>
+				<li>
+					<div class="dropdown">
+						<p>Katalogoa</p>
+						<div class="dropdown-content">
+							<a href="estiloak.html">Estiloak</a>
+							<a href="markak.html">Markak</a>
+						</div>
+					</div>
+				</li>
+				<li><a href="zerbitzuak.html">Zerbitzuak</a></li>
+				<li><a href="laguntza.html">Laguntza</a></li>
+			</ul>
 		</nav>
 		<main>
-
-			<div id="container">
-				<div><p>Auto txikiak</p></div>
-				<div><a href="auto_txikiak.html"><img src="img/autotxiki.png" alt="logoa"></a></div>
-				<div><p>Familiarrak</p></div>
-				<div><a href="familiarrak.html"><img src="img/familiarrak.jpg" alt="logoa"></a></div>
-				<div><p>Berlina-k</p></div>
-				<div><a href="berlinak.html"><img src="img/berlina.jpg" alt="logoa"></a></div>
-				<div><p>Monobolumenak</p></div>
-				<div><a href="monobolumenak.html"><img src="img/monovolumen.jpg" alt="logoa"></a></div>
-				<div><p>Kiroletakoak</p></div>
-				<div><a href="kiroletakoak.html"><img src="img/deportivo.gif" alt="logoa"></a></div>
-			</div>
+			<section>
+				<div><p>Auto txikiak</p><a href="auto_txikiak.html"><img src="img/autotxiki.png" alt="logoa"></a></div>
+				<div><p>Familiarrak</p><a href="familiarrak.html"><img src="img/familiarrak.jpg" alt="logoa"></a></div>
+				<div><p>Berlina-k</p><a href="berlinak.html"><img src="img/berlina.jpg" alt="logoa"></a></div>
+				<div><p>Monobolumenak</p><a href="monobolumenak.html"><img src="img/monovolumen.jpg" alt="logoa"></a></div>
+				<div><p>Kiroletakoak</p><a href="kiroletakoak.html"><img src="img/deportivo.gif" alt="logoa"></a></div>
+			</section>
 		</main>
 		<footer>
 			<p>&copy; 2020 Lea Artibai Ikastetxea</p>
