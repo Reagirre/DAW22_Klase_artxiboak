@@ -1,3 +1,5 @@
+import java.util.*;
+import java.io.*;
 public class Kotxea extends Produktua
 {
     String modeloa;
@@ -58,5 +60,29 @@ public class Kotxea extends Produktua
     public String idatzi() {
         return getId() + "," + getIzena() + "," + getFabrikatzailea() + "," + getProdukzio_data() + "," + getPrezioa() + "," + id_kotxea
         + "," + modeloa + "," + kolorea + "," + tipoa + "," + motorea + ",";
+    }
+    public static boolean konprobatu(int x, int zein) 
+    {
+        boolean result = false;
+        String kotxeak = "lib/Kotxeak.csv";
+        int y;
+        try {
+            File kotxeakIra = new File(kotxeak);
+            Scanner reader = new Scanner(kotxeakIra);
+            String strin;
+            while(reader.hasNextLine())
+            {
+                strin = reader.nextLine();
+                int index = strin.indexOf(",");
+                y = Integer.parseInt(strin.substring(zein, index));
+                if(x == y)
+                    result = true;
+            }
+            reader.close();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        
+        return result;
     }
 }
