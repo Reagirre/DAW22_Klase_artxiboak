@@ -90,7 +90,7 @@ public class ProbaKanta
             if(reader.hasNextLine())
             {
                 strin = reader.nextLine();
-                int index = strin.indexOf(":");
+                int index = strin.indexOf(",");
                 Kotxea  kotxea4 = new Kotxea(Integer.parseInt(strin.substring(0, index)),
                  strin.substring(1, index),
                  strin.substring(2, index),
