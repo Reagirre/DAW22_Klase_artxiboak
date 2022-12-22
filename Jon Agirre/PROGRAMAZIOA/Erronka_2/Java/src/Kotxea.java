@@ -10,10 +10,10 @@ public class Kotxea extends Produktua
     {
         super();
     }
-    public Kotxea(int id, String izena, String fabrikatzailea, String produkzio_eguna, int prezioa, int id_kotxea,String modeloa,
+    public Kotxea(int id, String izena, String fabrikatzailea, String produkzio_data, int prezioa, int id_kotxea,String modeloa,
      String kolorea, String tipoa, String motorea)
     {
-        super(id, izena, fabrikatzailea, produkzio_eguna, prezioa);
+        super(id, izena, fabrikatzailea, produkzio_data, prezioa);
         this.id_kotxea = id_kotxea;
         this.modeloa = modeloa;
         this.kolorea = kolorea;
@@ -56,7 +56,7 @@ public class Kotxea extends Produktua
         this.motorea = motorea;
     }
     public String idatzi() {
-        return getId() + "," + getIzena() + "," + getFabrikatzailea() + "," + getProdukzio_eguna() + "," + getPrezioa() + "," + id_kotxea
+        return getId() + "," + getIzena() + "," + getFabrikatzailea() + "," + getProdukzio_data() + "," + getPrezioa() + "," + id_kotxea
         + "," + modeloa + "," + kolorea + "," + tipoa + "," + motorea + ",";
     }
 }

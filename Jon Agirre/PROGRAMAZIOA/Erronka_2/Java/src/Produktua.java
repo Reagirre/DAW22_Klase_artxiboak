@@ -1,8 +1,10 @@
+// import java.sql.Date;
+
 public class Produktua 
 {   
     protected String izena;
     protected String fabrikatzailea;
-    protected String produkzio_eguna;
+    protected String produkzio_data;
     protected int id;
     protected int prezioa;
     
@@ -11,12 +13,12 @@ public class Produktua
     {
         
     }
-    public Produktua(int id, String izena, String fabrikatzailea, String produkzio_eguna, int prezioa)
+    public Produktua(int id, String izena, String fabrikatzailea, String produkzio_data, int prezioa)
     {   
         this.prezioa = prezioa;
         this.izena = izena;
         this.fabrikatzailea = fabrikatzailea;
-        this.produkzio_eguna = produkzio_eguna;
+        this.produkzio_data = produkzio_data;
         this.id = id;
     }
     public String getIzena() {
@@ -31,11 +33,11 @@ public class Produktua
     public void setFabrikatzailea(String fabrikatzailea) {
         this.fabrikatzailea = fabrikatzailea;
     }
-    public String getProdukzio_eguna() {
-        return produkzio_eguna;
+    public String getProdukzio_data() {
+        return produkzio_data;
     }
-    public void setProdukzio_eguna(String produkzio_eguna) {
-        this.produkzio_eguna = produkzio_eguna;
+    public void setProdukzio_data(String produkzio_data) {
+        this.produkzio_data = produkzio_data;
     }
     public int getId() {
         return id;
