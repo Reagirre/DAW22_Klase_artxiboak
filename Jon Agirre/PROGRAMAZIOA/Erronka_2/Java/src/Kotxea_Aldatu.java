@@ -23,9 +23,9 @@ public class Kotxea_Aldatu
                 BufferedWriter writer = new BufferedWriter(new FileWriter(kotxeak, true));
                 File kotxeakIra = new File(kotxeak);
                 Scanner reader = new Scanner(kotxeakIra);
-                String strin;
-                strin = reader.nextLine();
-                int index = strin.indexOf(",");
+                //String strin;
+                //strin = reader.nextLine();
+                //int index = strin.indexOf(",");
                 System.out.print("Sartu kodea: ");
                 probatu = sarrera.nextInt();
                 if(Kotxea.konprobatu(probatu, 0))
@@ -37,6 +37,7 @@ public class Kotxea_Aldatu
                 writer.write(kotxea1.idatzi());
                 writer.newLine();
                 writer.close();
+                reader.close();
             } 
             catch (IOException e)
             {
