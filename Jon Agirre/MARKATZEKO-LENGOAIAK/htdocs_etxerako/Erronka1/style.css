@@ -76,20 +76,30 @@ nav > img{
     padding: 2.5%;
 } */
 #container {
-    display: grid;
-    grid-template-areas: 'd1 d2';
     
-    justify-content: center;
-    /* grid-template-columns: auto auto; */
+    padding-left: 2em;
+    padding-right: 2em;
+    /* margin-left: 20px;
+    margin-right: auto; */
 }
+.d1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+    flex: 1;
+    padding: 2em;
 
-#d1{
-    grid-area: d1;
 }
-
-#d2{
-    grid-area: d2;
+.d1 > p{
+    width: 300px;
 }
+/* #d3{
+    flex: 50%;
+}
+#d4{
+    flex: 1;
+} */
 
 .im1{
     width: 50%;
@@ -97,5 +107,5 @@ nav > img{
 /* #container > div {
     display: flex;
     flex-wrap: wrap;
-    place-content: center center;
+    place-content: left center;
 } */
