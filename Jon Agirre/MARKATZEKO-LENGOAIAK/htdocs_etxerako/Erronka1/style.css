@@ -90,11 +90,17 @@ nav > img{
     border-bottom: 0.5px double gray;
 
 }
+/* .d1 > a{
+    
+    justify-content: stretch;
+} */
 .im1{
     width: 50%;
     border-radius: 2em;
     transition: all 0.2s ease-in-out;
+    justify-content:left;
 }
+
 .im1:hover{
     transform: translateY(-4px) translateX(-2px);
     box-shadow: 2px 5px 0 0 black;
