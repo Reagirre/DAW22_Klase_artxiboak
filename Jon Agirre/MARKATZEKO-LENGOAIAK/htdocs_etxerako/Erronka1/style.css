@@ -79,8 +79,6 @@ nav > img{
     
     padding-left: 2em;
     padding-right: 2em;
-    /* margin-left: 20px;
-    margin-right: auto; */
 }
 .d1{
     display: flex;
@@ -89,23 +87,13 @@ nav > img{
     gap: 2em;
     flex: 1;
     padding: 2em;
+    border-bottom: 0.5px double gray;
 
 }
-.d1 > p{
-    width: 300px;
-}
-/* #d3{
-    flex: 50%;
-}
-#d4{
-    flex: 1;
-} */
-
 .im1{
     width: 50%;
 }
-/* #container > div {
-    display: flex;
-    flex-wrap: wrap;
-    place-content: left center;
-} */
+.paragrafo{
+    font-size: 1.25em;
+    line-height: 2em;
+}
