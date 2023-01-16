@@ -92,8 +92,12 @@ nav > img{
 }
 .im1{
     width: 50%;
+    border-radius: 300em;
 }
 .paragrafo{
     font-size: 1.25em;
     line-height: 2em;
+}
+footer{
+    margin: 2em;
 }
