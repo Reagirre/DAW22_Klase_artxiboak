@@ -81,6 +81,7 @@ nav > img{
     padding-right: 2em;
 }
 .d1{
+    background-color: red;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -89,6 +90,9 @@ nav > img{
     padding: 2em;
     border-bottom: 0.5px double gray;
 
+}
+#kotxe1{
+    background-color: aqua;
 }
 .im1{
     width: 50%;
@@ -104,6 +108,7 @@ nav > img{
     box-shadow: 0 0 0 0 black;
   };
 .paragrafo{
+    background-color:#000000;
     font-size: 1.25em;
     line-height: 2em;
 }
