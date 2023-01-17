@@ -81,7 +81,6 @@ nav > img{
     padding-right: 2em;
 }
 .d1{
-    background-color: rgb(155, 4, 4);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -90,26 +89,32 @@ nav > img{
     border-bottom: 0.5px double gray;
 
 }
-#kotxe1{
-    
-}
-.im1{
+.im1  a  img{
     border-radius: 2em;
-    transition: all 0.2s ease-in-out;
 }
-.im1:hover{
-    transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 black;
-  };
-.im1:active{
-    transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 black;
-  };
 .paragrafo{
-    background-color:rgb(146, 145, 145) !important;
     font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 2em;
 }
+.botoia button{
+    border: none;
+    outline: none;
+    background-color: #3d2ad1;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+
+  }
+  
+.botoia button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
 footer{
     margin: 2em;
 }
