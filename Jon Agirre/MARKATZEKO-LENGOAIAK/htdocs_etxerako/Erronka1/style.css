@@ -9,7 +9,7 @@ header{
     padding: 1%;
 }
 h1{
-    font-size: 4vw;
+    font-size: 2em;
     font-family: sans-serif;
 }
 nav{
@@ -19,66 +19,50 @@ nav{
     align-items: center;
     border-bottom: 0.5px double rgb(0, 0, 0);
 }
-nav > img{
-    width: 10%;
+nav  img{
+    width: 7em;
 }
-.cta {
-    border: none;
-    background: none;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
   
-.cta span {
-    padding-bottom: 7px;
-    letter-spacing: 4px;
-    font-size: 14px;
-    padding-right: 15px;
-    text-transform: uppercase;
-}
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
   
-.cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-}
-  
-.cta:hover svg {
-    transform: translateX(0);
-}
-  
-.cta:active svg {
-    transform: scale(0.9);
-}
-  
-.hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-}
-  
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-  
-.cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
 /* main > img{
     width: 50%;
     padding: 2.5%;
 } */
-#container {
+#container1{
     
     padding-left: 2em;
     padding-right: 2em;
+}
+#container {
+    display: grid;
+
+    grid: repeat(4, 170px) / auto-flow 15%;
+}
+#container img{
+    width: 7em;
+}
+#container div {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-around center;
 }
 .d1{
     display: flex;
@@ -89,7 +73,7 @@ nav > img{
     border-bottom: 0.5px double gray;
 
 }
-.im1  a  img{
+.im1  img{
     border-radius: 2em;
 }
 .paragrafo{
@@ -100,14 +84,14 @@ nav > img{
 .botoia button{
     border: none;
     outline: none;
-    background-color: #3d2ad1;
+    background-color: #484848;
     padding: 10px 20px;
     font-size: 12px;
     font-weight: 700;
     color: #fff;
     border-radius: 5px;
     transition: all ease 0.1s;
-    box-shadow: 0px 5px 0px 0px #a29bfe;
+    box-shadow: 0px 5px 0px 0px #979797;
 
   }
   
