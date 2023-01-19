@@ -1,11 +1,7 @@
 * {margin: 0; padding: 0}
 
 header{
-    /* display: flex;
-	place-content: normal center;
-    width:auto; */
     background-color: rgb(49, 49, 49);
-    /*color: rgb(220, 220, 220);*/
     padding: 1%;
 }
 h1{
@@ -42,10 +38,6 @@ ul {
     background-color: #555;
     color: white;
   }
-/* main > img{
-    width: 50%;
-    padding: 2.5%;
-} */
 #container1{
     
     padding-left: 2em;
@@ -73,18 +65,9 @@ ul {
     border-bottom: 0.5px double gray;
 
 }
-.im1  a  img{
+.im1  img{
     border-radius: 2em;
-    transition: all 0.2s ease-in-out;
 }
-.im1:hover{
-    transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 black;
-  };
-.im1:active{
-    transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 black;
-  };
 .paragrafo{
     font-size: 1.25em;
     font-family: 'Courier New', Courier, monospace;
