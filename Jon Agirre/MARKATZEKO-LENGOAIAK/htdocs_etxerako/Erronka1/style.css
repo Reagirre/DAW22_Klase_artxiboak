@@ -31,6 +31,7 @@ ul {
     color: rgb(135, 135, 135);
     padding: 8px 16px;
     text-decoration: none;
+    size-adjust: auto;
   }
   
   /* Change the link color on hover */
