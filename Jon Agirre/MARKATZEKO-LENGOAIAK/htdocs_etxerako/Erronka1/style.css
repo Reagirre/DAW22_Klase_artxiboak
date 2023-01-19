@@ -28,15 +28,15 @@ ul {
   
   li a {
     display: block;
-    color: #000;
+    color: rgb(135, 135, 135);
     padding: 8px 16px;
     text-decoration: none;
   }
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: rgb(216, 216, 216);
+    color: rgb(250, 50, 93);
   }
 #container1{
     
