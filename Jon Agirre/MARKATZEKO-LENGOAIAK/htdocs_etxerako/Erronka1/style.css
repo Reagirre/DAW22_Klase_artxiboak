@@ -8,6 +8,16 @@ h1{
     font-size: 2em;
     font-family: sans-serif;
 }
+h2{
+    font-size: 2em;
+    font-family: sans-serif;
+    color: rgba(11, 163, 6);
+}
+h3{
+    font-size: 2em;
+    font-family: sans-serif;
+    color: rgb(37, 50, 147);
+}
 nav{
     padding: 0.5%;
     display: flex;
