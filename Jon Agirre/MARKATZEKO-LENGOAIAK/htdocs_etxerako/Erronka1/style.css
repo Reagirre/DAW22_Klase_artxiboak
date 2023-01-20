@@ -101,21 +101,144 @@ li a {
     transform: translateY(5px);
     box-shadow: 0px 0px 0px 0px #a29bfe;
   }
-/* KOTXEA 1 en orrialdeko aldaketak */
 
-#barrualdea{
-    display: flex;
+/* --------------------KOTXEA 1 en orrialdeko aldaketak-------------------- */
+
+
+main section{
+    display: grid;
+    grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
 }
-#barrualdea div {
+/* #barrualdea{
+    grid-row: 1/2;
+    grid-column: 1 /span 9;
+    border: 0.5px double rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+
+
+    display: grid;
+    grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+} */
+
+
+
+#testua_barrua{
+    grid-row: 1/2;
+    grid-column: 1/span 4;
+    border: 0.5px double rgb(0, 0, 0);
+
+    /* font-size: 2em;
+    font-family: Garamond;
+    color: rgb(58, 58, 58); */
+}
+#interior1{
+    grid-row: 1/2;
+    grid-column: 5/span 4;
+    border: 0.5px double rgb(0, 0, 0);
+}
+/* #interior1 img{
+    width: 25em;
+    margin: 1em;
+    border: 0.5px double rgba(173, 173, 173, 0.416);
+    transition: transform .2s;
+} */
+#interior2{
+    grid-row: 1/2;
+    grid-column: 9/span 4;
+    border: 0.5px double rgb(0, 0, 0);
+}
+/* #interior2 img{
+    width: 25em;
+    margin: 1em;
+    border: 0.5px double rgba(173, 173, 173, 0.416);
+    transition: transform .2s;
+} */
+#testua_kanpoa{
+    grid-row: 2/3;
+    grid-column: 1/span 2;
+    border: 0.5px double rgb(0, 0, 0);
+}
+#exterior1{
+    grid-row: 2/3;
+    grid-column: 3/span 5;
+    border: 0.5px double rgb(0, 0, 0);
+}
+#exterior2{
+    grid-row: 2/3;
+    grid-column: 8/span 5;
+    border: 0.5px double rgb(0, 0, 0);
+}
+
+
+/* .zatiak{
+    display: flex;
+    margin: 1em;
+    border-bottom: rgb(0, 0, 0);
+    background-image: linear-gradient(120deg, rgba(243, 217, 192, 0.5), rgba(243, 211, 155, 0.5), rgb(192, 229, 243));
+
+    background-image: linear-gradient(120deg, rgba(192, 229, 243, 0.5),rgba(155, 200, 243, 0.5),rgb(192, 229, 243));
+}
+.zatiak div {
     display: flex;
     flex-wrap: wrap;
-    place-content: space-around center;
+    place-content: space-between center;
     padding: 2em;
     gap: 2em;
+    
 }
-#barrualdea img{
+.zatiak img{
     width: 25em;
-    padding: 1em;
+    margin: 1em;
+    border: 0.5px double rgba(173, 173, 173, 0.416);
+    transition: transform .2s;
+}
+.zatiak img:hover{
+    transform: scale(1.5);
+}
+.zatiak p{
+    font-size: 2em;
+    font-family: Garamond;
+    color: rgb(58, 58, 58);
+}
+#aukeratu{ 
+
+}*/
+
+
+/* --------------------KOTXEA 2 en orrialdeko aldaketak-------------------- */
+.zatiak2{
+    display: flex;
+    margin: 1em;
+    border-bottom: rgb(0, 0, 0);
+    background-image: linear-gradient(120deg, rgba(243, 217, 192, 0.5),rgba(243, 211, 155, 0.5),rgb(192, 229, 243));
+
+    /* background-image: linear-gradient(120deg, rgba(192, 229, 243, 0.5),rgba(155, 200, 243, 0.5),rgb(192, 229, 243)); */
+}
+.zatiak2 div {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-between center;
+    padding: 2em;
+    gap: 2em;
+    
+}
+.zatiak img{
+    width: 25em;
+    margin: 1em;
+    border: 0.5px double rgba(173, 173, 173, 0.416);
+    transition: transform .2s;
+}
+.zatiak2 img:hover{
+    transform: scale(1.5);
+}
+.zatiak2 p{
+    font-size: 2em;
+    font-family: Garamond;
+    color: rgb(58, 58, 58);
 }
 footer{
     margin: 2em;
