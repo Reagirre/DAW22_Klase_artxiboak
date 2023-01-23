@@ -284,6 +284,7 @@ main #skoda{
     grid-row: 4/5;
     grid-column: 1/span 2;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 #atzera_bot{
     width: 60px;
@@ -304,7 +305,7 @@ main #skoda{
 #atzera_bot:active {
     background-color: #020cd1;
 }
-  #atzera_bot:hover {
+#atzera_bot:hover {
     transform: scale(1.1);
 }
 #atzera_bot .arrow-left {
@@ -324,52 +325,104 @@ main #skoda{
 
 main #saskia{
     display: grid;
-    grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 4em 4em / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 15px;
     column-gap: 15px;
     border: 1px double black;
     margin: 1em;
+    border-radius: 1em;
+    background-color: rgba(192, 192, 192, 0.226);
+    
 }
 #produ{
     grid-row: 1/2;
-    grid-column: 1/span 2;
-
-    width: 100%;
-
+    grid-column: 1/span 1;
+    align-self: center;
     font-size: 2em;
     font-family: Garamond;
-    color: rgb(0, 0, 0);
     border: 1px double black;
 }
 #salneurria{
     grid-row: 1/2;
     grid-column: 3/span 1;
-
-    width: 100%;
-    color: rgb(0, 0, 0);
-    border: 1px double black;
-}
-#kopurua{
-    grid-row: 1/2;
-    grid-column: 5/span 1;
-
-    width: 100%;
-
     font-size: 2em;
     font-family: Garamond;
-    color: rgb(0, 0, 0);
     border: 1px double black;
+    /* border-right: 1px solid black; */
+}
+#promozioak{
+    grid-row: 1/2;
+    grid-column: 4/span 1;
+    font-size: 2em;
+    font-family: Garamond;
+    /* border: 1px double black; */
+}
+#iva{
+    grid-row: 1/2;
+    grid-column: 5/span 1;
+    font-size: 2em;
+    font-family: Garamond;
+    /* border: 1px double black; */
 }
 #guztira{
     grid-row: 1/2;
-    grid-column: 7/span 2;
-
-    width: 100%;
-
+    grid-column: 6/span 2;
     font-size: 2em;
     font-family: Garamond;
-    color: rgb(0, 0, 0);
-    border: 1px double black;
+    /* border: 1px double black; */
+}
+#produ1_iz{
+    grid-row: 2/3;
+    place-self: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: medium;
+    /* border: 1px double black; */
+}
+#produ1_sal{
+    grid-row: 2/3;
+    grid-column: 3/span 1;
+    align-self: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: medium;
+    /* border: 1px double black; */
+}
+#produ1_pro{
+    grid-row: 2/3;
+    grid-column: 4/span 1;
+    align-self: center;
+    justify-self: self-start;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: medium;
+    /* border: 1px double black; */
+}
+#produ1_iva{
+    grid-row: 2/3;
+    grid-column: 5/span 1;
+    align-self: center;
+    justify-self: self-start;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: medium;
+    /* border: 1px double black; */
+}
+#produ1_guztira{
+    grid-row: 2/3;
+    grid-column: 6/span 2;
+    align-self: center;
+    justify-self: self-end;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: medium;
+    /* border: 1px double black; */
+}
+#produ1_bot{
+    grid-row: 2/3;
+    grid-column: 8/span 1;
+    align-self: center;
+    justify-self: self-end;
 }
 footer{
     margin: 2em;
