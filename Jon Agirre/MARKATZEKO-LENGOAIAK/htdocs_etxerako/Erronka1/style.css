@@ -42,6 +42,7 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
     size-adjust: auto;
+    cursor: pointer;
   }
   
   /* Change the link color on hover */
@@ -97,6 +98,7 @@ li a {
     border-radius: 5px;
     transition: all ease 0.1s;
     box-shadow: 0px 5px 0px 0px #979797;
+    cursor: pointer;
 
   }
 .botoia button:active {
@@ -130,13 +132,13 @@ main #hyundai{
 #interior1{
     grid-row: 1/2;
     grid-column: 4/span 5;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-left: 1em;
 }
 #interior2{
     grid-row: 1/2;
     grid-column: 9/span 5;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-left: 1em;
 }
 
@@ -165,6 +167,7 @@ main #hyundai{
 #interior1 img{
     border: 0.5px double rgba(173, 173, 173, 0.416);
     transition: transform .2s;
+    cursor: zoom-in;
 
 }
 #interior1 img:hover{
@@ -173,6 +176,7 @@ main #hyundai{
 #interior2 img{
     border: 0.5px double rgba(173, 173, 173, 0.416);
     transition: transform .2s;
+    cursor: zoom-in;
 }
 #interior2 img:hover{
     transform: scale(1.5);
@@ -180,6 +184,7 @@ main #hyundai{
 #exterior1 img{
     border: 0.5px double rgba(173, 173, 173, 0.416);
     transition: transform .2s;
+    cursor: zoom-in;
 }
 #exterior1 img:hover{
     transform: scale(1.35);
@@ -187,6 +192,7 @@ main #hyundai{
 #exterior2 img{
     border: 0.5px double rgba(173, 173, 173, 0.416);
     transition: transform .2s;
+    cursor: zoom-in;
 }
 #exterior2 img:hover{
     transform: scale(1.35);
@@ -206,7 +212,6 @@ main #hyundai{
 #aukeratu button {
     
     width: 100%;
-    height: 2.3em;
     background: rgba(0, 0, 0, 0.924);
     color: white;
     border: none;
@@ -224,7 +229,7 @@ main #hyundai{
    
 #aukeratu button:after {
     content: "";
-    background: rgba(255, 255, 255, 0.529);
+    background: rgb(255, 255, 255);
     position: absolute;
     z-index: -1;
     left: -20%;
@@ -274,6 +279,58 @@ main #skoda{
     color: rgb(184, 184, 184, 0.8);
     margin-top: 1em;
     margin-left: 1em;
+}
+#atzera{
+    grid-row: 4/5;
+    grid-column: 1/span 2;
+    margin-bottom: 15px;
+}
+#atzera_bot{
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    background-color: #2261f2;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: #004dff;
+    transition: 0.5s;
+}
+#atzera_bot:active {
+    background-color: #020cd1;
+}
+  #atzera_bot:hover {
+    transform: scale(1.1);
+}
+#atzera_bot .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 35%;
+    margin-right: 60%;
+    border-right: 15px solid white;
+}
+
+
+/* --------------------Saskia ren orrialdeko aldaketak-------------------- */
+
+main #saskia{
+    display: grid;
+    grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+#testua_barrua{
+    grid-row: 1/2;
+    grid-column: 1/span 2;
 }
 footer{
     margin: 2em;
