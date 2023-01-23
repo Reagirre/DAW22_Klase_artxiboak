@@ -340,14 +340,14 @@ main #saskia{
     align-self: center;
     font-size: 2em;
     font-family: Garamond;
-    border: 1px double black;
+    /* border: 1px double black; */
 }
 #salneurria{
     grid-row: 1/2;
     grid-column: 3/span 1;
     font-size: 2em;
     font-family: Garamond;
-    border: 1px double black;
+    /* border: 1px double black; */
     /* border-right: 1px solid black; */
 }
 #promozioak{
@@ -410,7 +410,7 @@ main #saskia{
 }
 #produ1_guztira{
     grid-row: 2/3;
-    grid-column: 6/span 2;
+    grid-column: 6/span 1;
     align-self: center;
     justify-self: self-end;
     font-variant: small-caps;
@@ -421,8 +421,7 @@ main #saskia{
 #produ1_bot{
     grid-row: 2/3;
     grid-column: 8/span 1;
-    align-self: center;
-    justify-self: self-end;
+    width: 100%;
 }
 footer{
     margin: 2em;
