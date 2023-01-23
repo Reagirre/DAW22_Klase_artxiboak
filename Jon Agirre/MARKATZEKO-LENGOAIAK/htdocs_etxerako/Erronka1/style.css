@@ -327,10 +327,49 @@ main #saskia{
     grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 15px;
     column-gap: 15px;
+    border: 1px double black;
+    margin: 1em;
 }
-#testua_barrua{
+#produ{
     grid-row: 1/2;
     grid-column: 1/span 2;
+
+    width: 100%;
+
+    font-size: 2em;
+    font-family: Garamond;
+    color: rgb(0, 0, 0);
+    border: 1px double black;
+}
+#salneurria{
+    grid-row: 1/2;
+    grid-column: 3/span 1;
+
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: 1px double black;
+}
+#kopurua{
+    grid-row: 1/2;
+    grid-column: 5/span 1;
+
+    width: 100%;
+
+    font-size: 2em;
+    font-family: Garamond;
+    color: rgb(0, 0, 0);
+    border: 1px double black;
+}
+#guztira{
+    grid-row: 1/2;
+    grid-column: 7/span 2;
+
+    width: 100%;
+
+    font-size: 2em;
+    font-family: Garamond;
+    color: rgb(0, 0, 0);
+    border: 1px double black;
 }
 footer{
     margin: 2em;

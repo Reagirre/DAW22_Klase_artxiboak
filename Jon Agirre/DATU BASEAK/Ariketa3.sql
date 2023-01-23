@@ -22,3 +22,63 @@ insert into ikasle_notak values('Zabala Osa, Jon',4,3,3);
 insert into ikasle_notak values('Agirre Albizu, Ana',8,3,6);
 insert into ikasle_notak values('Zuazua Agirre, Luken',3,4,2);
 insert into ikasle_notak values('Aperribai Bengoa, Xabier',9,8,9);
+
+SELECT 
+    ikasle_notak.ikasle_izena,
+    ikasle_notak.nota1,
+    ikasle_notak.nota2,
+    ikasle_notak.nota3,
+    (nota1 + nota2 + nota3) / 3 batazbestekoa
+FROM
+    ikasle_notak
+    order by batazbestekoa asc;
+
+
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.nota1 >= 5
+        AND ikasle_notak.nota2 >= 5
+        AND ikasle_notak.nota3 >= 5;
+
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.nota1 < 5
+        OR ikasle_notak.nota2 < 5
+        OR ikasle_notak.nota3 < 5;
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    nota1 IN (6 , 7) OR nota2 IN (6 , 7)
+        OR nota3 IN (6 , 7);
+
+
+
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ((nota1 + nota2 + nota3) / 3) > (SELECT 
+            AVG((nota1 + nota2 + nota3) / 3) batazbestekoa
+        FROM
+            ikasle_notak);
+
+SELECT 
+    COUNT(ikasle_notak.ikasle_izena)
+FROM
+    ikasle_notak
+WHERE
+    ((nota1 + nota2 + nota3) / 3) >= 5;
+    
+    
