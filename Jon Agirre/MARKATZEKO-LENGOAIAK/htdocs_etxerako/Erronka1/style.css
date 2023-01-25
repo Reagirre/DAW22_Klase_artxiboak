@@ -462,21 +462,24 @@ main #saskia #produ1_bot button:active {
 
 main #eskaria{
     display: grid;
-    grid-template: auto auto / 1fr 1fr 1fr 1fr;
+    grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 0.5em;
-    border: 1px double black;
     margin: 3em;
     padding: 1em;
     border-radius: 0.5em;
 }
 main #eskaria #titulo1{
     grid-row: 1/2;
+    grid-column: 1 /span 2;
     font-size: 2em;
+    padding-left: 0.2em;
+    padding-top: 0.2em;
     justify-self: self-start;
     
 }
 main #eskaria #tit_izena{
     grid-row: 2/3;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
@@ -485,6 +488,7 @@ main #eskaria #tit_izena{
 }
 main #eskaria #tit_abizena{
     grid-row: 3/4;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
@@ -493,6 +497,7 @@ main #eskaria #tit_abizena{
 }
 main #eskaria #tit_helbidea{
     grid-row: 4/5;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
@@ -501,6 +506,7 @@ main #eskaria #tit_helbidea{
 }
 main #eskaria #tit_herria{
     grid-row: 5/6;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
@@ -509,6 +515,7 @@ main #eskaria #tit_herria{
 }
 main #eskaria #tit_pk{
     grid-row: 6/7;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
@@ -517,60 +524,67 @@ main #eskaria #tit_pk{
 }
 main #eskaria #tit_mail{
     grid-row: 7/8;
+    grid-column: 1 /span 1;
     font-size: 1.2em;
     justify-self: center;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     border-bottom: 1px solid black;
 }
-.form {
-    --width-of-input: 200px;
-    --border-height: 1px;
-    --border-before-color: rgba(221, 221, 221, 0.39);
-    --border-after-color: #5891ff;
-    --input-hovered-color: #4985e01f;
-    position: relative;
-    width: var(--width-of-input);
+#eran_iz{
+    grid-row: 2/3;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
 }
-/* styling of Input */
-.input {
-color: #fff;
-font-size: 0.9rem;
-background-color: transparent;
-width: 100%;
-box-sizing: border-box;
-padding-inline: 0.5em;
-padding-block: 0.7em;
-border: none;
-border-bottom: var(--border-height) solid var(--border-before-color);
+input:invalid + span::after{
+    content: "✖";
 }
-/* styling of animated border */
-.input-border {
-position: absolute;
-background: var(--border-after-color);
-width: 0%;
-height: 2px;
-bottom: 0;
-left: 0;
-transition: 0.3s;
+input:valid + span::after{
+    content: "✓";
 }
-/* Hover on Input */
-input:hover {
-background: var(--input-hovered-color);
+#eran_abi{
+    grid-row: 3/4;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
 }
-
-input:focus {
-outline: none;
+#eran_hel{
+    grid-row: 4/5;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
 }
-/* here is code of animated border */
-/*input:focus ~ .input-border {
-width: 100%;
-}*/
-/* === if you want to do animated border on typing === */
-/* remove input:focus code and uncomment below code */
-input:valid ~ .input-border{
-    width: 100%;
-} 
+#eran_her{
+    grid-row: 5/6;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
+}
+#eran_pk{
+    grid-row: 6/7;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
+}
+#eran_mail{
+    grid-row: 7/8;
+    grid-column: 2 /span 2;
+    align-self: center;
+    justify-self: self-start;
+}
+#kutxa{
+    grid-row: 1/9;
+    grid-column: 1 /span 3;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    z-index: -1;
+}
+#hurrengoa_esk1{
+    grid-row: 9/10;
+    grid-column: 4 /span 1;
+    justify-self: center;
+}
 footer{
     margin: 2em;
 }

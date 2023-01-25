@@ -53,6 +53,8 @@ WHERE
     ikasle_notak.nota1 < 5
         OR ikasle_notak.nota2 < 5
         OR ikasle_notak.nota3 < 5;
+        
+        
 SELECT 
     *
 FROM
@@ -74,6 +76,7 @@ WHERE
         FROM
             ikasle_notak);
 
+
 SELECT 
     COUNT(ikasle_notak.ikasle_izena)
 FROM
@@ -82,3 +85,89 @@ WHERE
     ((nota1 + nota2 + nota3) / 3) >= 5;
     
     
+SELECT 
+    (nota1 + nota2 + nota3) / 3, ikasle_notak.*
+FROM
+    ikasle_notak;
+
+
+SELECT 
+    COUNT(ikasle_notak.ikasle_izena) zenbat
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.nota1 >= 5;
+
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.ikasle_izena LIKE '%, A%';
+
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.ikasle_izena LIKE '% A%,%';
+    
+    
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    ikasle_notak.ikasle_izena LIKE '%, _o%';
+    
+    
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    nota1 = (SELECT 
+            ikasle_notak.nota2
+        FROM
+            ikasle_notak
+        WHERE
+            ikasle_notak.ikasle_izena LIKE 'Gandiaga%')
+        OR nota2 = (SELECT 
+            ikasle_notak.nota2
+        FROM
+            ikasle_notak
+        WHERE
+            ikasle_notak.ikasle_izena LIKE 'Gandiaga%')
+        OR nota3 = (SELECT 
+            ikasle_notak.nota2
+        FROM
+            ikasle_notak
+        WHERE
+            ikasle_notak.ikasle_izena LIKE 'Gandiaga%');
+            
+            
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    nota1 > nota2 AND nota1 > nota3;
+    
+
+SELECT 
+    *
+FROM
+    ikasle_notak
+WHERE
+    nota1 < nota2 AND nota1 < nota3;
+
+
+SELECT 
+    GREATEST(nota1, nota2, nota3) handiena,
+    LEAST(nota1, nota2, nota3) txikiena,
+    ikasle_notak.ikasle_izena
+FROM
+    ikasle_notak
