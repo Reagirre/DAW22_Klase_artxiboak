@@ -585,7 +585,43 @@ input:valid + span::after{
     grid-column: 4 /span 1;
     justify-self: center;
 }
-#main-kont
+#hurrengoa_esk1 button{
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica,"sans-serif";
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #3b90ac;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+/* --------------------Izena emanaren orrialdeko aldaketak-------------------- */
+#hurrengoa_iz_ema{
+    grid-row: 9/10;
+    grid-column: 7 /span 1;
+}
+    
+
+#hurrengoa_iz_ema button{
+    grid-row: 9/10;
+    grid-column: 4 /span 1;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #163d4a;
+    border: 1px solid rgb(255,255,255) transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
 footer{
     margin: 2em;
 }
