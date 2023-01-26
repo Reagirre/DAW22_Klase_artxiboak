@@ -585,6 +585,7 @@ input:valid + span::after{
     grid-column: 4 /span 1;
     justify-self: center;
 }
+#main-kont
 footer{
     margin: 2em;
 }
