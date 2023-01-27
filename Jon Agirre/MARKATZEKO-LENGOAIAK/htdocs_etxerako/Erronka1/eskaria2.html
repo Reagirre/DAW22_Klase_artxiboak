@@ -23,55 +23,45 @@
 				<div id="titulo1">
 					<p><u>Zure datuak</u></p>
 				</div>
-				<div id="tit_izena">
-					<p>Izena:</p>
-				</div>
-				<div id="tit_abizena">
-					<p>Abizenak:</p>
-				</div>
-				<div id="tit_helbidea">
-					<p>Helbidea:</p>
-				</div>
-				<div id="tit_herria">
-					<p>Herria:</p>
-				</div>
-				<div id="tit_pk">
-					<p>Posta-kodea:</p>
-				</div>
-				<div id="tit_mail">
-					<p>E-maila:</p>
-				</div>
-				<div id="eran_iz">
-					<input id="uname" name="name" minlength="2" size="10" required />
-					<span class="validity"></span>
-				</div>
-				<div id="eran_abi">
-					<input id="uname" name="name" minlength="2" size="14" required/>
-					<span class="validity"></span>
-				</div>
-				<div id="eran_hel">
-					<input id="uname" name="name" minlength="2" size="20" required/>
-					<span class="validity"></span>
-				</div>
-				<div id="eran_her">
-					<input id="uname" name="name" minlength="2" size="10" required/>
-					<span class="validity"></span>
-				</div>
-				<div id="eran_pk">
-					<input id="uname" name="name" maxlength="5" size="7" required pattern="[0-9]{5}"/>
-					<span class="validity"></span>
-				</div>
-				<div id="eran_mail">
-					<input type="email" id="email" pattern=".+@globex\.com" size="25" required/>
-					<span class="validity"></span>
+				<div id="idatzi_form">
+					<form>
+						<div class="element">
+							<label for="eran_iz">Izena:</label><br>
+							<input id="eran_iz" minlength="2" size="10" required />
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="eran_abi">Abizena:</label><br>
+							<input id="eran_abi" minlength="2" size="14" required/>
+						<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="eran_hel">Helbidea:</label><br>
+							<input id="eran_hel" minlength="2" size="20" required/>
+						<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="eran_her">Herria:</label><br>
+							<input id="eran_her" minlength="2" size="10" required/>
+						<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="eran_pk">Posta-kodea:</label>
+							<input id="eran_pk" maxlength="5" size="7" required pattern="[0-9]{5}"/>
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="email">E-maila:</label><br>
+							<input type="email" id="email" size="25" required/>
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<input id="hurrengoa_esk1" type="submit" value="Bidali"/>
+						</div>
+					</form>
 				</div>
 				<div id="kutxa">
 
-				</div>
-				<div id="hurrengoa_iz_ema">
-					<button onclick="window.location.href='index.html'">
-						Bidali
-					</button>
 				</div>
 			</section>
 		</main>
