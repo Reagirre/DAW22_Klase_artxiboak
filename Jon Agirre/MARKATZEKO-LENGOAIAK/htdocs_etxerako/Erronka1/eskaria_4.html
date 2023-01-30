@@ -1,0 +1,91 @@
+<html>
+	<head>
+
+		<title>Jony's Cars</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		<nav>
+			<img src="img/icono-coche1-inv.png" alt="logoa">
+			<h1>Eskaria</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="saskia.html">Saskia</a></li>
+				<li><a href="eskaria2.html">Izena eman</a></li>
+				<li><a href="kontaktua.html">Kontaktua</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section id="eskaria_4">
+				<div id="titulo1">
+					<p><u>Kreditu-txartelaren datuak</u></p>
+				</div>
+				<div id="idatzi_form4">
+					<form action="/eskaria_5.html">
+						<div class="element">
+							<label for="eran_iz">Mota: </label>
+							<select id="cars" name="cars">
+								<option value="Visa">Visa</option>
+								<option value="MasterCard">MasterCard</option>
+								<option value="American">American Express</option>
+							</select>
+						</div>
+						<div class="element">
+							<label for="eran_abi">Titularraren izena: </label>
+							<input id="eran_iz" minlength="3" size="15" required pattern="[A-Za-z]{3,15}"/>
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="zenbakia">Zenbakia: </label>
+							<input id="zenbakia" maxlength="16" size="20" required pattern="[0-9]{16}"/>
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<label for="Eguna">Iraungitze-data (hh/uu): </label>
+							<select id="Eguna" name="egunak">
+								<option value="1">01</option>
+								<option value="2">02</option>
+								<option value="3">03</option>
+								<option value="4">04</option>
+								<option value="5">05</option>
+								<option value="6">06</option>
+								<option value="7">07</option>
+								<option value="8">08</option>
+								<option value="9">09</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>
+							<select id="Eguna" name="egunak">
+								<option value="2024">2024</option>
+								<option value="2025">2025</option>
+								<option value="2026">2026</option>
+								<option value="2027">2027</option>
+								<option value="2028">2028</option>
+								<option value="2029">2029</option>
+								<option value="2030">2030</option>
+								<option value="2031">2031</option>
+								<option value="2032">2032</option>
+							</select>
+						</div>
+                        <div class="element">
+							<label for="cvc">CVC:</label>
+							<input id="eran_iz" maxlength="3" size="1" required pattern="[0-9]{3}"/>
+							<span class="validity"></span>
+						</div>
+						<div class="element">
+							<input id="hurrengoa_esk4" type="submit" value="Eskaera bidali"/>
+						</div>
+					</form>
+				</div>
+				<div id="kutxa4"></div>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
+		</footer>
+	</body>
+</html>
