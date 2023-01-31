@@ -1,59 +1,73 @@
 * {margin: 0; padding: 0}
 
+
+
+
+
 header{
     background-color: rgb(49, 49, 49);
     padding: 1%;
 }
 h1{
-    font-size: 2em;
+    grid-row: 1/2;
+    grid-column: 4/span 6;
+    font-size: 3vw;
     font-family: sans-serif;
     color: white;
+    place-self: center;
 }
 h2{
-    font-size: 2em;
+    grid-row: 1/2;
+    grid-column: 4/span 6;
+    font-size: 3vw;
     font-family: sans-serif;
     color: rgba(11, 163, 6);
+    place-self: center;
 }
 h3{
-    font-size: 2em;
+    grid-row: 1/2;
+    grid-column: 4/span 6;
+    font-size: 3vw;
     font-family: sans-serif;
     color: rgb(37, 50, 147);
+    place-self: center;
 }
 nav{
-    padding: 0.5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    display: grid;
+    grid-template: auto auto/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
     background-color: rgb(0, 0, 0);
     /* border-bottom: 0.5px double rgb(0, 0, 0); */
 }
 nav  img{
-    width: 7em;
+    grid-row: 1/2;
+    grid-column: 1/span 2;
+    place-self: center;
+    width: 50%;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+ul{
+    grid-row: 1/2;
+    grid-column: 12/span 1;
+    align-self: center;
+    width: 100%;
     background-color: black;
-  }
-  
-li a {
+}
+li a{
     display: block;
     color: rgb(173, 173, 173);
-    padding: 8px 16px;
-    text-decoration: none;
-    size-adjust: auto;
+    padding: 8px;
+    font-size: 1.5vw;
     cursor: pointer;
-  }
+}
   
   /* Change the link color on hover */
-  li a:hover {
+li a:hover {
     background-color: rgb(134, 134, 134);
     color: rgb(56, 56, 56);
     font-weight: bold;
     font-style: italic;
-  }
+}
 
 #container1{
     
@@ -62,11 +76,11 @@ li a {
 }
 #container {
     display: grid;
-    grid: repeat(4, 170px) / auto-flow 15%;
+    grid: repeat(4, 10em) / auto-flow 15%;
     place-content: center;
 }
 #container img{
-    width: 7em;
+    width: 100%;
 }
 #container div {
     display: flex;
@@ -84,6 +98,7 @@ li a {
 }
 .im1  img{
     border-radius: 2em;
+    width: 100%;
 }
 .paragrafo{
     font-size: 1.25em;
@@ -126,11 +141,11 @@ main #hyundai{
     grid-row: 1/2;
     grid-column: 1/span 2;
 
-    font-size: 2em;
+    font-size: 1em;
     font-family: Garamond;
     color: rgb(58, 58, 58);
-    margin-top: 1em;
-    margin-left: 1em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
 }
 #interior1{
     grid-row: 1/2;
@@ -149,11 +164,9 @@ main #hyundai{
     grid-row: 2/3;
     grid-column: 1/span 2;
 
-    font-size: 2em;
+    font-size: 1em;
     font-family: Garamond;
     color: rgb(58, 58, 58);
-    margin-top: 1em;
-    margin-left: 1em;
 }
 #exterior1{
     grid-row: 2/3;
@@ -219,7 +232,7 @@ main #hyundai{
     color: white;
     border: none;
     border-radius: 0.625em;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     cursor: pointer;
     position: relative;

@@ -51,6 +51,8 @@ insert into bajak values('7844','Bronkitisa','Ana Zabala','2016-11-06',null);
 insert into bajak values('7499','Neumonia','Ana Zabala','2016-11-06',null);
 insert into bajak values('7839','Gripe','Txomin Perez','2016-11-13',null);
 
+
+
 SELECT 
     COUNT(lan_zk), SUM(kostua)
 FROM
@@ -65,6 +67,7 @@ FROM
     langile
         INNER JOIN
     ikastaro ON langile.lan_zk = ikastaro.lan_zk;
+
 
 
 SELECT 
@@ -85,6 +88,7 @@ WHERE
         AND bajak.alta IS NULL;
 
 
+
 SELECT 
     COUNT(osagilea)
 FROM
@@ -95,3 +99,113 @@ FROM
     GROUP BY osagilea) AS taula;
 
 
+
+SELECT 
+    departa.dept_zk,
+    departa.depizen,
+    langile.abizena,
+    langile.soldata,
+    langile.lanbidea
+FROM
+    departa,
+    langile
+WHERE
+    langile.dept_zk = langile.dept_zk
+        AND lan_zk NOT IN (SELECT 
+            bajak.lan_zk
+        FROM
+            bajak);
+
+
+SELECT 
+    langile.lan_zk,
+    langile.abizena,
+    langile.dept_zk,
+    langile.lanbidea,
+    COUNT(ikastaro.ikastaro_izena)
+FROM
+    langile,
+    ikastaro
+WHERE
+    langile.lan_zk = ikastaro.lan_zk
+GROUP BY langile.lan_zk;
+
+
+
+SELECT 
+    langile.lan_zk,
+    langile.abizena,
+    ikastaro.ikastaro_izena,
+    ikastaro.hasi,
+    ikastaro.bukatu,
+    TIMESTAMPDIFF(DAY,
+        ikastaro.hasi,
+        ikastaro.bukatu),
+    ikastaro.kostua,
+    ikastaro.orduak,
+    (ikastaro.kostua / ikastaro.orduak)
+FROM
+    langile,
+    ikastaro
+WHERE
+    langile.lan_zk = ikastaro.lan_zk
+GROUP BY ikastaro.ikastaro_izena;
+
+
+
+SELECT 
+    langile.*
+FROM
+    langile,
+    bajak
+WHERE
+    langile.lan_zk = bajak.lan_zk
+        AND bajak.alta IS NULL
+        AND bajak.lan_zk IN (SELECT 
+            bajak.lan_zk
+        FROM
+            bajak
+        WHERE
+            bajak.alta IS NOT NULL);
+
+
+
+SELECT 
+    langile.*
+FROM
+    langile,
+    bajak
+WHERE
+    bajak.lan_zk = langile.lan_zk 
+UNION SELECT 
+    langile.*
+FROM
+    langile,
+    ikastaro
+WHERE
+    langile.lan_zk = ikastaro.lan_zk;
+
+
+
+SELECT 
+    max(TIMESTAMPDIFF(DAY,
+        bajak.baja,
+        bajak.alta)) egunak
+FROM
+    bajak;
+
+
+
+SELECT 
+    langile.*
+FROM
+    langile
+WHERE
+    lan_zk NOT IN (SELECT 
+            lan_zk
+        FROM
+            ikastaro) and lan_zk not in (select lan_zk from bajak);
+
+
+
+select langile.lan_zk, langile.abizena,
