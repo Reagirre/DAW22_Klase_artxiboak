@@ -1,8 +1,41 @@
 * {margin: 0; padding: 0}
 
+.grid-layout{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'nav main'
+    'footer footer';
+    grid-template-rows: 50px auto 100px;
+    grid-template-columns: 20% auto;
+}
 
+.header{
+    background-color: red;
+    grid-area: header;
+}
 
+.nav{
+    background-color: #004dff;
+    grid-area: nav;
+}
 
+.main{
+    background-color:green;
+    z-index: +11;
+    grid-area: main;
+}
+
+.footer{
+    background-color: yellow;
+    grid-area: footer;
+}
+
+#logo{
+    width: 3em;
+}
+
+/* ----------------------- */
 
 header{
     background-color: rgb(49, 49, 49);

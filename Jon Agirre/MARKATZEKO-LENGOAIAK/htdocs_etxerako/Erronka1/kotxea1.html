@@ -2,15 +2,15 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jony's Cars</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
-	<body>
-		<header>
+	<body class="grid-layout">
+		<header class="header">
+			<img class="logo" src="img/icono-coche1-inv.png" alt="logoa">
+			<h1>Kontaktuak</h1>
 			
 		</header>
-		<nav>
-			<img src="img/hyundai.png" alt="logoa">
-			<h3><em>Hyundai Ioniq 5</em></h3>
+		<nav class="nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="saskia.html">Saskia</a></li>
@@ -18,18 +18,52 @@
 				<li><a href="kontaktua.html">Kontaktua</a></li>
 			</ul>
 		</nav>
-		<main>
-			<section id="hyundai">
+		<main class="mainHyundai">
+			
+				<div class="tipoCoche">
 					<div id="testua_barrua">
 						<p>Barrualdea</p>
 					</div>
-					<div id="interior1">
-						<img src="img/interior" alt="ioniq aren barrualdea">
+					<div class="fotosCoche">
+						<div id="interior1">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+						<div id="interior2">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
 					</div>
-					<div id="interior2">
-						<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+				</div>
+
+				<div class="tipoCoche">
+					<div id="testua_barrua">
+						<p>Kanpun</p>
 					</div>
-					<div id="testua_kanpoa">
+					<div class="fotosCoche">
+						<div id="interior1">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+						<div id="interior2">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+					</div>
+				</div>
+
+				<div class="tipoCoche">
+					<div id="testua_barrua">
+						<p>Detalles</p>
+					</div>
+					<div class="fotosCoche">
+						<div id="interior1">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+						<div id="interior2">
+							<img src="img/interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+					</div>
+				</div>
+	
+
+					<!-- <div id="testua_kanpoa">
 						<p>Kanpoaldea</p>
 					</div>
 					<div id="exterior1">
@@ -47,10 +81,10 @@
 						<button id="atzera_bot">
 							<div class="arrow-left" onclick="window.location.href='index.html'"></div>
 						</button>
-					</div>
-			</section>
+					</div> -->
+			
 		</main>
-		<footer>
+		<footer class="footer">
 			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
 		</footer>
 	</body>

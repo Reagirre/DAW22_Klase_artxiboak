@@ -1,0 +1,120 @@
+* {margin: 0; padding: 0}
+
+.grid-layout{
+    /* background: brown; */
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'nav nav'
+    'main main'
+    'footer footer';
+    grid-template-rows: auto auto auto 5em;
+    grid-template-columns: auto;
+}
+
+.header{
+    background: rgb(0, 0, 0);
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5em;
+    color: white;
+}
+
+.nav{
+    background-color: rgb(58, 58, 58);
+    grid-area: nav;
+    color: white;
+    padding: 1em 3em;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    opacity: 0.9;
+}
+
+
+.mainHyundai{
+    /* width: 90%;
+    margin: 0px auto; */
+    background-color:rgba(1, 255, 1, 0.524);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+
+}
+
+.footer{
+    background-color: grey;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.logo{
+    width: 3em;
+}
+
+.tipoCoche{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+}
+
+.fotosCoche{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+.fotosCoche img{
+    width: 100%;
+}
+
+/* ----------------------------------------------KONTAK */
+
+.mainKontak{
+grid-area: main;
+
+}
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+
+
+@media (max-width: 880px){
+
+    .fotosCoche{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+    }
+
+}
+
+
+/* ----------------------- */
+
