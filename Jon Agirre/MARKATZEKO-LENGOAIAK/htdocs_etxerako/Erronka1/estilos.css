@@ -34,12 +34,12 @@
     gap: 2em;
 }
 
-.nav ul li a{
+.nav ul a{
     color: white;
     text-decoration: none;
 }
 
-.nav ul li a:hover{
+.nav ul a:hover{
     opacity: 0.9;
 }
 
@@ -47,13 +47,13 @@
 .mainHyundai{
     /* width: 90%;
     margin: 0px auto; */
-    background-color:rgba(1, 255, 1, 0.524);
+    /* background-color:rgba(1, 255, 1, 0.524); */
     grid-area: main;
     display: flex;
     flex-direction: column;
     gap: 3em;
     padding: 2em;
-
+    background-image: linear-gradient(120deg, rgba(155, 195, 243, 0.5), rgba(192, 215, 243, 0.3),  rgba(243, 224, 192, 0.3));
 }
 
 .footer{
@@ -70,7 +70,7 @@
 }
 
 .tipoCoche{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     gap: 0.5em;
@@ -78,22 +78,85 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.5em;
 }
-
 .fotosCoche{
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 1em;
     justify-content: center;
 }
 .fotosCoche img{
     width: 100%;
 }
+.aukeratu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 3em;
+}
+.aukeratu button{
+    background-color: transparent;
+    border-width: 0.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: black;
+    font-style: oblique;
+    padding: 0.3em 0.3em;
+}
+.aukeratu button:hover{
+    opacity: 0.8;
+}
+
+
+/* ----------------------------------------------Kotxea2 */
+
+.mainSkoda{
+    /* width: 90%;
+    margin: 0px auto; */
+    /* background-color:rgba(1, 255, 1, 0.524); */
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.931), rgba(36, 36, 36, 0.95),  rgba(162, 162, 162, 0.907));
+}
+.mainSkoda .tipoCoche{
+    color: white;
+}
+.mainSkoda .aukeratu button{
+    border-color: black;
+}
+
+
+/* ----------------------------------------------Saskia1 */
+
+.mainSaskia1{
+    
+}
+.kutxa{
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    border: 0.1em solid black;
+    max-width: fit-content;
+}
+.izenburuak{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.datuak{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 
 /* ----------------------------------------------KONTAK */
 
 .mainKontak{
-grid-area: main;
-
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
 }
 
 /* --------------------------------------------------- */

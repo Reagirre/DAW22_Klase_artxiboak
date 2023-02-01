@@ -2,55 +2,57 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jony's Cars</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
-	<body>
-		<header>
+	<body class="grid-layout">
+		<header class="header">
+			<img class="logo" src="img/skoda2.png" alt="logoa">
+			<h1><em>Skoda Octavia rs</em></h1>
 			
 		</header>
-		<nav>
-			<img src="img/skoda2.png" alt="logoa">
-			<h2><em>Skoda Octavia rs</em></h2>
+		<nav class="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="saskia.html">Saskia</a></li>
-				<li><a href="eskaria2.html">Izena eman</a></li>
-				<li><a href="kontaktua.html">Kontaktua</a></li>
+				<a href="index.html">Home</a>
+				<a href="saskia.html">Saskia</a>
+				<a href="eskaria2.html">Izena eman</a>
+				<a href="kontaktua.html">Kontaktua</a>
 			</ul>
 		</nav>
-		<main>
-			<section id="skoda">
-				<div id="testua_barrua2">
-					<p>Barrualdea</p>
+		<main class="mainSkoda">
+				<div class="tipoCoche">
+					<div id="testua_barrua">
+						<p><u>Barrualdea</u></p>
+					</div>
+					<div class="fotosCoche">
+						<div id="interior1">
+							<img src="img/octavia-interior.jpg" alt="ioniq aren barrualdea">
+						</div>
+						<div id="interior2">
+							<img src="img/octavia-interior2.jpg" alt="ioniq aren barrualdea">
+						</div>
+					</div>
 				</div>
-				<div id="interior1">
-					<img src="img/octavia-interior.jpg" alt="Octavia ren barrualdea">
+
+				<div class="tipoCoche">
+					<div id="testua_barrua">
+						<p><u>Kanpoaldea</u></p>
+					</div>
+					<div class="fotosCoche">
+						<div id="interior1">
+							<img src="img/skoda-exterior.png" alt="ioniq aren barrualdea">
+						</div>
+						<div id="interior2">
+							<img src="img/skoda-exterior2.png" alt="ioniq aren barrualdea">
+						</div>
+					</div>
 				</div>
-				<div id="interior2">
-					<img src="img/octavia-interior2.jpg" alt="Octavia ren barrualdea">
-				</div>
-				<div id="testua_kanpoa2">
-					<p>Kanpoaldea</p>
-				</div>
-				<div id="exterior1">
-					<img src="img/skoda-exterior.jpg" alt="Octavia ren kanpoaldea">
-				</div>
-				<div id="exterior2">
-					<img src="img/skoda-exterior2.png" alt="Octavia ren kanpoaldea">
-				</div>
-				<div id="aukeratu">
+				<div class="aukeratu">
 					<button onclick="window.location.href='saskia2.html'">
-						Aukeratu
+						Kotxe hau aukeratu
 					</button>
 				</div>
-				<div id="atzera">
-					<button id="atzera_bot">
-						<div class="arrow-left" onclick="window.location.href='index.html'"></div>
-					</button>
-				</div>
-			</section>
 		</main>
-		<footer>
+		<footer class="footer">
 			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
 		</footer>
 	</body>
