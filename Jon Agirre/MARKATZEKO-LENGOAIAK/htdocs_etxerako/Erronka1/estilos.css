@@ -132,23 +132,23 @@
 .mainSaskia1{
     grid-area: main;
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
+    
     
 }
 .kutxa{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     border: 0.1em solid black;
     max-width: fit-content;
     padding: 0.5em;
-    gap: 2em;
+    gap: 1em;
     margin: 2em;
 }
 .kutxa p{
     padding: 0.5em;
 }
-
+.botoiak_main{
+    
+}
 
 
 /* ----------------------------------------------KONTAK */
