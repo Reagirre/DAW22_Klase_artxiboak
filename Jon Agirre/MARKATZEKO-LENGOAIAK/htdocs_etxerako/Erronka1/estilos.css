@@ -1,7 +1,6 @@
 * {margin: 0; padding: 0}
 
 .grid-layout{
-    /* background: brown; */
     display: grid;
     grid-template-areas: 
     'header header'
@@ -131,25 +130,26 @@
 /* ----------------------------------------------Saskia1 */
 
 .mainSaskia1{
+    grid-area: main;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
     
 }
 .kutxa{
-    grid-area: main;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
     border: 0.1em solid black;
     max-width: fit-content;
-}
-.izenburuak{
-    display: flex;
-    flex-direction: column;
+    padding: 0.5em;
     gap: 2em;
+    margin: 2em;
 }
-.datuak{
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+.kutxa p{
+    padding: 0.5em;
 }
+
+
 
 /* ----------------------------------------------KONTAK */
 
