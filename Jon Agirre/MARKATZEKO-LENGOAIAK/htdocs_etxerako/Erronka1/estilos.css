@@ -8,7 +8,7 @@
     'main main'
     'footer footer';
     grid-template-rows: auto auto auto 5em;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
 }
 
 .header{
@@ -127,13 +127,14 @@
 }
 
 
-/* ----------------------------------------------Saskia1 */
+/* ----------------------------------------------Saskiak*/
 
-.mainSaskia1{
+.mainSaskia{
+    width: 100%;
     grid-area: main;
     display: flex;
-    
-    
+    flex-direction: column;
+    padding-bottom: 2.5em;
 }
 .kutxa{
     display: flex;
@@ -142,13 +143,35 @@
     padding: 0.5em;
     gap: 1em;
     margin: 2em;
+    align-self: center;
 }
 .kutxa p{
     padding: 0.5em;
 }
 .botoiak_main{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13em;
 }
+.ez_prod{
+    align-self: center;
+}
+
+
+
+/* ----------------------------------------------Eskaria */
+
+
+
+
+input:invalid + span::after{
+    content: "";
+}
+input:valid + span::after{
+    content: "✓";
+}
+
 
 
 /* ----------------------------------------------KONTAK */

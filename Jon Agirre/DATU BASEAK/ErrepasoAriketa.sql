@@ -293,3 +293,236 @@ FROM
 WHERE
     produktu.hornitzaile_id = hornitzaile.hornitzaile_id
         AND hornitzaile.izena IN ('Asus' , 'Hewlett-Packard', 'seagate');
+
+
+SELECT 
+    produktu.izena, produktu.prezioa
+FROM
+    produktu,
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND hornitzaile.izena LIKE '%e';
+
+
+SELECT 
+    produktu.izena, produktu.prezioa
+FROM
+    produktu,
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND hornitzaile.izena LIKE '%w%';
+
+
+
+SELECT 
+    produktu.izena, produktu.prezioa, hornitzaile.izena
+FROM
+    hornitzaile,
+    produktu
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND produktu.prezioa > 180
+ORDER BY produktu.prezioa desc, produktu.izena asc;
+
+
+SELECT 
+    hornitzaile.hornitzaile_id, hornitzaile.izena
+FROM
+    hornitzaile,
+    produktu
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id;
+
+/*BESTE AUKERA BAT:
+
+FROM
+    hornitzaile inner join produktu 
+    on hornitzaile.hornitzaile_id = produktu.hornitzaile_id;
+*/
+
+
+SELECT 
+    hornitzaile.hornitzaile_id,
+    hornitzaile.izena,
+    produktu.izena
+FROM
+    hornitzaile
+        LEFT JOIN
+    produktu ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id;
+
+/*-----------------Laburpen kontsultak---------------------------*/
+
+
+SELECT 
+    COUNT(*)
+FROM
+    produktu;
+
+SELECT 
+    COUNT(*)
+FROM
+    hornitzaile;
+
+
+SELECT 
+    AVG(produktu.prezioa)
+FROM
+    produktu;
+
+
+SELECT 
+    MIN(produktu.prezioa)
+FROM
+    produktu;
+ 
+SELECT 
+    MAX(produktu.prezioa)
+FROM
+    produktu;
+
+
+SELECT 
+    produktu.izena
+FROM
+    produktu
+WHERE
+    produktu.prezioa = (SELECT 
+            MIN(produktu.prezioa)
+        FROM
+            produktu);
+
+
+
+SELECT 
+    produktu.izena
+FROM
+    produktu
+WHERE
+    produktu.prezioa = (SELECT 
+            MAX(produktu.prezioa)
+        FROM
+            produktu);
+
+
+
+SELECT 
+    produktu.prezioa, produktu.izena
+FROM
+    produktu
+ORDER BY produktu.prezioa ASC
+LIMIT 1;
+
+
+
+SELECT 
+    SUM(produktu.prezioa)
+FROM
+    produktu;
+
+
+
+SELECT 
+    COUNT(*)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+WHERE
+    hornitzaile.izena = 'Asus';
+
+
+SELECT 
+    AVG(produktu.prezioa)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+WHERE
+    hornitzaile.izena = 'Asus';
+
+
+SELECT 
+    MIN(produktu.prezioa)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+WHERE
+    hornitzaile.izena LIKE 'Asus';
+
+
+SELECT 
+    Max(produktu.prezioa)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+WHERE
+    hornitzaile.izena LIKE 'Asus';
+
+
+
+SELECT 
+    sum(produktu.prezioa)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+WHERE
+    hornitzaile.izena LIKE 'Asus';
+
+
+SELECT 
+    MIN(produktu.prezioa),
+    MAX(produktu.prezioa),
+    AVG(produktu.prezioa)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+GROUP BY hornitzaile.hornitzaile_id;
+
+
+
+SELECT 
+    COUNT(*), hornitzaile.izena
+FROM
+    produktu
+        RIGHT JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+GROUP BY hornitzaile.izena;
+
+
+SELECT 
+    COUNT(produktu.produktu_id) zenbat, hornitzaile.izena
+FROM
+    produktu
+        RIGHT JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+GROUP BY hornitzaile.izena;
+
+
+SELECT 
+    MIN(produktu.prezioa),
+    MAX(produktu.prezioa),
+    AVG(produktu.prezioa)
+FROM
+    produktu
+GROUP BY produktu.hornitzaile_id
+HAVING AVG(produktu.prezioa) > 200;
+
+
+SELECT 
+    MIN(produktu.prezioa),
+    MAX(produktu.prezioa),
+    AVG(produktu.prezioa),
+    hornitzaile.izena,
+    COUNT(produktu_id)
+FROM
+    produktu
+        INNER JOIN
+    hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+GROUP BY produktu.hornitzaile_id
+HAVING AVG(produktu.prezioa) > 200;
