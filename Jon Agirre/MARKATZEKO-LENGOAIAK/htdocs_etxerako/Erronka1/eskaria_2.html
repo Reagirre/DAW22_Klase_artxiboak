@@ -1,91 +1,74 @@
-<html>
+<!doctype html>
 	<head>
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jony's Cars</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
-	<body>
-		<header>
+	<body class="grid-layout">
+		<header class="header">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		</header>
-		<nav>
-			<img src="img/icono-coche1-inv.png" alt="logoa">
+			<img class="logo" src="img/icono-coche1-inv.png" alt="logoa">
 			<h1>Eskaria</h1>
+		</header>
+		<nav class="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="saskia.html">Saskia</a></li>
-				<li><a href="eskaria2.html">Izena eman</a></li>
-				<li><a href="kontaktua.html">Kontaktua</a></li>
+				<a href="index.html">Home</a>
+				<a href="saskia.html">Saskia</a>
+				<a href="eskaria2.html">Izena eman</a>
+				<a href="kontaktua.html">Kontaktua</a>
 			</ul>
 		</nav>
-		<main>
-			<section id="eskaria-2">
-				<div id="titulo1">
-					<p><u>Zure datuak</u></p>
+		<main class="mainEskaria">
+			<div class="kutxa">
+				<div class="izenburuak">
+					<p>Izena:</p>
+					<p>Abizena:</p>
+					<p>Helbidea:</p>
+					<p>Herria:</p>
+					<p>Posta-kodea:</p>
+					<p>E-maila:</p>
 				</div>
-				<div id="idatzi_form">
-					<form action="/eskaria_3.html">
-						<div class="element">
-							<label for="eran_iz">Izena:</label>
-							<label> Jon</label>
-						</div>
-						<div class="element">
-							<label for="eran_abi">Abizena:</label>
-							<label>Aguirre</label>
-						</div>
-						<div class="element">
-							<label for="eran_hel">Helbidea:</label>
-							<label>Alkate kalea 34 Drch</label>
-						</div>
-						<div class="element">
-							<label for="eran_her">Herria:</label>
-							<label>Bilbao</label>
-						</div>
-						<div class="element">
-							<label for="eran_pk">Posta-kodea:</label>
-							<label>48300</label>
-						</div>
-						<div class="element">
-							<label for="email">E-maila:</label>
-							<label>reagirre@gmail.com</label>
-						</div>
-					</form>
+	<!----------------------------------------------------------------------->
+				<div class="datuak">
+					<p>Jon</p>
+					<p>Aguirre</p>
+					<p>Alkate kalea 34 Drch</p>
+					<p>Bilbao</p>
+					<p>48300</p>
+					<p>reagirre@gmail.com</p>
 				</div>
-				<div id="kutxa"></div>
-                <div id="titulo2">
-					<p><u>Produktuaren datuak</u></p>
+			</div>
+			<div class="kutxa">
+				<div class="izenburuak">
+					<p>Produktuak:</p>
+					<p>Salneurria:</p>
+					<p>Promozioak:</p>
+					<p>IVA:</p>
+					<p>Guztira:</p>
 				</div>
-                <div id="idatzi_form2">
-                    <form action="/eskaria_3.html">
-						<div class="element">
-							<label for="eran_iz">Izena:</label>
-							<label>Skoda</label>
-						</div>
-						<div class="element">
-							<label for="eran_abi">Modeloa:</label>
-							<label>Octavia RS 2021</label>
-						</div>
-						<div class="element">
-							<label for="eran_hel">Estiloa:</label>
-							<label>Berlina</label>
-						</div>
-						<div class="element">
-							<label for="eran_her">Promozioa:</label>
-							<label>SKODA Connect</label>
-						</div>
-                        <div class="element">
-							<label for="eran_her">Guztira:</label>
-							<label>40.320 €</label>
-						</div>
-						<div class="element">
-							<input id="hurrengoa_esk2" type="submit" value="Ados"/>
-						</div>
-					</form>
-                </div>
-                <div id="kutxa2"></div>
-			</section>
+	<!----------------------------------------------------------------------->
+				<div class="datuak">
+					<p>Hyundai Ioniq 5 2022</p>
+					<p>47.020,00 €</p>
+					<p>Plan MOVES III -9.410,00 €</p>
+					<p>%12</p>
+					<p>41.160 €</p>
+				</div>
+			</div>
+			<div class="botoiak_main">
+				<div class="atzera_bot">
+					<button onclick="window.location.href='eskaria.html'">
+						Aurrekoa
+					</button>
+				</div>
+				<div class="aurrera_bot">
+					<button onclick="window.location.href='eskaria_3.html'">
+						Hurrengoa
+					</button>
+				</div>
+			</div>
 		</main>
-		<footer>
+		<footer class="footer">
 			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
 		</footer>
 	</body>

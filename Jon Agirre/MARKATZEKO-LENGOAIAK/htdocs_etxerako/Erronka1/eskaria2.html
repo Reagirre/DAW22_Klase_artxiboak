@@ -1,48 +1,47 @@
-<html>
+<!doctype html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jony's Cars</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body>
-		<header>
-			
-		</header>
-		<nav>
-			<img src="img/icono-coche1-inv.png" alt="logoa">
+		<header class="header">
+			<img class="logo" src="img/icono-coche1-inv.png" alt="logoa">
 			<h1>Izena emateko formularioa</h1>
+		</header>
+		<nav class="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="saskia.html">Saskia</a></li>
-				<li><a href="eskaria2.html">Izena eman</a></li>
-				<li><a href="kontaktua.html">Kontaktua</a></li>
+				<a href="index.html">Home</a>
+				<a href="saskia.html">Saskia</a>
+				<a href="eskaria2.html">Izena eman</a>
+				<a href="kontaktua.html">Kontaktua</a>
 			</ul>
 		</nav>
-		<main>
-			<section id="eskaria">
-				<div id="titulo1">
-					<p><u>Zure datuak</u></p>
-				</div>
+		<main class="mainEskaria">
+			<div class="eskaria">
 				<div id="idatzi_form">
-					<form>
+					<form action="/index.html">
 						<div class="element">
-							<label for="eran_iz">Izena:</label><br>
-							<input id="eran_iz" minlength="2" size="10" required />
+							<u><em>Zure datuak:</em></u>
+						</div>
+						<div class="element">
+							<label for="eran_iz">Izena:</label>
+							<input id="eran_iz" minlength="2" size="10" required pattern="[A-Za-z]{3,15}"/>
 							<span class="validity"></span>
 						</div>
 						<div class="element">
-							<label for="eran_abi">Abizena:</label><br>
-							<input id="eran_abi" minlength="2" size="14" required/>
+							<label for="eran_abi">Abizena:</label>
+							<input id="eran_abi" minlength="2" size="14" required pattern="[A-Za-z]{3,15}"/>
 						<span class="validity"></span>
 						</div>
 						<div class="element">
-							<label for="eran_hel">Helbidea:</label><br>
+							<label for="eran_hel">Helbidea:</label>
 							<input id="eran_hel" minlength="2" size="20" required/>
 						<span class="validity"></span>
 						</div>
 						<div class="element">
-							<label for="eran_her">Herria:</label><br>
-							<input id="eran_her" minlength="2" size="10" required/>
+							<label for="eran_her">Herria:</label>
+							<input id="eran_her" minlength="2" size="10" required pattern="[A-Za-z]{3,15}"/>
 						<span class="validity"></span>
 						</div>
 						<div class="element">
@@ -51,8 +50,8 @@
 							<span class="validity"></span>
 						</div>
 						<div class="element">
-							<label for="email">E-maila:</label><br>
-							<input type="email" id="email" size="25" required/>
+							<label for="email">E-maila:</label>
+							<input type="email" id="email" name="email" size="25" required/>
 							<span class="validity"></span>
 						</div>
 						<div class="element">
@@ -60,12 +59,9 @@
 						</div>
 					</form>
 				</div>
-				<div id="kutxa">
-
-				</div>
-			</section>
+			</div>
 		</main>
-		<footer>
+		<footer class="footer">
 			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
 		</footer>
 	</body>

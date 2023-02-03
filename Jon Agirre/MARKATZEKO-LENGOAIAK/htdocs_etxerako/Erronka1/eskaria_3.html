@@ -1,39 +1,47 @@
-<html>
+<!doctype html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jony's Cars</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<header>
-			
-		</header>
-		<nav>
-			<img src="img/icono-coche1-inv.png" alt="logoa">
+	<body class="grid-layout">
+		<header class="header">
+			<img class="logo" src="img/icono-coche1-inv.png" alt="logoa">
 			<h1>Eskaria</h1>
+		</header>
+		<nav class="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="saskia.html">Saskia</a></li>
-				<li><a href="eskaria2.html">Izena eman</a></li>
-				<li><a href="kontaktua.html">Kontaktua</a></li>
+				<a href="index.html">Home</a>
+				<a href="saskia.html">Saskia</a>
+				<a href="eskaria2.html">Izena eman</a>
+				<a href="kontaktua.html">Kontaktua</a>
 			</ul>
 		</nav>
-		<main>
-			<section id="eskaria_3">
-				<div id="titulo1">
+		<main class="mainEskaria">
+			<div class="eskaria">
+				<form action="/eskaria_4.html">
 					<p><u>Ordainketa mota</u></p>
+					<input type="radio" id="eran_iz" name="aukera" value="eran_ize">
+					<label for="eran_iz">Kreditu-txartela</label><br>
+					<input type="radio" id="eran_abi" name="aukera" value="eran_abi">
+					<label for="eran_abi">Paypal</label><br><br>
+				</form>
+			</div>
+			<div class="botoiak_main">
+				<div class="atzera_bot">
+					<button onclick="window.location.href='eskaria_2.html'">
+						Aurrekoa
+					</button>
 				</div>
-				<div id="idatzi_form2">
-					<form action="/eskaria_4.html">
-						<input type="radio" id="eran_iz" name="aukera" value="eran_ize">
-						<label for="eran_iz">Kreditu-txartela</label><br>
-						<input type="radio" id="eran_abi" name="aukera" value="eran_abi">
-						<label for="eran_abi">Paypal</label><br><br>
-						<input id="hurrengoa_esk3" type="submit" value="Hurrengoa"/>
-					</form>
+				<div class="aurrera_bot">
+					<button onclick="window.location.href='eskaria_4.html'">
+						Hurrengoa
+					</button>
 				</div>
-				<div id="kutxa3"></div>
-			</section>
+			</div>
 		</main>
 		<footer>
 			<p>&copy; 2022 Lea Artibai Ikastetxea</p>
