@@ -48,6 +48,7 @@ public class Kotxea_Gehitu
                 probatu2 = sarrera.nextInt();
                 while(konprobatu(probatu2, 4) != false)
                 {
+                    System.out.print("Kode hau okupaturik dago. ");
                     System.out.print("Sartu kodea berriro: ");
                     probatu2 = sarrera.nextInt();
                 }
