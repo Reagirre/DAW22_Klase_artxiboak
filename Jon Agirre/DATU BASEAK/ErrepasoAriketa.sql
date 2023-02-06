@@ -526,3 +526,57 @@ FROM
     hornitzaile ON hornitzaile.hornitzaile_id = produktu.hornitzaile_id
 GROUP BY produktu.hornitzaile_id
 HAVING AVG(produktu.prezioa) > 200;
+
+
+/*-----------------Azpi-kontsultak---------------------------*/
+
+
+SELECT 
+    produktu.prezioa, hornitzaile.izena, produktu.izena
+FROM
+    produktu,
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND hornitzaile.izena = 'Lenovo'
+ORDER BY produktu.prezioa DESC
+LIMIT 1;
+
+
+
+SELECT 
+    produktu.prezioa, produktu.izena
+FROM
+    produktu,
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND hornitzaile.izena = 'Hewlett-Packard'
+ORDER BY produktu.prezioa ASC
+LIMIT 1;
+
+
+
+SELECT 
+    produktu.*
+FROM
+    produktu,
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id = produktu.hornitzaile_id
+        AND hornitzaile.izena = 'Asus'
+        AND produktu.prezioa > (SELECT 
+            AVG(produktu.prezioa)
+        FROM
+            produktu);
+
+
+SELECT 
+    hornitzaile.izena
+FROM
+    hornitzaile
+WHERE
+    hornitzaile.hornitzaile_id IN (SELECT 
+            produktu.hornitzaile_id
+        FROM
+            produktu);
