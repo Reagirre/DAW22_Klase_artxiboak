@@ -30,7 +30,7 @@ public class Kotxea_Aldatu
                 probatu = sarrera.nextInt();
                 if(Kotxea.konprobatu(probatu, 0))
                 {
-                    System.out.printf("Kodea [%s]", reader.nextLine());
+                    System.out.printf("Kodea %s", reader.nextLine());
                 }
 
             
