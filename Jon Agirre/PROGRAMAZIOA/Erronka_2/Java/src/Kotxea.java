@@ -65,7 +65,9 @@ public class Kotxea extends Produktua
     {
         boolean result = false;
         String kotxeak = "lib/Kotxeak.csv";
-        int y;
+        String y;
+        String x_x;
+        x_x = Integer.toString(x);
         try {
             File kotxeakIra = new File(kotxeak);
             Scanner reader = new Scanner(kotxeakIra);
@@ -74,15 +76,41 @@ public class Kotxea extends Produktua
             {
                 strin = reader.nextLine();
                 int index = strin.indexOf(",");
-                y = Integer.parseInt(strin.substring(zein, index));
-                if(x == y)
+                y = strin.substring(zein, index);
+                if(x_x.equals(y))
+                {
                     result = true;
+                }
             }
             reader.close();
         } catch (Exception e) {
             // TODO: handle exception
         }
-        
         return result;
+    }
+    public static void erakutsiKotxea(int x, int zein) 
+    {
+        String kotxeak = "lib/Kotxeak.csv";
+        String y;
+        String x_x;
+        x_x = Integer.toString(x);
+        try {
+            File kotxeakIra = new File(kotxeak);
+            Scanner reader = new Scanner(kotxeakIra);
+            String strin;
+            while(reader.hasNextLine())
+            {
+                strin = reader.nextLine();
+                int index = strin.indexOf(",");
+                y = strin.substring(zein, index);
+                if(x_x.equals(y))
+                {
+                    System.out.print(strin);
+                }
+            }
+            reader.close();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 }

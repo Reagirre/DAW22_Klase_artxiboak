@@ -18,6 +18,7 @@ public class Kotxea_Aldatu
         if(aukera.equals("y"))
         {
             System.out.print("\n\nIdentifikatzeko ze kotxe aldatu nahi duzun, kodea adierazi behar duzu. Kontuz honekin!\n\n");
+            System.out.print("\n\nHona hemen barneko kotxeak:\n\n");
             try 
             {
                 File kotxeak_file = new File(kotxeak);
@@ -28,17 +29,30 @@ public class Kotxea_Aldatu
                 {
                     System.out.println(scan.nextLine());
                 }
+                scan.reset();
                 //String strin;
                 //strin = reader.nextLine();
                 //int index = strin.indexOf(",");
-                System.out.print("Sartu kodea: ");
+                System.out.print("\n\nSartu kodea: ");
                 probatu = sarrera.nextInt();
                 if(Kotxea.konprobatu(probatu, 0))
                 {
-                    System.out.printf("Kodea %s", scan.nextLine());
+                    System.out.println();
+                    Kotxea.erakutsiKotxea(probatu, 0);
+                    
+
+                }
+                else{
+                    while(Kotxea.konprobatu(probatu, 0) == false)
+                    {
+                        System.out.print("\nKode hau ez dago biltegian. ");
+                        System.out.print("\nSartu kodea berriro: ");
+                        probatu = sarrera.nextInt();
+                    }
+                    Kotxea.erakutsiKotxea(probatu, 0);
                 }
 
-                // writer.write(kotxea1.idatzi());
+                // writer.write(kotxea1.idatzi()); 
                 // writer.newLine();
                 writer.close();
                 scan.close();
