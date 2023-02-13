@@ -113,4 +113,8 @@ public class Kotxea extends Produktua
             // TODO: handle exception
         }
     }
+    public static void biltegiratu(String objetua) {
+        
+        
+    }
 }

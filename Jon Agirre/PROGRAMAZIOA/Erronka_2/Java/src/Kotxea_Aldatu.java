@@ -18,6 +18,7 @@ public class Kotxea_Aldatu
         if(aukera.equals("y"))
         {
             System.out.print("\n\nIdentifikatzeko ze kotxe aldatu nahi duzun, kodea adierazi behar duzu. Kontuz honekin!\n\n");
+            System.out.print("\n\nAukeratzen den kotxea ezabatu egingo da erregistrotik!!!\n\n");
             System.out.print("\n\nHona hemen barneko kotxeak:\n\n");
             try 
             {
