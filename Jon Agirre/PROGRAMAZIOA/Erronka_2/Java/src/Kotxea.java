@@ -115,6 +115,5 @@ public class Kotxea extends Produktua
     }
     public static void biltegiratu(String objetua) {
         
-        
     }
 }
