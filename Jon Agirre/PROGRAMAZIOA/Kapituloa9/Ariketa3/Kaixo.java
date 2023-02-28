@@ -3,6 +3,10 @@ public class Kaixo {
         
         Leihoa l = new Leihoa();
 
+        LeihoEntzulea le = new LeihoEntzulea();
+
+        l.addWindowListener(le);
+
         l.setVisible(true);
     }
 }
