@@ -25,7 +25,7 @@ public class Kotxea_Gehitu
                 BufferedWriter writer = new BufferedWriter(new FileWriter(kotxeak, true));
                 System.out.print("Sartu kodea: ");
                 probatu = sarrera.nextInt();
-                while(konprobatu(probatu, 0) != false)
+                while(Kotxea.konprobatu(probatu, 0) != false)
                 {
                     System.out.print("Kode hau okupaturik dago. ");
                     System.out.print("Sartu kodea berriro: ");
@@ -47,7 +47,7 @@ public class Kotxea_Gehitu
 
                 System.out.print("Sartu kotxearen id-a: ");
                 probatu2 = sarrera.nextInt();
-                while(konprobatu(probatu2, 4) != false)
+                while(Kotxea.konprobatu(probatu2, 4) != false)
                 {
                     System.out.print("Kode hau okupaturik dago. ");
                     System.out.print("Sartu kodea berriro: ");
@@ -78,28 +78,5 @@ public class Kotxea_Gehitu
             }
         }
         sarrera.close();
-    }
-    private static boolean konprobatu(int x, int zein) 
-    {
-        boolean result = false;
-        int y;
-        try {
-            File kotxeakIra = new File(kotxeak);
-            Scanner reader = new Scanner(kotxeakIra);
-            String strin;
-            while(reader.hasNextLine())
-            {
-                strin = reader.nextLine();
-                int index = strin.indexOf(",");
-                y = Integer.parseInt(strin.substring(zein, index));
-                if(x == y)
-                    result = true;
-            }
-            reader.close();
-        } catch (Exception e) {
-            // TODO: handle exception
-        }
-        
-        return result;
     }
 }

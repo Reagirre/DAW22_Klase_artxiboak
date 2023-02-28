@@ -8,7 +8,8 @@ public class Kotxea_Ezabatu
         Scanner sarrera = new Scanner(System.in);
 
         String aukera;
-        
+        String lerroa;
+
         int probatu;
 
         System.out.print("\n\nKotxe bat ezabatzeko atalera sartu zara.\n\n");
@@ -23,10 +24,14 @@ public class Kotxea_Ezabatu
             try 
             {
                 File kotxeak_file = new File(kotxeak);
-                Scanner scan = new Scanner(kotxeak_file);
+                BufferedReader br = new BufferedReader(new FileReader(kotxeak));
                 BufferedWriter writer = new BufferedWriter(new FileWriter(kotxeak, true));
 
-                
+                while((lerroa = br.readLine()) != null)
+                {
+                    String[] autoa = lerroa.split(",");
+                    System.out.println("Id-a: " + autoa[0]);
+                }
             } 
             catch (IOException e)
             {
