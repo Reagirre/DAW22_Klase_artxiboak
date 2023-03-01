@@ -172,7 +172,12 @@ FROM
 
 /* Ariketa 18 */
 
-SELECT langile;
+SELECT 
+    departamentu.IZENA, departamentu.AURREKONTU
+FROM
+    departamentu
+WHERE
+    departamentu.AURREKONTU = (SELECT MAX(departamentu.AURREKONTU) from departamentu);
     
 
 /* Ariketa 19 */
