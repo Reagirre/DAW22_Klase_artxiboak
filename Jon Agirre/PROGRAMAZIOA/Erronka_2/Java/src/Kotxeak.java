@@ -37,7 +37,6 @@ public class Kotxeak
                 System.out.print("\nAukera ez da zuzena, mesedez sartu 1-etik 10-erako zenbaki bat\n\n");
                 break;
         }
-
         sarrera.close();
     }
 
