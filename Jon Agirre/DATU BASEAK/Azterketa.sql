@@ -162,9 +162,12 @@ WHERE
 
 /* Ariketa 17 */
 
-SELECT departamentu.IZENA, count(*)
-from langile inner join departamentu on departamentu.ID = langile.DEPT_ID
-where 
+SELECT 
+    departamentu.IZENA, COUNT(*)
+FROM
+    langile
+        INNER JOIN
+    departamentu ON departamentu.ID = langile.DEPT_ID;
     
 
 /* Ariketa 18 */

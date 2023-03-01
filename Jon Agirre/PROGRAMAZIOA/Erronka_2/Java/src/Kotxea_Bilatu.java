@@ -9,23 +9,51 @@ public class Kotxea_Bilatu
         Scanner sarrera = new Scanner(System.in);
 
         String aukera;
+        String berriro;
         
         int probatu;
 
-        System.out.print("\n\nKotxe bat ezabatzeko atalera sartu zara.\n\n");
+        System.out.print("\n\nKotxe bat bilatzeko atalera sartu zara.\n\n");
         System.out.print("Aurrera jarraitu nahi? (y/n): ");
         aukera = sarrera.nextLine();
-
+        while(!(aukera.equals("y")))
+        {
+            if(aukera.equals("n"))
+            {
+                break;
+            }
+            System.out.print("\n\nAukera ez da zuzena. Sartu berriz. \n\n");
+            System.out.print("\n\nKotxe bat bilatzeko atalera sartu zara.\n\n");
+            System.out.print("Aurrera jarraitu nahi? (y/n): ");
+            aukera = sarrera.nextLine();
+        }
         if(aukera.equals("y"))
         {
-            System.out.print("\n\nIdentifikatzeko ze kotxe ezabatu nahi duzun, kodea adierazi behar duzu. Kontuz honekin!\n\n");
-            System.out.print("\n\nAukeratzen den kotxea ezabatu egingo da erregistrotik!!!\n\n");
-            System.out.print("\n\nHona hemen barneko kotxeak:\n\n");
+            System.out.print("\n\nIdentifikatzeko ze kotxe bilatu nahi duzun, kodea adierazi behar duzu\n\n");
+            System.out.print("\n\nSartu ze kode bilatu nahi duzun: ");
+            probatu = sarrera.nextInt();
             try 
             {
                 File kotxeak_file = new File(kotxeak);
                 Scanner scan = new Scanner(kotxeak_file);
                 BufferedWriter writer = new BufferedWriter(new FileWriter(kotxeak, true));
+
+                if(Kotxea.konprobatu(probatu, 0))
+                {
+                    System.out.print("\n\nAurkitu da zuk sartutako kodea duen kotxea.\n\n");
+                }
+                else if(Kotxea.konprobatu(probatu, 0) != true)
+                {
+                    System.out.print("\n\nEz da sartutako kodea aurkitu.\n");
+                    System.out.print("Berriro saiatu nahi duzu? (y/n): ");
+                    berriro = sarrera.nextLine();
+                    while(!(berriro.equals("y")))
+                    {
+                        System.out.print("\n\nIdentifikatzeko ze kotxe bilatu nahi duzun, kodea adierazi behar duzu\n\n");
+                        System.out.print("\n\nSartu ze kode bilatu nahi duzun: ");
+                        probatu = sarrera.nextInt();
+                    }
+                }
                 
                 
             } 
