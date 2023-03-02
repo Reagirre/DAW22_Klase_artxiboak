@@ -41,21 +41,13 @@ public class Kotxea_Bilatu
                 if(Kotxea.konprobatu(probatu, 0))
                 {
                     System.out.print("\n\nAurkitu da zuk sartutako kodea duen kotxea.\n\n");
+                    System.out.print("\n\nHonakoa da: ");
+                    Kotxea.erakutsiKotxea(probatu, 0);
                 }
                 else if(Kotxea.konprobatu(probatu, 0) != true)
                 {
                     System.out.print("\n\nEz da sartutako kodea aurkitu.\n");
-                    System.out.print("Berriro saiatu nahi duzu? (y/n): ");
-                    berriro = sarrera.nextLine();
-                    while(!(berriro.equals("y")))
-                    {
-                        System.out.print("\n\nIdentifikatzeko ze kotxe bilatu nahi duzun, kodea adierazi behar duzu\n\n");
-                        System.out.print("\n\nSartu ze kode bilatu nahi duzun: ");
-                        probatu = sarrera.nextInt();
-                    }
                 }
-                
-                
             } 
             catch (IOException e)
             {

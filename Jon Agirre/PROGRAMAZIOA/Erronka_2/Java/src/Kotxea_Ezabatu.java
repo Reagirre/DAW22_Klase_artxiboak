@@ -18,9 +18,9 @@ public class Kotxea_Ezabatu
 
         if(aukera.equals("y"))
         {
-            System.out.print("\n\nIdentifikatzeko ze kotxe ezabatu nahi duzun, kodea adierazi behar duzu. Kontuz honekin!\n\n");
-            System.out.print("\n\nAukeratzen den kotxea ezabatu egingo da erregistrotik!!!\n\n");
-            System.out.print("\n\nHona hemen barneko kotxeak:\n\n");
+            System.out.print("\n\nIdentifikatzeko ze kotxe ezabatu nahi duzun, kodea adierazi behar duzu. Kontuz honekin!\n");
+            System.out.print("\n\nAukeratzen den kotxea ezabatu egingo da erregistrotik!!!\n");
+            System.out.print("\n\nHona hemen barneko kotxeak:\n");
             try 
             {
                 File kotxeak_file = new File(kotxeak);
@@ -32,6 +32,7 @@ public class Kotxea_Ezabatu
                     String[] autoa = lerroa.split(",");
                     System.out.println("Id-a: " + autoa[0]);
                 }
+                System.out.print("\nAukeratu zein ezabatu nahi duzum");
             } 
             catch (IOException e)
             {

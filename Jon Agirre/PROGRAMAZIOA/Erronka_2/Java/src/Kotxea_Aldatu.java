@@ -39,9 +39,7 @@ public class Kotxea_Aldatu
                 if(Kotxea.konprobatu(probatu, 0))
                 {
                     System.out.println();
-                    Kotxea.erakutsiKotxea(probatu, 0);
-                    
-
+                    Kotxea.erakutsiKotxea2(probatu, 0);
                 }
                 else{
                     while(Kotxea.konprobatu(probatu, 0) == false)
@@ -50,7 +48,7 @@ public class Kotxea_Aldatu
                         System.out.print("\nSartu kodea berriro: ");
                         probatu = sarrera.nextInt();
                     }
-                    Kotxea.erakutsiKotxea(probatu, 0);
+                    Kotxea.erakutsiKotxea2(probatu, 0);
                 }
 
                 // writer.write(kotxea1.idatzi()); 
