@@ -1,0 +1,3004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kantak SYSTEM "kantak.dtd">
+<kantak>
+        <kanta>
+                <id>1</id>
+                <izenburua>Like A Rolling Stone</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>2</id>
+                <izenburua>(I Can't Get No) Satisfaction</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>3</id>
+                <izenburua>Imagine</izenburua>
+                <egilea>John Lennon</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>4</id>
+                <izenburua>What's Going On</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>5</id>
+                <izenburua>Respect</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>6</id>
+                <izenburua>Good Vibrations</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>7</id>
+                <izenburua>Johnny B. Goode</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>8</id>
+                <izenburua>Hey Jude</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>9</id>
+                <izenburua>Smell Like Teen Spirit</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>10</id>
+                <izenburua>What'd I Say</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1959</urtea>
+        </kanta>
+        <kanta>
+                <id>11</id>
+                <izenburua>My Generation</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>12</id>
+                <izenburua>A Change Is Gonna Come</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>13</id>
+                <izenburua>Yesterday</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>14</id>
+                <izenburua>Blowin' In The Wind</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>15</id>
+                <izenburua>London Calling</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>16</id>
+                <izenburua>I Want To Hold Your Hand</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>17</id>
+                <izenburua>Purple Haze</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>18</id>
+                <izenburua>Maybellene</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>19</id>
+                <izenburua>Hound Dog</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>20</id>
+                <izenburua>Let It Be</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>21</id>
+                <izenburua>Born To Run</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>22</id>
+                <izenburua>Be My Baby</izenburua>
+                <egilea>The Ronettes</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>23</id>
+                <izenburua>In My Life</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>24</id>
+                <izenburua>People Get Ready</izenburua>
+                <egilea>The Impressions</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>25</id>
+                <izenburua>God Only Knows</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>26</id>
+                <izenburua>A Day In The Life</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>27</id>
+                <izenburua>Layla</izenburua>
+                <egilea>Derek And The Dominos</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>28</id>
+                <izenburua>(Sittin' On) The Dock Of The Bay</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>29</id>
+                <izenburua>Help!</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>30</id>
+                <izenburua>I Walk The Line</izenburua>
+                <egilea>Johnny Cash</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>31</id>
+                <izenburua>Stairway To Heaven</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>32</id>
+                <izenburua>Sympathy For The Devil</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>33</id>
+                <izenburua>River Deep-Mountain High</izenburua>
+                <egilea>Ike And Tina Turner</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>34</id>
+                <izenburua>You've Lost That Lovin' Feelin'</izenburua>
+                <egilea>The Righteous Brothers</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>35</id>
+                <izenburua>Light My Fire</izenburua>
+                <egilea>The Doors</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>36</id>
+                <izenburua>One</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>37</id>
+                <izenburua>No Woman, No Cry</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>38</id>
+                <izenburua>Gimme Shelter</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>39</id>
+                <izenburua>That'll Be The Day</izenburua>
+                <egilea>Buddy Holly And The Crickets</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>40</id>
+                <izenburua>Dancing In The Street</izenburua>
+                <egilea>Martha And The Vandellas</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>41</id>
+                <izenburua>The Weight</izenburua>
+                <egilea>The Band</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>42</id>
+                <izenburua>Waterloo Sunset</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>43</id>
+                <izenburua>Tutti-Frutti</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>44</id>
+                <izenburua>Georgia On My Mind</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>45</id>
+                <izenburua>Heartbreak Hotel</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>46</id>
+                <izenburua>Heroes</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>47</id>
+                <izenburua>Bridge Over Troubled Water</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>48</id>
+                <izenburua>All Along The Watchtower</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>49</id>
+                <izenburua>Hotel California</izenburua>
+                <egilea>The Eagles</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>50</id>
+                <izenburua>The Tracks Of My Tears</izenburua>
+                <egilea>Smokey Robinson And The Miracles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>51</id>
+                <izenburua>The Message</izenburua>
+                <egilea>Grandmaster Flash And The Furious Five</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>52</id>
+                <izenburua>When Doves Cry</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>53</id>
+                <izenburua>Anarchy In The U.K.</izenburua>
+                <egilea>The Sex Pistols</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>54</id>
+                <izenburua>When A Man Loves a Woman</izenburua>
+                <egilea>Percy Sledge</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>55</id>
+                <izenburua>Louei, Louei</izenburua>
+                <egilea>The Kingsmen</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>56</id>
+                <izenburua>Long Tall Sally</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>57</id>
+                <izenburua>Whiter Shade Of Pale</izenburua>
+                <egilea>Procol Harum</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>58</id>
+                <izenburua>Billie Jean</izenburua>
+                <egilea>Michael Jackson</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>59</id>
+                <izenburua>The Times They Are A-Changin'</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>60</id>
+                <izenburua>Let's Stay Together</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>61</id>
+                <izenburua>Whole Lotta Shakin' Going On</izenburua>
+                <egilea>Jerry Lee Lewis</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>62</id>
+                <izenburua>Bo Diddley</izenburua>
+                <egilea>Bo Diddley</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>63</id>
+                <izenburua>For What It's Worth</izenburua>
+                <egilea>Buffalo Springfield</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>64</id>
+                <izenburua>She Loves You</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>65</id>
+                <izenburua>Sunshine Of Your Love</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>66</id>
+                <izenburua>Redemption Song</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>67</id>
+                <izenburua>Jailhouse Rock</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>68</id>
+                <izenburua>Tangled Up In Blue</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>69</id>
+                <izenburua>Crying</izenburua>
+                <egilea>Roy Orbison</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>70</id>
+                <izenburua>Walk On By</izenburua>
+                <egilea>Dionne Warwick</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>71</id>
+                <izenburua>California Girls</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>72</id>
+                <izenburua>Papa's Got A Brand New Bag</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>73</id>
+                <izenburua>Summertime Blues</izenburua>
+                <egilea>Eddie Cochran</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>74</id>
+                <izenburua>Superstition</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>75</id>
+                <izenburua>Whole Lotta Love</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>76</id>
+                <izenburua>Strawberry Fields Forever</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>77</id>
+                <izenburua>Mystery Train</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>78</id>
+                <izenburua>I Got You (I Feel Good)</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>79</id>
+                <izenburua>Mr. Tambourine Man</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>80</id>
+                <izenburua>I Heard It Through The Grapevine</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>81</id>
+                <izenburua>Blueberry Hill</izenburua>
+                <egilea>Fats Domino</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>82</id>
+                <izenburua>You Really Got Me</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>83</id>
+                <izenburua>Norwegian Woods (This Bird Has Flown)</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>84</id>
+                <izenburua>Every Breath You Take</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>85</id>
+                <izenburua>Crazy</izenburua>
+                <egilea>Patsy Cline</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>86</id>
+                <izenburua>Thunder Road</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>87</id>
+                <izenburua>Ring Of Fire</izenburua>
+                <egilea>Johnny Cash</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>88</id>
+                <izenburua>My Girl</izenburua>
+                <egilea>The Temptations</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>89</id>
+                <izenburua>California Dreamin'</izenburua>
+                <egilea>The Mamas And The Papas</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>90</id>
+                <izenburua>In The Still Of the Night</izenburua>
+                <egilea>The Five Satins</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>91</id>
+                <izenburua>Suspicious Minds</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>92</id>
+                <izenburua>Blitzkrieg Bop</izenburua>
+                <egilea>Ramones</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>93</id>
+                <izenburua>I Still Haven't Found What I'm Looking For</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>94</id>
+                <izenburua>Good Golly, Miss Molly</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>95</id>
+                <izenburua>Blue Suede Shoes</izenburua>
+                <egilea>Carl Perkins</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>96</id>
+                <izenburua>Great Balls Of Fire</izenburua>
+                <egilea>Jerry Lee Lewis</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>97</id>
+                <izenburua>Roll Over Beethoven</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>98</id>
+                <izenburua>Love And Happiness</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>99</id>
+                <izenburua>Fortunate Son</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>100</id>
+                <izenburua>You Can't Always Get What You Want</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>101</id>
+                <izenburua>Voodoo Child (Slight Return)</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>102</id>
+                <izenburua>Be-Bop-A-Lula</izenburua>
+                <egilea>Gene Vincent And His Blue Caps</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>103</id>
+                <izenburua>Hot Stuff</izenburua>
+                <egilea>Donna Summer</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>104</id>
+                <izenburua>Living For The City</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>105</id>
+                <izenburua>The Boxer</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>106</id>
+                <izenburua>Mr. Tambourine Man</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>107</id>
+                <izenburua>Not Fade Away</izenburua>
+                <egilea>Buddy Holly And The Crickets</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>108</id>
+                <izenburua>Little Red Corvette</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>109</id>
+                <izenburua>Brown Eyed Girl</izenburua>
+                <egilea>Van Morrison</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>110</id>
+                <izenburua>I�ve Been Loving You Too Long (To Stop Now)</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>111</id>
+                <izenburua>I�m So Lonesome I Could Cry</izenburua>
+                <egilea>Hank Williams</egilea>
+                <urtea>1949</urtea>
+        </kanta>
+        <kanta>
+                <id>112</id>
+                <izenburua>That�s All Right</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>113</id>
+                <izenburua>Up On The Roof</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1962</urtea>
+        </kanta>
+        <kanta>
+                <id>114</id>
+                <izenburua>Da Doo Ron Ron (Whe He Walked Me Home)</izenburua>
+                <egilea>The Crystals</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>115</id>
+                <izenburua>You Send Me</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>116</id>
+                <izenburua>Honky Tonk Women</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>117</id>
+                <izenburua>Take Me To The River</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>118</id>
+                <izenburua>Shout (Partes 1 y 2)</izenburua>
+                <egilea>The Isley Brothers</egilea>
+                <urtea>1959</urtea>
+        </kanta>
+        <kanta>
+                <id>119</id>
+                <izenburua>Go Your Own Way</izenburua>
+                <egilea>Fleetwood Mac</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>120</id>
+                <izenburua>I Want You Back</izenburua>
+                <egilea>The Jackson 5</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>121</id>
+                <izenburua>Stand By Me</izenburua>
+                <egilea>Ben E. King</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>122</id>
+                <izenburua>House Of The Rising Sun</izenburua>
+                <egilea>The Animals</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>123</id>
+                <izenburua>It�s A Man�s Man�s Man�s World</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>124</id>
+                <izenburua>Jumpin� Jack Flash</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>125</id>
+                <izenburua>Will You Love Me Tomorrow</izenburua>
+                <egilea>The Shirelles</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>126</id>
+                <izenburua>Shake, Rattle &amp; Roll</izenburua>
+                <egilea>Big Joe Turner</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>127</id>
+                <izenburua>Changes</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>128</id>
+                <izenburua>Rock &amp; Roll Music</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>129</id>
+                <izenburua>Born To Be Wild</izenburua>
+                <egilea>Steppenwolf</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>130</id>
+                <izenburua>Maggie May</izenburua>
+                <egilea>Rod Stewart</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>131</id>
+                <izenburua>With Or Without You</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>132</id>
+                <izenburua>Who Do You Love?</izenburua>
+                <egilea>Bo Diddley</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>133</id>
+                <izenburua>Won�t Get Fooled Again</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>134</id>
+                <izenburua>In The Midnight Hour</izenburua>
+                <egilea>Wilson Pickett</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>135</id>
+                <izenburua>While My Guitar Gently Weeps</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>136</id>
+                <izenburua>Your Song</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>137</id>
+                <izenburua>Eleanor Rigby</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>138</id>
+                <izenburua>Family Affair</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>139</id>
+                <izenburua>I Saw Her Standing There</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>140</id>
+                <izenburua>Kashmir</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>141</id>
+                <izenburua>All I Have To Do Is Dream</izenburua>
+                <egilea>The Everly Brothers</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>142</id>
+                <izenburua>Please, Please, Please</izenburua>
+                <egilea>James Brown And His Famous Flames</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>143</id>
+                <izenburua>Purple Rain</izenburua>
+                <egilea>Prince And The Revolution</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>144</id>
+                <izenburua>I Wanna Be Sedated</izenburua>
+                <egilea>Ramones</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>145</id>
+                <izenburua>Everyday People</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>146</id>
+                <izenburua>Rock Lobster</izenburua>
+                <egilea>The B-52�s</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>147</id>
+                <izenburua>Lust For Life</izenburua>
+                <egilea>Iggy Pop</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>148</id>
+                <izenburua>Me And Bobby McGee</izenburua>
+                <egilea>Janis Joplin</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>149</id>
+                <izenburua>Cathy�s Clown</izenburua>
+                <egilea>The Everly Brothers</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>150</id>
+                <izenburua>Eight Miles High</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>151</id>
+                <izenburua>Earth Angel</izenburua>
+                <egilea>The Penguins</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>152</id>
+                <izenburua>Foxy Lady</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>153</id>
+                <izenburua>A Hard Day�s Night</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>154</id>
+                <izenburua>Rave On</izenburua>
+                <egilea>Buddy Holly And The Crickets</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>155</id>
+                <izenburua>Proud Mary</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>156</id>
+                <izenburua>The Sound Of Silence</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>157</id>
+                <izenburua>I Only Have Eyes For You</izenburua>
+                <egilea>The Flamingos</egilea>
+                <urtea>1959</urtea>
+        </kanta>
+        <kanta>
+                <id>158</id>
+                <izenburua>(We�re Gonna) Rock Around The Clock</izenburua>
+                <egilea>Bill Haley And His Comets</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>159</id>
+                <izenburua>I�m Waiting For The Man</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>160</id>
+                <izenburua>Bring The Noise</izenburua>
+                <egilea>Public Enemy</egilea>
+                <urtea>1988</urtea>
+        </kanta>
+        <kanta>
+                <id>161</id>
+                <izenburua>I Can�t Stop Loving You</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1962</urtea>
+        </kanta>
+        <kanta>
+                <id>162</id>
+                <izenburua>Nothing Compares 2 U</izenburua>
+                <egilea>Sin�ad O�Connor</egilea>
+                <urtea>1990</urtea>
+        </kanta>
+        <kanta>
+                <id>163</id>
+                <izenburua>Bohemian Rhapsody</izenburua>
+                <egilea>Queen</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>164</id>
+                <izenburua>Folsom Prison Blues</izenburua>
+                <egilea>Johnny Cash</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>165</id>
+                <izenburua>Fast Cart</izenburua>
+                <egilea>Tracy Chapman</egilea>
+                <urtea>1988</urtea>
+        </kanta>
+        <kanta>
+                <id>166</id>
+                <izenburua>Lose Yourself</izenburua>
+                <egilea>Eminem</egilea>
+                <urtea>2002</urtea>
+        </kanta>
+        <kanta>
+                <id>167</id>
+                <izenburua>Let�s Get It On</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>168</id>
+                <izenburua>Papa Was A Rolling Stone</izenburua>
+                <egilea>The Temptations</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>169</id>
+                <izenburua>Losing My Religion</izenburua>
+                <egilea>R.E.M</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>170</id>
+                <izenburua>Both Sides Now</izenburua>
+                <egilea>Joni Mitchell</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>171</id>
+                <izenburua>Dancing Queen</izenburua>
+                <egilea>Abba</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>172</id>
+                <izenburua>Dream On</izenburua>
+                <egilea>Aerosmith</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>173</id>
+                <izenburua>God Save The Queen</izenburua>
+                <egilea>The Sex Pistols</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>174</id>
+                <izenburua>Paint It, Black</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>175</id>
+                <izenburua>I Fought The Law</izenburua>
+                <egilea>The Bobby Fuller Four</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>176</id>
+                <izenburua>Don�t Worry Baby</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>177</id>
+                <izenburua>Free Fallin�</izenburua>
+                <egilea>Tom Petty</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>178</id>
+                <izenburua>September Gurls</izenburua>
+                <egilea>Big Star</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>179</id>
+                <izenburua>Love Will Tear Us Apart</izenburua>
+                <egilea>Joy Division</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>180</id>
+                <izenburua>Hey Ya!</izenburua>
+                <egilea>OutKast</egilea>
+                <urtea>2003</urtea>
+        </kanta>
+        <kanta>
+                <id>181</id>
+                <izenburua>Green Onions</izenburua>
+                <egilea>Booker T. And The MG�s</egilea>
+                <urtea>1962</urtea>
+        </kanta>
+        <kanta>
+                <id>182</id>
+                <izenburua>Save The Last Dance For Me</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>183</id>
+                <izenburua>The Thill Is Gone</izenburua>
+                <egilea>B.B. King</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>184</id>
+                <izenburua>Please Please Me</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>185</id>
+                <izenburua>Desolation Row</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>186</id>
+                <izenburua>I Never Loved A Man (The Way I Love You)</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>187</id>
+                <izenburua>Back In Blac</izenburua>
+                <egilea>AC/DC</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>188</id>
+                <izenburua>Who�ll Stop The Rain?</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>189</id>
+                <izenburua>Stayin� Alive</izenburua>
+                <egilea>Bee Gees</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>190</id>
+                <izenburua>Knocking On Heaven�s Door</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>191</id>
+                <izenburua>Free Bird</izenburua>
+                <egilea>Lynyrd Skynyrd</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>192</id>
+                <izenburua>Wichita Lineman</izenburua>
+                <egilea>Glan Campbell</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>193</id>
+                <izenburua>The Goes My Baby</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1959</urtea>
+        </kanta>
+        <kanta>
+                <id>194</id>
+                <izenburua>Peggy Sue</izenburua>
+                <egilea>Buddy Holly</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>195</id>
+                <izenburua>Maybellene</izenburua>
+                <egilea>The Chantels</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>196</id>
+                <izenburua>Sweet Child O�Mine</izenburua>
+                <egilea>Guns N� Roses</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>197</id>
+                <izenburua>Don�t Be Cruel</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>198</id>
+                <izenburua>Hey Joe</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>199</id>
+                <izenburua>Flash Light</izenburua>
+                <egilea>Parliament</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>200</id>
+                <izenburua>Loser</izenburua>
+                <egilea>Beck</egilea>
+                <urtea>1993</urtea>
+        </kanta>
+        <kanta>
+                <id>201</id>
+                <izenburua>Bizarre Love Triangle</izenburua>
+                <egilea>New Order</egilea>
+                <urtea>1986</urtea>
+        </kanta>
+        <kanta>
+                <id>202</id>
+                <izenburua>Come Together</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>203</id>
+                <izenburua>Positively 4th Street</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>204</id>
+                <izenburua>Try A Little Tenderness</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>205</id>
+                <izenburua>Lean On Me</izenburua>
+                <egilea>Bill Withers</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>206</id>
+                <izenburua>Reach Out, I�ll Be There</izenburua>
+                <egilea>The Four Tops</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>207</id>
+                <izenburua>Bye Bye Love</izenburua>
+                <egilea>The Everly Brothers</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>208</id>
+                <izenburua>Gloria</izenburua>
+                <egilea>Them</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>209</id>
+                <izenburua>In My Room</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>210</id>
+                <izenburua>96 Tears</izenburua>
+                <egilea>? And The Mysterians</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>211</id>
+                <izenburua>Caroline, No</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>212</id>
+                <izenburua>1999</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>213</id>
+                <izenburua>Your Cheatin� Heart</izenburua>
+                <egilea>Hank Williams</egilea>
+                <urtea>1953</urtea>
+        </kanta>
+        <kanta>
+                <id>214</id>
+                <izenburua>Rockin� In The Free World</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>215</id>
+                <izenburua>Sh-Boom</izenburua>
+                <egilea>The Chords</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>216</id>
+                <izenburua>Do You Believe In Magic</izenburua>
+                <egilea>The Lovin� Spoonful</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>217</id>
+                <izenburua>Jolene</izenburua>
+                <egilea>Dolly Parton</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>218</id>
+                <izenburua>Boom Boom</izenburua>
+                <egilea>John Lee Hooker</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>219</id>
+                <izenburua>Spoonful</izenburua>
+                <egilea>Howlin� Wolf</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>220</id>
+                <izenburua>Walk Away Renne</izenburua>
+                <egilea>The Lefy Banks</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>221</id>
+                <izenburua>Walk On The Wild Side</izenburua>
+                <egilea>Lou Reed</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>222</id>
+                <izenburua>Oh, Pretty Woman</izenburua>
+                <egilea>Roy Orbison</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>223</id>
+                <izenburua>Dance To The Music</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>224</id>
+                <izenburua>Good Times</izenburua>
+                <egilea>Chic</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>225</id>
+                <izenburua>Hoochie Coochie Man</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>226</id>
+                <izenburua>Moondance</izenburua>
+                <egilea>Van Morrison</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>227</id>
+                <izenburua>Fire And Rain</izenburua>
+                <egilea>James Taylor</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>228</id>
+                <izenburua>Should I Stay Or Should I Go</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>229</id>
+                <izenburua>Mannish Boy</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>230</id>
+                <izenburua>Just Like A Woman</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>231</id>
+                <izenburua>Sexual Healing</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>232</id>
+                <izenburua>Only The Lonely</izenburua>
+                <egilea>Roy Orbison</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>233</id>
+                <izenburua>We Gotta Get Out Of This Place</izenburua>
+                <egilea>The Animals</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>234</id>
+                <izenburua>I�ll Feel A Whole Lot Better</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>235</id>
+                <izenburua>I Got A Woman</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1954</urtea>
+        </kanta>
+        <kanta>
+                <id>236</id>
+                <izenburua>Everyday</izenburua>
+                <egilea>Buddy Holly And The Crickets</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>237</id>
+                <izenburua>Planet Rock</izenburua>
+                <egilea>Afrika Bambaataa And The Soul Sonic Force</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>238</id>
+                <izenburua>I Fall To Pieces</izenburua>
+                <egilea>Patsy Cline</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>239</id>
+                <izenburua>The Wanderer</izenburua>
+                <egilea>Dion</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>240</id>
+                <izenburua>Son Of A Preacher Man</izenburua>
+                <egilea>Dusty Springfield</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>241</id>
+                <izenburua>Stand!</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>242</id>
+                <izenburua>Rocket Man</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>243</id>
+                <izenburua>Love Shack</izenburua>
+                <egilea>The B-52�s</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>244</id>
+                <izenburua>Gimme Some Lovin�</izenburua>
+                <egilea>The Spencer Davis Group</egilea>
+                <urtea>244</urtea>
+        </kanta>
+        <kanta>
+                <id>245</id>
+                <izenburua>The Night They Drove Old Dixie Down</izenburua>
+                <egilea>The Band</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>246</id>
+                <izenburua>(Your Love Keeps Lifting Me) Higher And Higher</izenburua>
+                <egilea>Jackie Wilson</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>247</id>
+                <izenburua>Hot Fun In The Summertime</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>248</id>
+                <izenburua>Rappers Delight</izenburua>
+                <egilea>Sugarhill Gang</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>249</id>
+                <izenburua>Chain Of Fools</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>250</id>
+                <izenburua>Paranoid</izenburua>
+                <egilea>Black Sabbath</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>251</id>
+                <izenburua>Mack The Knife</izenburua>
+                <egilea>Bobby Darin</egilea>
+                <urtea>1959</urtea>
+        </kanta>
+        <kanta>
+                <id>252</id>
+                <izenburua>Money Honey</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1953</urtea>
+        </kanta>
+        <kanta>
+                <id>253</id>
+                <izenburua>All The Young Dudes</izenburua>
+                <egilea>Moot The Hoople</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>254</id>
+                <izenburua>Highway To Hell</izenburua>
+                <egilea>AC/DC</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>255</id>
+                <izenburua>Heart Of Glass</izenburua>
+                <egilea>Blondie</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>256</id>
+                <izenburua>Paranoid Android</izenburua>
+                <egilea>Radiohead</egilea>
+                <urtea>1997</urtea>
+        </kanta>
+        <kanta>
+                <id>257</id>
+                <izenburua>Wild Thing</izenburua>
+                <egilea>The Troggs</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>258</id>
+                <izenburua>I Can See For Miles</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>259</id>
+                <izenburua>Hallelujah</izenburua>
+                <egilea>Jeff Buckley</egilea>
+                <urtea>1994</urtea>
+        </kanta>
+        <kanta>
+                <id>260</id>
+                <izenburua>Oh, What A Night</izenburua>
+                <egilea>The Dells</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>261</id>
+                <izenburua>Higher Ground</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>262</id>
+                <izenburua>Ooo Baby Baby</izenburua>
+                <egilea>Smokey Robinson And The Miracles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>263</id>
+                <izenburua>He�s A Rebel</izenburua>
+                <egilea>The Crystals</egilea>
+                <urtea>1962</urtea>
+        </kanta>
+        <kanta>
+                <id>264</id>
+                <izenburua>Sail Away</izenburua>
+                <egilea>Randy Newman</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>265</id>
+                <izenburua>Thighten Up</izenburua>
+                <egilea>Archie Bell And The Drells</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>266</id>
+                <izenburua>Walking In The Rain</izenburua>
+                <egilea>The Ronettes</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>267</id>
+                <izenburua>Personality Crisis</izenburua>
+                <egilea>New York Dolls</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>268</id>
+                <izenburua>Sunday Bloody Sunday</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>269</id>
+                <izenburua>Roadrunner</izenburua>
+                <egilea>The Modern Lovers</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>270</id>
+                <izenburua>He Stopped Loving Her Today</izenburua>
+                <egilea>George Jones</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>271</id>
+                <izenburua>Sloop John B</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>272</id>
+                <izenburua>Sweet Little Sixteen</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>273</id>
+                <izenburua>Something</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>274</id>
+                <izenburua>Somebody To Love</izenburua>
+                <egilea>Jefferson Airplane</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>275</id>
+                <izenburua>Born In The U.S.A.</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>276</id>
+                <izenburua>I�ll Take You There</izenburua>
+                <egilea>The Staple Singers</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>277</id>
+                <izenburua>Ziggy Stardust</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>278</id>
+                <izenburua>Pictures Of You</izenburua>
+                <egilea>The Cure</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>279</id>
+                <izenburua>Chapel Of Love</izenburua>
+                <egilea>The Dixie Cups</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>280</id>
+                <izenburua>Ain�t No Sunshine</izenburua>
+                <egilea>Bill Withers</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>281</id>
+                <izenburua>You Are The Sunshine Of My Life</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>282</id>
+                <izenburua>Help Me</izenburua>
+                <egilea>Joni Mitchell</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>283</id>
+                <izenburua>Call Me</izenburua>
+                <egilea>Blondie</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>284</id>
+                <izenburua>(What�s So Funny �Bout) Peace Love And Understanding?</izenburua>
+                <egilea>Elvis Costello And The Attractions</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>285</id>
+                <izenburua>Somoke Stack Lightning</izenburua>
+                <egilea>Howlin� Wolf</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>286</id>
+                <izenburua>Summer Babe</izenburua>
+                <egilea>Pavement</egilea>
+                <urtea>1992</urtea>
+        </kanta>
+        <kanta>
+                <id>287</id>
+                <izenburua>Walk This Way</izenburua>
+                <egilea>Run-DMC</egilea>
+                <urtea>1986</urtea>
+        </kanta>
+        <kanta>
+                <id>288</id>
+                <izenburua>Money (That�s What I Want)</izenburua>
+                <egilea>Barrett Strong</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>289</id>
+                <izenburua>Can�t Buy Me Love</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>290</id>
+                <izenburua>Stan</izenburua>
+                <egilea>Eminem featuring Dido</egilea>
+                <urtea>2000</urtea>
+        </kanta>
+        <kanta>
+                <id>291</id>
+                <izenburua>She�s Not There</izenburua>
+                <egilea>The Zombies</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>292</id>
+                <izenburua>Train In Vain</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>293</id>
+                <izenburua>Tired Of Being Alone</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>294</id>
+                <izenburua>Black Dog</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>295</id>
+                <izenburua>Street Fighting Man</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>296</id>
+                <izenburua>Get Up, Stand Up</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>297</id>
+                <izenburua>Heart Of Gold</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>298</id>
+                <izenburua>One Way Or Another</izenburua>
+                <egilea>Blondie</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>299</id>
+                <izenburua>Sign �O� The Times</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>300</id>
+                <izenburua>Like A Prayer</izenburua>
+                <egilea>Madonna</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>301</id>
+                <izenburua>Da Ya Think I�m Sexy?</izenburua>
+                <egilea>Rod Stewart</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>302</id>
+                <izenburua>Blue Eyes Crying In The Rain</izenburua>
+                <egilea>Willie Nelson</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>303</id>
+                <izenburua>Ruby Tuesday</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>304</id>
+                <izenburua>With A Little Help From My Friends</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>305</id>
+                <izenburua>Say It Loud � I�m Black And I�m Proud</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>306</id>
+                <izenburua>That�s Entertainment</izenburua>
+                <egilea>The Jam</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>307</id>
+                <izenburua>Why Do Fools Fall In Love</izenburua>
+                <egilea>Frankie Lymon And The Teenagers</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>308</id>
+                <izenburua>Lonely Teardrops</izenburua>
+                <egilea>Jackie Wilson</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>309</id>
+                <izenburua>What�s Love Got To Do With It</izenburua>
+                <egilea>Tina Turner</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>310</id>
+                <izenburua>Iron Man</izenburua>
+                <egilea>Black Sabbath</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>311</id>
+                <izenburua>Wake Up Little Susie</izenburua>
+                <egilea>The Everly Brothers</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>312</id>
+                <izenburua>In Dreams</izenburua>
+                <egilea>Roy Orbison</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>313</id>
+                <izenburua>I Put A Spell On You</izenburua>
+                <egilea>Screamin� Jay Hawkins</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>314</id>
+                <izenburua>Comfortably Numb</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>315</id>
+                <izenburua>Don�t Let Me Be Misunderstood</izenburua>
+                <egilea>The Animals</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>316</id>
+                <izenburua>Wish You Were Here</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>317</id>
+                <izenburua>Many Rivers To Cross</izenburua>
+                <egilea>Jimmy Cliff</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>318</id>
+                <izenburua>Alison</izenburua>
+                <egilea>Elvis Costello</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>319</id>
+                <izenburua>School�s Out</izenburua>
+                <egilea>Alice Cooper</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>320</id>
+                <izenburua>Heartbreaker</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>321</id>
+                <izenburua>Cortez The Killer</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>322</id>
+                <izenburua>Fight The Power</izenburua>
+                <egilea>Public Enemy</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>323</id>
+                <izenburua>Dancing Barefoot</izenburua>
+                <egilea>Patti Smith Group</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>324</id>
+                <izenburua>Baby Love</izenburua>
+                <egilea>The Supremes</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>325</id>
+                <izenburua>Good Lovin�</izenburua>
+                <egilea>The Young Rascals</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>326</id>
+                <izenburua>Get Up (I Fell Like Being A) Sex Machine</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>327</id>
+                <izenburua>For Your Precious Love</izenburua>
+                <egilea>Jerry Butler And The Impressions</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>328</id>
+                <izenburua>The End</izenburua>
+                <egilea>The Doors</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>329</id>
+                <izenburua>That�s The Way Of The World</izenburua>
+                <egilea>Earth, Wind And Fire</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>330</id>
+                <izenburua>We Will Rock You</izenburua>
+                <egilea>Queen</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>331</id>
+                <izenburua>I Can�t Make You Love Me</izenburua>
+                <egilea>Bonnie Raitt</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>332</id>
+                <izenburua>Subterranean Homesick Blues</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>333</id>
+                <izenburua>Spirit In The Sky</izenburua>
+                <egilea>Norman Greenbaum</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>334</id>
+                <izenburua>Wild Horses</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>335</id>
+                <izenburua>Sweet Jane</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>336</id>
+                <izenburua>Walk This Way</izenburua>
+                <egilea>Aerosmith</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>337</id>
+                <izenburua>Beat It</izenburua>
+                <egilea>Michael Jackson</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>338</id>
+                <izenburua>Maybe I�m Amazed</izenburua>
+                <egilea>Paul McCartney</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>339</id>
+                <izenburua>You Keep Me Hangin� On</izenburua>
+                <egilea>The Supremes</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>340</id>
+                <izenburua>Baba O�Riley</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>341</id>
+                <izenburua>The Harder They Come</izenburua>
+                <egilea>Jimmy Cliff</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>342</id>
+                <izenburua>Runaround Sue</izenburua>
+                <egilea>Dion</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>343</id>
+                <izenburua>Jim Dandy</izenburua>
+                <egilea>Le Vern Baker</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>344</id>
+                <izenburua>Piece Of My Heart</izenburua>
+                <egilea>Big Brother And The Holding Company</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>345</id>
+                <izenburua>La Bamba</izenburua>
+                <egilea>Ritchie Valens</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>346</id>
+                <izenburua>California Love</izenburua>
+                <egilea>Dr. Dre and 2Pac</egilea>
+                <urtea>1996</urtea>
+        </kanta>
+        <kanta>
+                <id>347</id>
+                <izenburua>Candle In The Wind</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>348</id>
+                <izenburua>That Lady (Partes 1 y 2)</izenburua>
+                <egilea>The Isley Brothers</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>349</id>
+                <izenburua>Spanish Harlem</izenburua>
+                <egilea>Ben E. King</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>350</id>
+                <izenburua>The Loco-Motion</izenburua>
+                <egilea>Little Eva</egilea>
+                <urtea>1962</urtea>
+        </kanta>
+        <kanta>
+                <id>351</id>
+                <izenburua>The Great Pretender</izenburua>
+                <egilea>The Platters</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>352</id>
+                <izenburua>All Shook Up</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>353</id>
+                <izenburua>Tears In Heaven</izenburua>
+                <egilea>Eric Clapton</egilea>
+                <urtea>1992</urtea>
+        </kanta>
+        <kanta>
+                <id>354</id>
+                <izenburua>Watching The Detectives</izenburua>
+                <egilea>Elvis Costello</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>355</id>
+                <izenburua>Bad Moon Rising</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>356</id>
+                <izenburua>Sweet Dreams</izenburua>
+                <egilea>Eurythmics</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>357</id>
+                <izenburua>Little Wing</izenburua>
+                <egilea>Jimi Hendrix</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>358</id>
+                <izenburua>Nowhere To Run</izenburua>
+                <egilea>Martha And The Vandellas</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>359</id>
+                <izenburua>Got My Mojo Working</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>360</id>
+                <izenburua>Killing Me Softly With His Song</izenburua>
+                <egilea>Roberta Flack</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>361</id>
+                <izenburua>Complete Control</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>362</id>
+                <izenburua>All You Need Is Love</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>363</id>
+                <izenburua>The Letter</izenburua>
+                <egilea>The Box Tops</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>364</id>
+                <izenburua>Highway 61 Revisited</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>365</id>
+                <izenburua>Unchained Melody</izenburua>
+                <egilea>The Righteous Brothers</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>366</id>
+                <izenburua>How Deep Is Your Love</izenburua>
+                <egilea>Bee Gees</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>367</id>
+                <izenburua>White Room</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>368</id>
+                <izenburua>Personal Jesus</izenburua>
+                <egilea>Depeche Mode</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>369</id>
+                <izenburua>I�m A Man</izenburua>
+                <egilea>Bo Diddley</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>370</id>
+                <izenburua>The Wind Cries Mary</izenburua>
+                <egilea>Jimi Hendrix</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>371</id>
+                <izenburua>I Can�t Explain</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>372</id>
+                <izenburua>Marquee Moon</izenburua>
+                <egilea>Television</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>373</id>
+                <izenburua>Wonderful World</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>374</id>
+                <izenburua>Brown Eyed Handsome Man</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>375</id>
+                <izenburua>Another Brick In The Wall Parte 2</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>376</id>
+                <izenburua>Fake Plastic Trees</izenburua>
+                <egilea>Radiohead</egilea>
+                <urtea>1995</urtea>
+        </kanta>
+        <kanta>
+                <id>377</id>
+                <izenburua>Hit The Road Jack</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>378</id>
+                <izenburua>Pride (In The Name Of Love)</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>379</id>
+                <izenburua>Radio Free Europe</izenburua>
+                <egilea>R.E.M</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>380</id>
+                <izenburua>Goodbye Yellow Brick Road</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>381</id>
+                <izenburua>Tell It Like It Is</izenburua>
+                <egilea>Aaron Neville</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>382</id>
+                <izenburua>Bitter Sweet Symphony</izenburua>
+                <egilea>The Verve</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>383</id>
+                <izenburua>Whipping Post</izenburua>
+                <egilea>The Allman Brothers</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>384</id>
+                <izenburua>Ticket To Ride</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>385</id>
+                <izenburua>Ohio</izenburua>
+                <egilea>Crosby, Still, Nash And Young</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>386</id>
+                <izenburua>I Know You Got Soul</izenburua>
+                <egilea>Eric B. And Rakim</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>387</id>
+                <izenburua>Tiny Dancer</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>388</id>
+                <izenburua>Roxanne</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>389</id>
+                <izenburua>Just My Imagination</izenburua>
+                <egilea>The Temptations</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>390</id>
+                <izenburua>Baby I Need Your Loving</izenburua>
+                <egilea>The Four Tops</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>391</id>
+                <izenburua>Band Of Gold</izenburua>
+                <egilea>Freda Payne</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>392</id>
+                <izenburua>O-o-h Child</izenburua>
+                <egilea>The Five Stairsteps</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>393</id>
+                <izenburua>Summer In The City</izenburua>
+                <egilea>The Lovin� Spoonful</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>394</id>
+                <izenburua>Can�t Help Falling In Love</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>395</id>
+                <izenburua>Remember (Walkin� In The Sand)</izenburua>
+                <egilea>The Shangri-Las</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>396</id>
+                <izenburua>Thirteen</izenburua>
+                <egilea>Big Star</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>397</id>
+                <izenburua>(Don�t Fear) The Reaper</izenburua>
+                <egilea>Blue �yster Club</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>398</id>
+                <izenburua>Sweet Home Alabama</izenburua>
+                <egilea>Lynyrd Skynyrd</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>399</id>
+                <izenburua>Enter Sandman</izenburua>
+                <egilea>Metallica</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>400</id>
+                <izenburua>Kicks</izenburua>
+                <egilea>Paul Revere And The Raiders</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>401</id>
+                <izenburua>Tonight�s The Night</izenburua>
+                <egilea>The Shirelles</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>402</id>
+                <izenburua>Thank You (Falettinme Be Mice Elf Agin)</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>403</id>
+                <izenburua>C�mon Everybody</izenburua>
+                <egilea>Eddie Cochran</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>404</id>
+                <izenburua>Visions Of Johana</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>405</id>
+                <izenburua>We �ve Only Just Begun</izenburua>
+                <egilea>The Carpenter</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>406</id>
+                <izenburua>I Believe I Can Fly</izenburua>
+                <egilea>R. Kelly</egilea>
+                <urtea>1996</urtea>
+        </kanta>
+        <kanta>
+                <id>407</id>
+                <izenburua>In Bloom</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>408</id>
+                <izenburua>Sweet Emotion</izenburua>
+                <egilea>Aerosmith</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>409</id>
+                <izenburua>Crossroads</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>410</id>
+                <izenburua>Monkey Gone To Heaven</izenburua>
+                <egilea>Pixies</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>411</id>
+                <izenburua>I Feel In Love</izenburua>
+                <egilea>Donna Summer</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>412</id>
+                <izenburua>Ode To Billie Joe</izenburua>
+                <egilea>Bobbie Gentry</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>413</id>
+                <izenburua>The Girl Can�t Help It</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>414</id>
+                <izenburua>Young Blood</izenburua>
+                <egilea>The Coasters</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>415</id>
+                <izenburua>I Can�t Help Myself</izenburua>
+                <egilea>The Four Tops</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>416</id>
+                <izenburua>The Boys Of Summer</izenburua>
+                <egilea>Don Henley</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>417</id>
+                <izenburua>Fuck The Police</izenburua>
+                <egilea>N.W.A</egilea>
+                <urtea>1989</urtea>
+        </kanta>
+        <kanta>
+                <id>418</id>
+                <izenburua>Suite: Judy Blue Eyes</izenburua>
+                <egilea>Crosby, Still And Nash</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>419</id>
+                <izenburua>Nuthin� But A �G� Thang</izenburua>
+                <egilea>Dr. Dre</egilea>
+                <urtea>1993</urtea>
+        </kanta>
+        <kanta>
+                <id>420</id>
+                <izenburua>It�s Your Thing</izenburua>
+                <egilea>The Isley Brothers</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>421</id>
+                <izenburua>Piano Man</izenburua>
+                <egilea>Billy Joel</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>422</id>
+                <izenburua>Lola</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>423</id>
+                <izenburua>Blue Suede Shoes</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>424</id>
+                <izenburua>Tumbling Dice</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1972</urtea>
+        </kanta>
+        <kanta>
+                <id>425</id>
+                <izenburua>William, It Was Really Nothing</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>426</id>
+                <izenburua>Smoke On The Water</izenburua>
+                <egilea>Deep Purple</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>427</id>
+                <izenburua>New Year�s Day</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1983</urtea>
+        </kanta>
+        <kanta>
+                <id>428</id>
+                <izenburua>Devil With A Blue Dress On/Good Golly Miss Molly</izenburua>
+                <egilea>Mitch Ryder And The Detroit Wheels</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>429</id>
+                <izenburua>Everybody Needs Somebody To Love</izenburua>
+                <egilea>Solomon Burke</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>430</id>
+                <izenburua>White Man In Hammersmith Palais</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1979</urtea>
+        </kanta>
+        <kanta>
+                <id>431</id>
+                <izenburua>Ain�t It A Shame</izenburua>
+                <egilea>Fats Domino</egilea>
+                <urtea>1955</urtea>
+        </kanta>
+        <kanta>
+                <id>432</id>
+                <izenburua>Midnight Train To Georgia</izenburua>
+                <egilea>Gladys Knight &amp; The Pips</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>433</id>
+                <izenburua>Ramble On</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>434</id>
+                <izenburua>Mustang Sally</izenburua>
+                <egilea>Wilson Pickett</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>435</id>
+                <izenburua>Beast Of Burden</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>436</id>
+                <izenburua>Alone Again Or</izenburua>
+                <egilea>Love</egilea>
+                <urtea>1968</urtea>
+        </kanta>
+        <kanta>
+                <id>437</id>
+                <izenburua>Love Me Tender</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+        </kanta>
+        <kanta>
+                <id>438</id>
+                <izenburua>I Wanna Be Your Dog</izenburua>
+                <egilea>The Stooges</egilea>
+                <urtea>1969</urtea>
+        </kanta>
+        <kanta>
+                <id>439</id>
+                <izenburua>Pink Houses</izenburua>
+                <egilea>John Cougar Mellencamp</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>440</id>
+                <izenburua>Push It</izenburua>
+                <egilea>Salt-N-Pepa</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>441</id>
+                <izenburua>Come Go With Me</izenburua>
+                <egilea>The Dell-Vikings</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>442</id>
+                <izenburua>Keep A Knockin�</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1957</urtea>
+        </kanta>
+        <kanta>
+                <id>443</id>
+                <izenburua>I Shot The Sheriff</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>444</id>
+                <izenburua>I Got You Babe</izenburua>
+                <egilea>Sonny And Cher</egilea>
+                <urtea>1965</urtea>
+        </kanta>
+        <kanta>
+                <id>445</id>
+                <izenburua>Come As You Are</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1991</urtea>
+        </kanta>
+        <kanta>
+                <id>446</id>
+                <izenburua>Preasure Drop</izenburua>
+                <egilea>Toot And The Maytals</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>447</id>
+                <izenburua>Leader Of The Pack</izenburua>
+                <egilea>The Shangri-Las</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>448</id>
+                <izenburua>Heroin</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>449</id>
+                <izenburua>Penny Lane</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>450</id>
+                <izenburua>By The Time I Get To Phoenix</izenburua>
+                <egilea>Glem Campbell</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>451</id>
+                <izenburua>The Twist</izenburua>
+                <egilea>Chubby Checker</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>452</id>
+                <izenburua>Cupid</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>453</id>
+                <izenburua>Paradise City</izenburua>
+                <egilea>Guns N� Roses</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>454</id>
+                <izenburua>My Sweet Lord</izenburua>
+                <egilea>George Harrison</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>455</id>
+                <izenburua>All Apologies</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1993</urtea>
+        </kanta>
+        <kanta>
+                <id>456</id>
+                <izenburua>Stagger Lee</izenburua>
+                <egilea>Lyoyd Price</egilea>
+                <urtea>1958</urtea>
+        </kanta>
+        <kanta>
+                <id>457</id>
+                <izenburua>Sheena Is A Punk Rocker</izenburua>
+                <egilea>Ramones</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>458</id>
+                <izenburua>Soul Man</izenburua>
+                <egilea>Sam y David</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>459</id>
+                <izenburua>Rollin� Stone</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1948</urtea>
+        </kanta>
+        <kanta>
+                <id>460</id>
+                <izenburua>One Fine Day</izenburua>
+                <egilea>The Chiffons</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>461</id>
+                <izenburua>Kiss</izenburua>
+                <egilea>Prince And The Revolution</egilea>
+                <urtea>1986</urtea>
+        </kanta>
+        <kanta>
+                <id>462</id>
+                <izenburua>Respect Yourself</izenburua>
+                <egilea>The Staple Singers</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>463</id>
+                <izenburua>Rain</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>464</id>
+                <izenburua>Standing In The Shadows Of Love</izenburua>
+                <egilea>The Four Tops</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>465</id>
+                <izenburua>Surrender</izenburua>
+                <egilea>Cheap Trick</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>466</id>
+                <izenburua>Runaway</izenburua>
+                <egilea>Del Shannon</egilea>
+                <urtea>1961</urtea>
+        </kanta>
+        <kanta>
+                <id>467</id>
+                <izenburua>Wellcome To The Jungle</izenburua>
+                <egilea>Guns N� Roses</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>468</id>
+                <izenburua>Search And Destroy</izenburua>
+                <egilea>The Stooges</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>469</id>
+                <izenburua>It�s Too Late</izenburua>
+                <egilea>Carole King</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>470</id>
+                <izenburua>Free Man In Paris</izenburua>
+                <egilea>Joni Mitchell</egilea>
+                <urtea>1974</urtea>
+        </kanta>
+        <kanta>
+                <id>471</id>
+                <izenburua>On The Road Again</izenburua>
+                <egilea>Willie Nelson</egilea>
+                <urtea>1980</urtea>
+        </kanta>
+        <kanta>
+                <id>472</id>
+                <izenburua>Where Did Our Love Go</izenburua>
+                <egilea>The Supremes</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>473</id>
+                <izenburua>Do Right Woman-Do Right Man</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>474</id>
+                <izenburua>One Nation Under A Groove � Parte 1</izenburua>
+                <egilea>Funkadelic</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>475</id>
+                <izenburua>Sabotage</izenburua>
+                <egilea>Beastie Boys</egilea>
+                <urtea>1994</urtea>
+        </kanta>
+        <kanta>
+                <id>476</id>
+                <izenburua>I Want To Know What Love Is</izenburua>
+                <egilea>Foreigner</egilea>
+                <urtea>1984</urtea>
+        </kanta>
+        <kanta>
+                <id>477</id>
+                <izenburua>Super Freak</izenburua>
+                <egilea>Rick James</egilea>
+                <urtea>1981</urtea>
+        </kanta>
+        <kanta>
+                <id>478</id>
+                <izenburua>White Rabbit</izenburua>
+                <egilea>Jefferson Airplane</egilea>
+                <urtea>1967</urtea>
+        </kanta>
+        <kanta>
+                <id>479</id>
+                <izenburua>Lady Marmalade</izenburua>
+                <egilea>LaBelle</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>480</id>
+                <izenburua>Into The Mystic</izenburua>
+                <egilea>Van Morrison</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>481</id>
+                <izenburua>Young Americans</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>482</id>
+                <izenburua>I�m Eighteen</izenburua>
+                <egilea>Alice Cooper</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>483</id>
+                <izenburua>Just Like Heaven</izenburua>
+                <egilea>The Cure</egilea>
+                <urtea>1987</urtea>
+        </kanta>
+        <kanta>
+                <id>484</id>
+                <izenburua>I Love Rock �N Roll</izenburua>
+                <egilea>Joan Jett And The Blackhearts</egilea>
+                <urtea>1982</urtea>
+        </kanta>
+        <kanta>
+                <id>485</id>
+                <izenburua>Graceland</izenburua>
+                <egilea>Paul Simon</egilea>
+                <urtea>1986</urtea>
+        </kanta>
+        <kanta>
+                <id>486</id>
+                <izenburua>How Soon Is Now?</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1985</urtea>
+        </kanta>
+        <kanta>
+                <id>487</id>
+                <izenburua>Under The Boardwalk</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1964</urtea>
+        </kanta>
+        <kanta>
+                <id>488</id>
+                <izenburua>Rhiannon (Will You Ever Win)</izenburua>
+                <egilea>Fleetwood Mac</egilea>
+                <urtea>1975</urtea>
+        </kanta>
+        <kanta>
+                <id>489</id>
+                <izenburua>I Will Survive</izenburua>
+                <egilea>Gloria Gaynor</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>490</id>
+                <izenburua>Brown Sugar</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1971</urtea>
+        </kanta>
+        <kanta>
+                <id>491</id>
+                <izenburua>You Don�t Have To Say You Love Me</izenburua>
+                <egilea>Dusty Springfield</egilea>
+                <urtea>1966</urtea>
+        </kanta>
+        <kanta>
+                <id>492</id>
+                <izenburua>Running On Empty</izenburua>
+                <egilea>Jackson Browne</egilea>
+                <urtea>1977</urtea>
+        </kanta>
+        <kanta>
+                <id>493</id>
+                <izenburua>Then He Kissed Me</izenburua>
+                <egilea>The Crystals</egilea>
+                <urtea>1963</urtea>
+        </kanta>
+        <kanta>
+                <id>494</id>
+                <izenburua>Desperado</izenburua>
+                <egilea>The Eagles</egilea>
+                <urtea>1973</urtea>
+        </kanta>
+        <kanta>
+                <id>495</id>
+                <izenburua>Shop Around</izenburua>
+                <egilea>Smokey Robinson</egilea>
+                <urtea>1960</urtea>
+        </kanta>
+        <kanta>
+                <id>496</id>
+                <izenburua>Miss You</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1978</urtea>
+        </kanta>
+        <kanta>
+                <id>497</id>
+                <izenburua>Buddy Holly</izenburua>
+                <egilea>Weezer</egilea>
+                <urtea>1994</urtea>
+        </kanta>
+        <kanta>
+                <id>498</id>
+                <izenburua>Rainy Night In Georgia</izenburua>
+                <egilea>Brook Benton</egilea>
+                <urtea>1970</urtea>
+        </kanta>
+        <kanta>
+                <id>499</id>
+                <izenburua>The Boys Are Back In Town</izenburua>
+                <egilea>Thin Lizzy</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+        <kanta>
+                <id>500</id>
+                <izenburua>More Than A Feeling</izenburua>
+                <egilea>Boston</egilea>
+                <urtea>1976</urtea>
+        </kanta>
+</kantak>
