@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.sql.*;
-import java.awt.*;
+import java.awt.event.*;
 
 public class Leihoa extends JFrame{
 
@@ -24,7 +24,7 @@ public class Leihoa extends JFrame{
     private JPanel p;
     private Connection konexioa;
     private Statement kontsulta;
-    private ResultSet erregristroak;
+    private ResultSet erregistroak;
     private String url;
     private String erabiltzailea;
     private String pasahitza;
@@ -33,9 +33,10 @@ public class Leihoa extends JFrame{
 
     public Leihoa() {
         
+        
+        setTitle("Mikroprozesadoreak!");
+        
         setBounds(0, 0, 490,460);
-
-        setTitle("mikroprozesadoreak!");
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -67,11 +68,12 @@ public class Leihoa extends JFrame{
         bHurrengoa = new JButton("Hurrengoa");
 
         bAurrekoa.addActionListener(new ActionListener() {
-            public void actionPerformed (ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 klikAurrekoa();
             }
         });
-        bHurrengoa.addActionListener(new ActionListener(){
+
+        bHurrengoa.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 klikHurrengoa();
             }
@@ -102,41 +104,41 @@ public class Leihoa extends JFrame{
 
         p.setLayout(null);
         lMezua.setBounds (30,20,500,25);
-        lKodea.setBounds (30,65, l00,25);
-        lEkoizlea.setBounds (30,l00,l00,25);
-        lModeloa.setBounds (30,l35,l00,25);
-        lSocketa.setBounds (30,l70,l00,25);
-        lFrekuentzia.setBounds (30,205,l00,25);
-        lPrezioa.setBounds (30,240,l00,25);
-        lDeskontua.setBounds (30,275,l00,25);
-        tKodea.setBounds(l20,65,200,25);
-        tEkoizlea.setBounds(l20,l00,200,25);
-        tModeloa.setBounds(l20,l35,200,25);
-        tSocketa.setBounds(l20,l70,200,25);
-        tFrekuentzia.setBounds(l20,205,200,25);
-        tPrezioa.setBounds(l20,240,200,25);
-        tDeskontua.setBounds(l20,275,200,25);
-        bAurrekoa.setBounds(340,65,ll0,25);
-        bHurrengoa.setBounds (340,l00,ll0,25);
+        lKodea.setBounds (30,65, 100,25);
+        lEkoizlea.setBounds (30,100, 100, 25);
+        lModeloa.setBounds (30, 135, 100, 25);
+        lSocketa.setBounds (30, 170, 100, 25);
+        lFrekuentzia.setBounds (30,205, 100, 25);
+        lPrezioa.setBounds (30,240, 100, 25);
+        lDeskontua.setBounds (30,275, 100,25);
+        tKodea.setBounds(120, 65,200,25);
+        tEkoizlea.setBounds(120,100,200,25);
+        tModeloa.setBounds(120,135,200,25);
+        tSocketa.setBounds(120, 170,200,25);
+        tFrekuentzia.setBounds(120,205,200,25);
+        tPrezioa.setBounds(120,240,200,25);
+        tDeskontua.setBounds(120,275,200,25);
+        bAurrekoa.setBounds(340,65, 110,25);
+        bHurrengoa.setBounds (340, 100,110,25);
 
         getContentPane().add(p);
 
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
+            Class.forName("com.mysql.jdbc.Driver");
             url = "jdbc:mysql://localhost:3306/osagaiak";
             erabiltzailea = "root";
-            pasahitza = "programazioa";
+            pasahitza = "1230";
             konexioa = DriverManager.getConnection(url,erabiltzailea,pasahitza);
         } catch (ClassNotFoundException e) {
             lMezua.setText("Salbuespena: " + e.getMessage());
         }
-        catch(InstantiationException e){
-            lMezua.setText("Salbuespena: " + e.getMessage());
-        }
-        catch(IllegalAccessException e)
-        {
-            lMezua.setText("Salbuespena: " + e.getMessage());
-        }
+        // catch(InstantiationException e){
+        //     lMezua.setText("Salbuespena: " + e.getMessage());
+        // }
+        // catch(IllegalAccessException e)
+        // {
+        //     lMezua.setText("Salbuespena: " + e.getMessage());
+        // }
         catch(SQLException e){
             lMezua.setText("Salbuespena: " + e.getMessage());
         }
@@ -146,10 +148,23 @@ public class Leihoa extends JFrame{
             try {
                 sql = "select * from mikroprozesadoreak";
                 kontsulta = konexioa.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-                erregristroak = kontsulta.executeQuery(sql);
+                erregistroak = kontsulta.executeQuery(sql);
 
-                if(erregristroak.next()){
+                if(erregistroak.next()){
+                    tKodea.setText(erregistroak.getString("kodea"));
+                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tModeloa.setText (erregistroak.getString("modeloa"));
+                    tSocketa.setText (erregistroak.getString("socketa"));
+                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                    tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
 
+                    bAurrekoa.setEnabled(false);
+
+                    if (erregistroak.isLast())
+                    {
+                        bHurrengoa.setEnabled(false);
+                    }
                 }
                 else{
                     lMezua.setText("Oharra: ez dago konexiorik datu-basearkin");
@@ -163,18 +178,18 @@ public class Leihoa extends JFrame{
         }
     }
     private void klikAurrekoa(){
-        if(erregristroak != null)
+        if(erregistroak != null)
         {
             try {
-                if(erregristroak.previous()){
-                    tKodea.setText(erregristroak.getString("kodea"));
-                    tEkoizlea.setText(erregristroak.getString("ekoizlea"));
-                    tModeloa.setText(erregristroak.getString("modeloa"));
-                    tSocketa.setText(erregristroak.getString("socketa"));
-                    tFrekuentzia.setText(String.valueOf(erregristroak.getDouble("frekuentzia")));
-                    tPrezioa.setText(String.valueOf(erregristroak.getDouble("prezioa")));
-                    tDeskontua.setText(String.valueOf(erregristroak.getDouble("deskontua")));
-                    if(erregristroak.isFirst()){
+                if(erregistroak.previous()){
+                    tKodea.setText(erregistroak.getString("kodea"));
+                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tModeloa.setText(erregistroak.getString("modeloa"));
+                    tSocketa.setText(erregistroak.getString("socketa"));
+                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                    tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
+                    if(erregistroak.isFirst()){
                         bAurrekoa.setEnabled(false);
                     }
                     bHurrengoa.setEnabled(true);
@@ -186,18 +201,18 @@ public class Leihoa extends JFrame{
     }
 
     private void klikHurrengoa(){
-        if(erregristroak != null)
+        if(erregistroak != null)
         {
             try {
-                if(erregristroak.previous()){
-                    tKodea.setText(erregristroak.getString("kodea"));
-                    tEkoizlea.setText(erregristroak.getString("ekoizlea"));
-                    tModeloa.setText(erregristroak.getString("modeloa"));
-                    tSocketa.setText(erregristroak.getString("socketa"));
-                    tFrekuentzia.setText(String.valueOf(erregristroak.getDouble("frekuentzia")));
-                    tPrezioa.setText(String.valueOf(erregristroak.getDouble("prezioa")));
-                    tDeskontua.setText(String.valueOf(erregristroak.getDouble("deskontua")));
-                    if(erregristroak.isFirst()){
+                if(erregistroak.previous()){
+                    tKodea.setText(erregistroak.getString("kodea"));
+                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tModeloa.setText(erregistroak.getString("modeloa"));
+                    tSocketa.setText(erregistroak.getString("socketa"));
+                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                    tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
+                    if(erregistroak.isFirst()){
                         bAurrekoa.setEnabled(false);
                     }
                     bHurrengoa.setEnabled(true);

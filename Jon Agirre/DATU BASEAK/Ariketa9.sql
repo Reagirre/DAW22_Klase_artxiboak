@@ -17,3 +17,26 @@ AND bajak.alta IS NULL and bajak.lan_zk in (select langile.lan_zk
 FROM langile, bajak
 WHERE langile.lan_zk = bajak.lan_zk and bajak.alta is not null);
 
+
+SELECT 
+    langile.*
+FROM
+    langile,
+    bajak
+WHERE
+    langile.lan_zk = bajak.lan_zk
+        AND osagilea != 'Jon Egia'
+        AND langile.lan_zk NOT IN (SELECT 
+            bajak.lan_zk
+        FROM
+            bajak
+        WHERE
+            osagilea = 'Jon Egia');
+
+
+SELECT 
+    langile.dept_zk,
+    concat(sum(langile.soldata), '€') soldata,
+    concat(sum(langile.komisioa), '€') komisioa
+FROM
+    langile;
