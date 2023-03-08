@@ -433,6 +433,7 @@ public class ObjetuenArrayListBat
                                 }
                                 
                                 mikroprozesadorea.setSocketa(socketa);
+                                break;
                             }
                             catch(IllegalArgumentException e)
                             {
