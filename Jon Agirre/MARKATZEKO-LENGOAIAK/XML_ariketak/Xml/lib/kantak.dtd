@@ -1,0 +1,6 @@
+<!ELEMENT kantak (kanta+)>
+<!ELEMENT kanta (id, izenburua,egilea,urtea)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT izenburua (#PCDATA)>
+<!ELEMENT egilea (#PCDATA)>
+<!ELEMENT urtea (#PCDATA)>
