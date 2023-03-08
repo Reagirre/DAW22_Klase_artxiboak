@@ -60,3 +60,18 @@ where notak.ikasle_izena like 'Alcalde %';
 update notak 
 set nota2 = nota2 - 2
 where notak.ikasle_izena like '% Txurruka, %';
+
+update notak
+set nota1 = nota1 + 1, nota2 = nota2 + 1
+where notak.ikasle_izena like 'Agirre %' or notak.ikasle_izena like '% Agirre, %';
+
+update notak 
+set nota1 = nota1 + 1
+where notak.nota1 < (SELECT 
+    AVG(nota1)
+FROM
+    notak);
+
+
+
+

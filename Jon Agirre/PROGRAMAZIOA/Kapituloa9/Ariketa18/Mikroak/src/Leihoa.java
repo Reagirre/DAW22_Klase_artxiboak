@@ -124,7 +124,7 @@ public class Leihoa extends JFrame{
         getContentPane().add(p);
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             url = "jdbc:mysql://localhost:3306/osagaiak";
             erabiltzailea = "root";
             pasahitza = "1230";
@@ -132,13 +132,13 @@ public class Leihoa extends JFrame{
         } catch (ClassNotFoundException e) {
             lMezua.setText("Salbuespena: " + e.getMessage());
         }
-        // catch(InstantiationException e){
-        //     lMezua.setText("Salbuespena: " + e.getMessage());
-        // }
-        // catch(IllegalAccessException e)
-        // {
-        //     lMezua.setText("Salbuespena: " + e.getMessage());
-        // }
+        catch(InstantiationException e){
+            lMezua.setText("Salbuespena: " + e.getMessage());
+        }
+        catch(IllegalAccessException e)
+        {
+            lMezua.setText("Salbuespena: " + e.getMessage());
+        }
         catch(SQLException e){
             lMezua.setText("Salbuespena: " + e.getMessage());
         }
@@ -204,7 +204,7 @@ public class Leihoa extends JFrame{
         if(erregistroak != null)
         {
             try {
-                if(erregistroak.previous()){
+                if(erregistroak.next()){
                     tKodea.setText(erregistroak.getString("kodea"));
                     tEkoizlea.setText(erregistroak.getString("ekoizlea"));
                     tModeloa.setText(erregistroak.getString("modeloa"));
@@ -212,10 +212,12 @@ public class Leihoa extends JFrame{
                     tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
                     tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                     tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
-                    if(erregistroak.isFirst()){
-                        bAurrekoa.setEnabled(false);
+
+                    bAurrekoa.setEnabled(true);
+
+                    if(erregistroak.isLast()){
+                        bHurrengoa.setEnabled(false);
                     }
-                    bHurrengoa.setEnabled(true);
                 }
             } catch (SQLException e) {
                 lMezua.setText("Salbuespena: " + e.getMessage());
