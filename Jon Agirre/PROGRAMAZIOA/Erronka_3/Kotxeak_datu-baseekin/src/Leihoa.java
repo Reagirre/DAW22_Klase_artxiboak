@@ -5,18 +5,18 @@ import java.awt.event.*;
 public class Leihoa extends JFrame{
 
     private JLabel lKodea;
-    private JLabel lEkoizlea;
+    private JLabel lFabrikatzailea;
     private JLabel lModeloa;
-    private JLabel lSocketa;
-    private JLabel lFrekuentzia;
+    private JLabel lKolorea;
+    private JLabel lZaldiak;
     private JLabel lPrezioa;
     private JLabel lDeskontua;
     private JLabel lMezua;
     private JTextField tKodea;
-    private JTextField tEkoizlea;
+    private JTextField tFabrikatzailea;
     private JTextField tModeloa;
-    private JTextField tSocketa;
-    private JTextField tFrekuentzia;
+    private JTextField tKolorea;
+    private JTextField tZaldiak;
     private JTextField tPrezioa;
     private JTextField tDeskontua;
     private JButton bAurrekoa;
@@ -41,24 +41,24 @@ public class Leihoa extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         lKodea = new JLabel("Kodea");
-        lEkoizlea = new JLabel("Ekoizlea");
+        lFabrikatzailea = new JLabel("Fabrikatzailea");
         lModeloa = new JLabel("Modeloa");
-        lSocketa = new JLabel("Socketa");
-        lFrekuentzia = new JLabel("Frekuentzia");
+        lKolorea = new JLabel("Kolorea");
+        lZaldiak = new JLabel("Zaldiak");
         lPrezioa = new JLabel("Prezioa");
         lDeskontua = new JLabel("Deskontua");
         lMezua = new JLabel();
 
         tKodea = new JTextField();
         tKodea.setEditable(false);
-        tEkoizlea = new JTextField();
-        tEkoizlea.setEditable(false);
+        tFabrikatzailea = new JTextField();
+        tFabrikatzailea.setEditable(false);
         tModeloa = new JTextField();
         tModeloa.setEditable(false);
-        tSocketa = new JTextField();
-        tSocketa.setEditable(false);
-        tFrekuentzia = new JTextField();
-        tFrekuentzia.setEditable(false);
+        tKolorea = new JTextField();
+        tKolorea.setEditable(false);
+        tZaldiak = new JTextField();
+        tZaldiak.setEditable(false);
         tPrezioa = new JTextField();
         tPrezioa.setEditable(false);
         tDeskontua= new JTextField();
@@ -83,19 +83,19 @@ public class Leihoa extends JFrame{
 
         // etiketak bitarteko kontenedorean gehitu
         p.add(lKodea);
-        p.add(lEkoizlea);
+        p.add(lFabrikatzailea);
         p.add(lModeloa);
-        p.add(lSocketa);
-        p.add(lFrekuentzia);
+        p.add(lKolorea);
+        p.add(lZaldiak);
         p.add(lPrezioa);
         p.add(lDeskontua);
         p.add(lMezua);
         // testu-koadroak ere gehitu
         p.add(tKodea);
-        p.add(tEkoizlea);
+        p.add(tFabrikatzailea);
         p.add(tModeloa);
-        p.add(tSocketa);
-        p.add(tFrekuentzia);
+        p.add(tKolorea);
+        p.add(tZaldiak);
         p.add(tPrezioa);
         p.add(tDeskontua);
         // eta botoiak
@@ -105,17 +105,17 @@ public class Leihoa extends JFrame{
         p.setLayout(null);
         lMezua.setBounds (30,20,500,25);
         lKodea.setBounds (30,65, 100,25);
-        lEkoizlea.setBounds (30,100, 100, 25);
+        lFabrikatzailea.setBounds (30,100, 100, 25);
         lModeloa.setBounds (30, 135, 100, 25);
-        lSocketa.setBounds (30, 170, 100, 25);
-        lFrekuentzia.setBounds (30,205, 100, 25);
+        lKolorea.setBounds (30, 170, 100, 25);
+        lZaldiak.setBounds (30,205, 100, 25);
         lPrezioa.setBounds (30,240, 100, 25);
         lDeskontua.setBounds (30,275, 100,25);
         tKodea.setBounds(120, 65,200,25);
-        tEkoizlea.setBounds(120,100,200,25);
+        tFabrikatzailea.setBounds(120,100,200,25);
         tModeloa.setBounds(120,135,200,25);
-        tSocketa.setBounds(120, 170,200,25);
-        tFrekuentzia.setBounds(120,205,200,25);
+        tKolorea.setBounds(120, 170,200,25);
+        tZaldiak.setBounds(120,205,200,25);
         tPrezioa.setBounds(120,240,200,25);
         tDeskontua.setBounds(120,275,200,25);
         bAurrekoa.setBounds(340,65, 110,25);
@@ -152,10 +152,10 @@ public class Leihoa extends JFrame{
 
                 if(erregistroak.next()){
                     tKodea.setText(erregistroak.getString("kodea"));
-                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
                     tModeloa.setText (erregistroak.getString("modeloa"));
-                    tSocketa.setText (erregistroak.getString("socketa"));
-                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tKolorea.setText (erregistroak.getString("kolorea"));
+                    tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
                     tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                     tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
 
@@ -183,10 +183,10 @@ public class Leihoa extends JFrame{
             try {
                 if(erregistroak.previous()){
                     tKodea.setText(erregistroak.getString("kodea"));
-                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
                     tModeloa.setText(erregistroak.getString("modeloa"));
-                    tSocketa.setText(erregistroak.getString("socketa"));
-                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tKolorea.setText(erregistroak.getString("kolorea"));
+                    tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
                     tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                     tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
                     if(erregistroak.isFirst()){
@@ -206,10 +206,10 @@ public class Leihoa extends JFrame{
             try {
                 if(erregistroak.next()){
                     tKodea.setText(erregistroak.getString("kodea"));
-                    tEkoizlea.setText(erregistroak.getString("ekoizlea"));
+                    tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
                     tModeloa.setText(erregistroak.getString("modeloa"));
-                    tSocketa.setText(erregistroak.getString("socketa"));
-                    tFrekuentzia.setText(String.valueOf(erregistroak.getDouble("frekuentzia")));
+                    tKolorea.setText(erregistroak.getString("kolorea"));
+                    tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
                     tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                     tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
 
