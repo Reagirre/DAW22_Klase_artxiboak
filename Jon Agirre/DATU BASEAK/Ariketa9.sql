@@ -1,3 +1,33 @@
+create database erronka;
+
+use erronka;
+
+create table kotxeak(
+	kodea char(3) primary key not null,
+    fabrikatzailea varchar(10),
+    modeloa varchar(30),
+    kolorea varchar(15),
+    zaldiak double,
+    prezioa double,
+    deskontua int
+);
+
+insert into kotxeak values('1','Ford','Focus RS','Urdina',180,30000,4);
+insert into kotxeak values('2','Seat','Leon TDI','Gorria',230,40000,4);
+insert into kotxeak values('3','Citroen','Picasso','Gris',130,32000,4);
+
+
+
+insert into ikastaro values(7566, 11, 'JavaScript', '2021-03-04', '2021-03-18', 25, 250);
+insert into ikastaro values(7782, 12, 'JavaScript', '2021-03-04', '2021-03-18', 25, 250);
+insert into ikastaro values(7902, 13, 'Microsoft Teams', '2021-03-22', '2021-03-26', 30, 310);
+insert into ikastaro values(7844, 14, 'Sormen tailerra I', '2021-03-23', '2021-03-23', 8, 100);
+insert into ikastaro values(7844, 15, 'Sormen tailerra II', '2021-04-13', '2021-04-14', 10, 130);
+insert into ikastaro values(7839, 16, 'Excel 365', '2021-03-24', '2021-04-24', 50, 380);
+insert into ikastaro values(7839, 17, 'Excel 365', '2021-02-24', '2021-04-24', 50, 380);
+
+
+
 create database ariketa9;
 
 use oracleariketa2;

@@ -34,7 +34,7 @@ public class Leihoa extends JFrame{
     public Leihoa() {
         
         
-        setTitle("Mikroprozesadoreak!");
+        setTitle("Kotxeak!");
         
         setBounds(0, 0, 490,460);
 
@@ -125,7 +125,7 @@ public class Leihoa extends JFrame{
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-            url = "jdbc:mysql://localhost:3306/osagaiak";
+            url = "jdbc:mysql://localhost:3306/erronka";
             erabiltzailea = "root";
             pasahitza = "1230";
             konexioa = DriverManager.getConnection(url,erabiltzailea,pasahitza);
@@ -146,7 +146,7 @@ public class Leihoa extends JFrame{
         if(konexioa != null)
         {
             try {
-                sql = "select * from mikroprozesadoreak";
+                sql = "select * from kotxeak";
                 kontsulta = konexioa.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
                 erregistroak = kontsulta.executeQuery(sql);
 
