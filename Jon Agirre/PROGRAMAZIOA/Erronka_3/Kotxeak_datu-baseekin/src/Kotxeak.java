@@ -281,8 +281,6 @@ public class Kotxeak
                     {  
                         try
                         {
-                            System.out.print("Kodea: ");
-                            datua = sarrera.nextLine();
                             
                             if(!datua.equals(""))
                             {

@@ -118,7 +118,7 @@ public class Kotxea implements Comparable <Kotxea>
             System.out.println("Código: " + kodea);
             System.out.println("Fabricante: " + fabrikatzailea);
             System.out.println("Modelo: " + modeloa);
-            System.out.println("Kolorea: " + kolorea);
+            System.out.println("Color: " + kolorea);
             System.out.println("Caballos: " + zaldiak);
             System.out.println("Precio: " + prezioa);
             System.out.println("Descuento: " + deskontua + "%");
@@ -129,7 +129,7 @@ public class Kotxea implements Comparable <Kotxea>
             System.out.println("Code: " + kodea);
             System.out.println("Manufacturer: " + fabrikatzailea);
             System.out.println("Model: " + modeloa);
-            System.out.println("Kolorea: " + kolorea);
+            System.out.println("Colour: " + kolorea);
             System.out.println("Horse power: " + zaldiak);
             System.out.println("Price: " + prezioa);
             System.out.println("Discount: " + deskontua + "%");
