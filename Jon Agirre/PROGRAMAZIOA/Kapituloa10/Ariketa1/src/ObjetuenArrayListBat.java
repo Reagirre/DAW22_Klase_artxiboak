@@ -376,14 +376,14 @@ public class ObjetuenArrayListBat
                                 if(!datua.equals(""))
                                 {
                                     ekoizlea = datua;
-                                    
+                                    mikroprozesadorea.setEkoizlea(ekoizlea);
                                     break;
                                 }
                                 else
                                 {
                                     throw new IllegalArgumentException("Ekoizle berria sartu behar da");
                                 }
-                                mikroprozesadorea.setEkoizlea(ekoizlea);
+                                
                             }
                             catch(IllegalArgumentException e)
                             {
@@ -401,14 +401,14 @@ public class ObjetuenArrayListBat
                                 if(!datua.equals(""))
                                 {
                                     modeloa = datua;
-                                    
+                                    mikroprozesadorea.setModeloa(modeloa);    
                                     break;
                                 }
                                 else
                                 {
                                     throw new IllegalArgumentException("Modelo berria sartu behar da");
                                 }
-                                mikroprozesadorea.setModeloa(modeloa);
+                                
                             }
                             catch(IllegalArgumentException e)
                             {
@@ -425,6 +425,7 @@ public class ObjetuenArrayListBat
                                 if(!datua.equals(""))
                                 {
                                     socketa = datua;
+                                    mikroprozesadorea.setSocketa(socketa);
                                     break;
                                 }
                                 else
@@ -432,8 +433,7 @@ public class ObjetuenArrayListBat
                                     throw new IllegalArgumentException("Socket berria sartu behar da");
                                 }
                                 
-                                mikroprozesadorea.setSocketa(socketa);
-                                break;
+                                
                             }
                             catch(IllegalArgumentException e)
                             {
@@ -618,6 +618,7 @@ public class ObjetuenArrayListBat
                             }
                         }
                     }
+                    sarrera.close();
                     break;
                                  
                 case 5:  
