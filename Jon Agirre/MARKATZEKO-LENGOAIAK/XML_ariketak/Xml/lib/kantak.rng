@@ -1,0 +1,18 @@
+<element name="kantak" xmlns="http://relaxng.org/ns/structure/1.0">
+    <oneOrMore>
+        <element name="kanta">
+            <element name="id">
+                <text/>
+            </element>
+            <element name="izenburua">
+                <text/>
+            </element>
+            <element name="egilea">
+                <text/>
+            </element>
+            <element name="urtea">
+                <text/>
+            </element>
+        </element>
+    </oneOrMore>
+</element>
