@@ -11,31 +11,18 @@ nota3 numeric(2)
 alter table ikasle_notak modify column ikasle_izena varchar(30);
 
 insert into ikasle_notak values('Alcalde Zugaza, Josu','5','4','4');
-
 insert into ikasle_notak values('Elu Agirre, Koldo','7','6','8');
-
 insert into ikasle_notak values('Bengoa Garro, Amaia','4','3','5');
-
 insert into ikasle_notak values('Txurruka Arregi, Miren','8','7','9');
-
 insert into ikasle_notak values('Gandiaga Laka, Ander','3','4','3');
-
 insert into ikasle_notak values('Perez Bilbao, Begoña','6','5','7');
-
 insert into ikasle_notak values('Garcia Burgoa, Luis','5','5','5');
-
 insert into ikasle_notak values('Olate Mendia, Ander','3','4','5');
-
 insert into ikasle_notak values('Mendizabal Arrate, Luis','7','6','7');
-
 insert into ikasle_notak values('Zabala Osa, Jon','4','3','3');
-
 insert into ikasle_notak values('Agirre Albizu, Ana','8','3','6');
-
 insert into ikasle_notak values('Zuazua Agirre, Luken','3','4','2');
-
 insert into ikasle_notak values('Aperribai Bengoa, Xabier','9','8','9');
-
 
 
 CREATE TABLE notak LIKE ikasle_notak;
@@ -140,7 +127,16 @@ alter table notak add column Abizena2 varchar(15);
 select locate(' ', ikasle_izena),
 left(ikasle_izena, locate(' ', ikasle_izena)),
 mid(ikasle_izena, locate(' ', ikasle_izena),locate(',', ikasle_izena) - locate(' ', ikasle_izena)),
-right(ikasle_izena, locate(' ', ikasle_izena))
+right(ikasle_izena, length(ikasle_izena)- locate(',', ikasle_izena))
 from notak;
 
 
+UPDATE notak 
+SET 
+    abizena1 = (SELECT 
+            abizena
+        FROM
+            (SELECT 
+                LEFT(ikasle_izena, LOCATE(' ', ikasle_izena)) abizena
+            FROM
+                notak) AS taula);
