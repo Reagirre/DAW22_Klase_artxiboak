@@ -259,3 +259,14 @@ FROM
         INNER JOIN
     liburua ON alea.LiburuKodea = liburua.LiburuKodea
 GROUP BY RIGHT(liburua.isbn, 1);
+
+
+
+SELECT 
+    alea.Signatura, liburua.Titulua, liburua.ISBN
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+WHERE
+    MID(alea.signatura, 3, 1) IN (0 , 9);
