@@ -21,7 +21,12 @@ public class Leihoa extends JFrame{
     private JTextField tDeskontua;
     private JButton bAurrekoa;
     private JButton bHurrengoa;
+    private JButton bGehitu;
+    private JButton bAdos;
+    private JButton bUtzi;
     private JPanel p;
+    private final int GEHITU = 1;
+    private int ekintza;
     private Connection konexioa;
     private Statement kontsulta;
     private ResultSet erregistroak;
@@ -66,6 +71,11 @@ public class Leihoa extends JFrame{
 
         bAurrekoa = new JButton("Aurrekoa");
         bHurrengoa = new JButton("Hurrengoa");
+        bGehitu = new JButton("Gehitu");
+        bAdos = new JButton("Ados");
+        bAdos.setEnabled(false);
+        bUtzi = new JButton("Utzi");
+        bUtzi.setEnabled(false);
 
         bAurrekoa.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
@@ -76,6 +86,24 @@ public class Leihoa extends JFrame{
         bHurrengoa.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 klikHurrengoa();
+            }
+        });
+
+        bGehitu.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikGehitu();
+            }
+        });
+
+        bAdos.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikAdos();
+            }
+        });
+
+        bUtzi.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikUtzi();
             }
         });
 
@@ -101,6 +129,9 @@ public class Leihoa extends JFrame{
         // eta botoiak
         p.add(bAurrekoa);
         p.add(bHurrengoa);
+        p.add(bGehitu);
+        p.add(bAdos);
+        p.add(bUtzi);
 
         p.setLayout(null);
         lMezua.setBounds (30,20,500,25);
@@ -120,6 +151,9 @@ public class Leihoa extends JFrame{
         tDeskontua.setBounds(120,275,200,25);
         bAurrekoa.setBounds(340,65, 110,25);
         bHurrengoa.setBounds (340, 100,110,25);
+        bGehitu.setBounds (340, 135,110,25);
+        bAdos.setBounds (340, 310,100,25);
+        bUtzi.setBounds (340, 340,100,25);
 
         getContentPane().add(p);
 
@@ -223,5 +257,132 @@ public class Leihoa extends JFrame{
                 lMezua.setText("Salbuespena: " + e.getMessage());
             }
         }
+    }
+
+    
+    private void klikGehitu(){
+        
+        tKodea.setEditable(true);
+        tKodea.setText("");
+        tFabrikatzailea.setEditable(true);
+        tFabrikatzailea.setText("");
+        tModeloa.setEditable(true);
+        tModeloa.setText("");
+        tKolorea.setEditable(true);
+        tKolorea.setText("");
+        tZaldiak.setEditable(true);
+        tZaldiak.setText("");
+        tPrezioa.setEditable(true);
+        tPrezioa.setText("");
+        tDeskontua.setEditable(true);
+        tDeskontua.setText("");
+        bAurrekoa.setEnabled(false);
+        bHurrengoa.setEnabled(false);
+        bAdos.setEnabled(true);
+        bUtzi.setEnabled(true);
+        bGehitu.setEnabled(false);
+        lMezua.setText("Ekintza: mikroprozesadorea gehitu");
+        tKodea.requestFocusInWindow();
+        ekintza = GEHITU;
+    }
+
+    private void klikAdos() {
+        if(ekintza == GEHITU)
+            gehitu();
+    }
+
+
+    private void klikUtzi() {
+        tKodea.setEditable(false);
+        tFabrikatzailea.setEditable(false);
+        tModeloa.setEditable(false);
+        tKolorea.setEditable(false);
+        tZaldiak.setEditable(false);
+        tPrezioa.setEditable(false);
+        tDeskontua.setEditable(false);
+        bAurrekoa.setEnabled(false);
+        bHurrengoa.setEnabled(false);
+        bAdos.setEnabled(false);
+        bUtzi.setEnabled(false);
+        bGehitu.setEnabled(true);
+
+        try {
+            if(ekintza == GEHITU){
+                erregistroak.first();
+                tKodea.setText(erregistroak.getString("kodea"));
+                tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
+                tModeloa.setText(erregistroak.getString("modeloa"));
+                tKolorea.setText(erregistroak.getString("kolorea"));
+                tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
+                tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
+
+            }
+
+            if(erregistroak.isFirst())
+                bAurrekoa.setEnabled(false);
+            else
+                bAurrekoa.setEnabled(true);
+            
+            if(erregistroak.isLast())
+                bAurrekoa.setEnabled(false);
+            else
+                bHurrengoa.setEnabled(true);
+            
+            lMezua.setText("");
+
+        } catch (SQLException e) {
+            lMezua.setText("Salbuespena: " + e.getMessage());
+        }
+    }
+
+    private void gehitu() {
+        if(!tKodea.getText().equals("") && !tFabrikatzailea.getText().equals("") && !tModeloa.getText().equals("") && !tKolorea.getText().equals("")
+        && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
+        {
+            try {
+                erregistroak.afterLast();
+                erregistroak.moveToInsertRow();
+                erregistroak.updateString("kodea", tKodea.getText());
+                erregistroak.updateString("fabrikatzailea",tFabrikatzailea.getText());
+                erregistroak.updateString("modeloa",tModeloa.getText());
+                erregistroak.updateString("kolorea",tKolorea.getText());
+                erregistroak.updateDouble("zaldiak",Double.parseDouble(tZaldiak.getText()));
+                erregistroak.updateDouble("prezioa",Double.parseDouble(tPrezioa.getText()));
+                erregistroak.updateDouble("deskontua",Double.parseDouble(tDeskontua.getText()));
+                erregistroak.insertRow();
+                lMezua.setText("Mikroprozesadorea gehitu da!");
+                tKodea.setEditable(false);
+                tFabrikatzailea.setEditable(false);
+                tModeloa.setEditable(false);
+                tKolorea.setEditable(false);
+                tZaldiak.setEditable(false);
+                tPrezioa.setEditable(false);
+                tDeskontua.setEditable(false);
+                bGehitu.setEnabled(true);
+                bAdos.setEnabled(false);
+                bUtzi.setEnabled(false);
+
+                if(erregistroak.isFirst())
+                    bAurrekoa.setEnabled(false);
+                else
+                    bAurrekoa.setEnabled(true);
+                
+                if(erregistroak.isLast())
+                    bAurrekoa.setEnabled(false);
+                else
+                    bHurrengoa.setEnabled(true);
+                
+                lMezua.setText("");
+
+            }catch (IllegalArgumentException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+            catch (SQLException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+        }
+        else
+            lMezua.setText("Oharra: eremu guztiak bete behar dira");
     }
 }
