@@ -2,13 +2,14 @@ create database ariketa11;
 
 use ariketa11;
 
-create table arduradunak(
-ArduradunKodea numeric(2),
-Izena varchar(10),
-Abizena varchar(10),
-NAN varchar(9),
-Soldata numeric(5),
-primary key(ArduradunKodea));
+CREATE TABLE arduradunak (
+    ArduradunKodea NUMERIC(2),
+    Izena VARCHAR(10),
+    Abizena VARCHAR(10),
+    NAN VARCHAR(9),
+    Soldata NUMERIC(5),
+    PRIMARY KEY (ArduradunKodea)
+);
 
 
 CREATE TABLE gaia (
@@ -134,6 +135,7 @@ SET
 WHERE
     gaikodea = 8;
 
+
 UPDATE arduradunak 
 SET 
     soldata = soldata - 3
@@ -152,3 +154,108 @@ WHERE
                 AVG(soldata) batazbestekoa
             FROM
                 arduradunak) AS taula);
+
+DELETE FROM alea 
+WHERE
+    alea.urtea = 2000 AND alea.prezioa < 10;
+
+DELETE FROM arduradunak 
+WHERE
+    ArduradunKodea NOT IN (SELECT 
+        ArduradunKodea
+    FROM
+        gaia);
+
+
+
+DELETE FROM argitaletxea 
+WHERE
+    ArgitalKodea > 10;
+
+SELECT 
+    liburua.Titulua,
+    liburua.Idazlea,
+    REPLACE(liburua.Isbn, '-', '*')
+FROM
+    liburua;
+
+
+SELECT 
+    *
+FROM
+    liburua
+WHERE
+    RIGHT(liburua.titulua, 1) RLIKE '[0-9]';
+
+
+SELECT 
+    *, LENGTH(liburua.titulua)
+FROM
+    liburua
+ORDER BY LENGTH(liburua.titulua) ASC
+LIMIT 1;
+
+
+SELECT 
+    argitaletxea.ArgitalKodea,
+    argitaletxea.Izena,
+    COUNT(alea.Signatura)
+FROM
+    argitaletxea,
+    liburuak,
+    alea
+WHERE
+    argitaletxea.ArgitalKodea = liburua.ArgitalKodea
+        AND liburua.LiburuKodea = alea.LiburuKodea
+        AND MOD(alea.urtea, 2) = 1
+GROUP BY argitaletxea.ArgitalKodea;
+
+
+SELECT 
+    izena,
+    arduradunak.Abizena,
+    arduradunak.Soldata,
+    SUBSTRING(arduradunak.soldata, - 2, 1)
+FROM
+    arduradunak;
+
+
+
+SELECT 
+    gaia.GaiKodea,
+    gaia.izena,
+    COUNT(CASE
+        WHEN gaia.GaiKodea = liburua.GaiNagusi THEN 1
+    END) GaiNagusi,
+    COUNT(CASE
+        WHEN gaia.GaiKodea = liburua.GaiBi THEN 1
+    END) GaiBi
+FROM
+    gaia
+        INNER JOIN
+    liburua ON gaia.GaiKodea = liburua.GaiBi
+        OR gaia.GaiKodea = liburua.GaiNagusi
+GROUP BY gaia.GaiKodea;
+
+SELECT 
+    COUNT(alea.Signatura) Alekopurua,
+    alea.Urtea,
+    SUM(alea.Prezioa)
+FROM
+    alea
+GROUP BY alea.Urtea
+ORDER BY COUNT(alea.Signatura) ASC
+LIMIT 1;
+
+
+SELECT 
+    COUNT(alea.Signatura),
+    SUM(alea.Prezioa),
+    MIN(alea.Prezioa),
+    MAX(alea.Prezioa),
+    AVG(alea.Prezioa)
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+GROUP BY RIGHT(liburua.isbn, 1);

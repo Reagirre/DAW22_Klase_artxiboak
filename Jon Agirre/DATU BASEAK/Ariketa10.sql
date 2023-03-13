@@ -132,11 +132,6 @@ from notak;
 
 
 UPDATE notak 
-SET 
-    abizena1 = (SELECT 
-            abizena
-        FROM
-            (SELECT 
-                LEFT(ikasle_izena, LOCATE(' ', ikasle_izena)) abizena
-            FROM
-                notak) AS taula);
+SET abizena1 = LEFT(ikasle_izena, LOCATE(' ', ikasle_izena)),
+abizena2 = mid(ikasle_izena, LOCATE(' ', ikasle_izena),  LOCATE(',', ikasle_izena) -  LOCATE(' ', ikasle_izena)),
+Izena = right(ikasle_izena,  length(ikasle_izena) -  LOCATE(',', ikasle_izena));
