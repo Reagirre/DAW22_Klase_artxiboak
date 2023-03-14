@@ -22,11 +22,16 @@ public class Leihoa extends JFrame{
     private JButton bAurrekoa;
     private JButton bHurrengoa;
     private JButton bGehitu;
+    private JButton bBilatu;
+    private JButton bAldatu;
+    private JButton bEzabatu;
     private JButton bAdos;
     private JButton bUtzi;
     private JPanel p;
     private final int GEHITU = 1;
     private int ekintza;
+    private final int BILATU = 1;
+    private int aurkitu;
     private Connection konexioa;
     private Statement kontsulta;
     private ResultSet erregistroak;
@@ -72,6 +77,9 @@ public class Leihoa extends JFrame{
         bAurrekoa = new JButton("Aurrekoa");
         bHurrengoa = new JButton("Hurrengoa");
         bGehitu = new JButton("Gehitu");
+        bBilatu = new JButton("Bilatu");
+        bAldatu = new JButton("Aldatu");
+        bEzabatu = new JButton("Ezabatu");
         bAdos = new JButton("Ados");
         bAdos.setEnabled(false);
         bUtzi = new JButton("Utzi");
@@ -92,6 +100,24 @@ public class Leihoa extends JFrame{
         bGehitu.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 klikGehitu();
+            }
+        });
+
+        bAldatu.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikAldatu();
+            }
+        });
+
+        bBilatu.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikBilatu();
+            }
+        });
+
+        bEzabatu.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evt) {
+                klikEzabatu();
             }
         });
 
@@ -130,6 +156,9 @@ public class Leihoa extends JFrame{
         p.add(bAurrekoa);
         p.add(bHurrengoa);
         p.add(bGehitu);
+        p.add(bBilatu);
+        p.add(bAldatu);
+        p.add(bEzabatu);
         p.add(bAdos);
         p.add(bUtzi);
 
@@ -152,6 +181,9 @@ public class Leihoa extends JFrame{
         bAurrekoa.setBounds(340,65, 110,25);
         bHurrengoa.setBounds (340, 100,110,25);
         bGehitu.setBounds (340, 135,110,25);
+        bBilatu.setBounds (340, 170,110,25);
+        bAldatu.setBounds (340, 205,110,25);
+        bEzabatu.setBounds(340, 240, 110,25);
         bAdos.setBounds (340, 310,100,25);
         bUtzi.setBounds (340, 340,100,25);
 
@@ -211,6 +243,9 @@ public class Leihoa extends JFrame{
             lMezua.setText("Oharra: ez dago konexiorik datu-basearkin");
         }
     }
+
+
+
     private void klikAurrekoa(){
         if(erregistroak != null)
         {
@@ -233,6 +268,8 @@ public class Leihoa extends JFrame{
             }
         }
     }
+
+
 
     private void klikHurrengoa(){
         if(erregistroak != null)
@@ -259,6 +296,8 @@ public class Leihoa extends JFrame{
         }
     }
 
+
+
     
     private void klikGehitu(){
         
@@ -281,15 +320,65 @@ public class Leihoa extends JFrame{
         bAdos.setEnabled(true);
         bUtzi.setEnabled(true);
         bGehitu.setEnabled(false);
-        lMezua.setText("Ekintza: mikroprozesadorea gehitu");
+        bBilatu.setEnabled(false);
+        bAldatu.setEnabled(false);
+        bEzabatu.setEnabled(false);
+        lMezua.setText("Ekintza: kotxea gehitu");
         tKodea.requestFocusInWindow();
         ekintza = GEHITU;
     }
 
+
+
+    private void klikBilatu() {
+        tKodea.setEditable(true);
+        tKodea.setText("");
+        tFabrikatzailea.setText("");
+        tModeloa.setText("");
+        tKolorea.setText("");
+        tZaldiak.setText("");
+        tPrezioa.setText("");
+        tDeskontua.setText("");
+        bAurrekoa.setEnabled(false);
+        bHurrengoa.setEnabled(false);
+        bAdos.setEnabled(true);
+        bUtzi.setEnabled(true);
+        bGehitu.setEnabled(false);
+        bBilatu.setEnabled(false);
+        bAldatu.setEnabled(false);
+        bEzabatu.setEnabled(false);
+        
+        lMezua.setText("Ekintza: kotxea bilatu");
+        tKodea.requestFocusInWindow();
+        aurkitu = BILATU;
+    }
+
+
+
+
+    private void klikAldatu(){
+        
+    }
+
+
+
+
+    private void klikEzabatu() {
+        
+    }
+
+
+
+
     private void klikAdos() {
         if(ekintza == GEHITU)
             gehitu();
+        
+        if(aurkitu == BILATU)
+            bilatu();
     }
+
+
 
 
     private void klikUtzi() {
@@ -305,6 +394,9 @@ public class Leihoa extends JFrame{
         bAdos.setEnabled(false);
         bUtzi.setEnabled(false);
         bGehitu.setEnabled(true);
+        bBilatu.setEnabled(true);
+        bAldatu.setEnabled(true);
+        bEzabatu.setEnabled(true);
 
         try {
             if(ekintza == GEHITU){
@@ -336,6 +428,9 @@ public class Leihoa extends JFrame{
         }
     }
 
+
+
+
     private void gehitu() {
         if(!tKodea.getText().equals("") && !tFabrikatzailea.getText().equals("") && !tModeloa.getText().equals("") && !tKolorea.getText().equals("")
         && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
@@ -360,6 +455,9 @@ public class Leihoa extends JFrame{
                 tPrezioa.setEditable(false);
                 tDeskontua.setEditable(false);
                 bGehitu.setEnabled(true);
+                bBilatu.setEnabled(true);
+                bAldatu.setEnabled(true);
+                bEzabatu.setEnabled(true);
                 bAdos.setEnabled(false);
                 bUtzi.setEnabled(false);
 
@@ -369,9 +467,9 @@ public class Leihoa extends JFrame{
                     bAurrekoa.setEnabled(true);
                 
                 if(erregistroak.isLast())
-                    bAurrekoa.setEnabled(false);
+                    bAurrekoa.setEnabled(true);
                 else
-                    bHurrengoa.setEnabled(true);
+                    bHurrengoa.setEnabled(false);
                 
                 lMezua.setText("");
 
@@ -384,5 +482,10 @@ public class Leihoa extends JFrame{
         }
         else
             lMezua.setText("Oharra: eremu guztiak bete behar dira");
+    }
+
+
+    private void bilatu() {
+        
     }
 }
