@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE diskoak SYSTEM "diskoak.dtd">
+<diskoak>
+        <diskoa id="1">
+                <izenburua>Sgt. Pepper's Lonely Hearts Club Band</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="2">
+                <izenburua>Pet Sounds</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="3">
+                <izenburua>Revolver</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="4">
+                <izenburua>Highway 61 Revisited</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="5">
+                <izenburua>Rubber Soul</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="6">
+                <izenburua>What's Going On</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="7">
+                <izenburua>Exile On Main Street</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="8">
+                <izenburua>London Calling</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="9">
+                <izenburua>Blonde On Blonde</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="10">
+                <izenburua>The Beatles (White Album)</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="11">
+                <izenburua>The Sun Sessions</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="12">
+                <izenburua>Kind Of Blue</izenburua>
+                <egilea>Miles Davis</egilea>
+                <urtea>1959</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="13">
+                <izenburua>The Velvet Underground</izenburua>
+                <egilea>The Velvet Underground And Nico</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="14">
+                <izenburua>Abbey Road</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="15">
+                <izenburua>Are You Experienced?</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="16">
+                <izenburua>Blood On The Tracks</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="17">
+                <izenburua>Nevermind</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="18">
+                <izenburua>Born To Run</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="19">
+                <izenburua>Astral Weeks</izenburua>
+                <egilea>Van Morrison</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="20">
+                <izenburua>Thriller</izenburua>
+                <egilea>Michael Jackson</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="21">
+                <izenburua>The Great Twenty-Eight</izenburua>
+                <egilea>Chuck Berry</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="22">
+                <izenburua>Plastic Ono Band</izenburua>
+                <egilea>John Lennon</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="23">
+                <izenburua>Innervisions</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="24">
+                <izenburua>Live At The Apollo</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1963</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="25">
+                <izenburua>Rumours</izenburua>
+                <egilea>Fleetwood Mac</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="26">
+                <izenburua>The Joshua Tree</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="27">
+                <izenburua>King Of The Delta Blues Singers</izenburua>
+                <egilea>Robert Johnson</egilea>
+                <urtea>1961</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="28">
+                <izenburua>Who's Next</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="29">
+                <izenburua>Led Zeppelin</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="30">
+                <izenburua>Blue</izenburua>
+                <egilea>Joni Mitchell</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="31">
+                <izenburua>Bringing It All Back Home</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="32">
+                <izenburua>Let It Bleed</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="33">
+                <izenburua>Ramones</izenburua>
+                <egilea>Ramones</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="34">
+                <izenburua>Music From Big Pink</izenburua>
+                <egilea>The Band</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="35">
+                <izenburua>The Rise Rise And Fall Of Ziggy Stardust And The Spiders From Mars</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="36">
+                <izenburua>Tapestry</izenburua>
+                <egilea>Carole King</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="37">
+                <izenburua>Hotel California</izenburua>
+                <egilea>The Eagles</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="38">
+                <izenburua>The Anthology</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="39">
+                <izenburua>Please Please Me</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1963</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="40">
+                <izenburua>Forever Changes</izenburua>
+                <egilea>Love</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="41">
+                <izenburua>Never Mind The Bollocks, Here's The Sex Pistols</izenburua>
+                <egilea>The Sex Pistols</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="42">
+                <izenburua>The Doors</izenburua>
+                <egilea>The Doors</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="43">
+                <izenburua>The Dark Side Of The Moon</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="44">
+                <izenburua>Horses</izenburua>
+                <egilea>Patty Smith</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="45">
+                <izenburua>The Band</izenburua>
+                <egilea>The Band</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="46">
+                <izenburua>Legend</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="47">
+                <izenburua>A Love Supreme</izenburua>
+                <egilea>John Coltrane</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="48">
+                <izenburua>It Takes A Nation Of Millions To Hold Us Back</izenburua>
+                <egilea>Public Enemy</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="49">
+                <izenburua>At Fillmore East</izenburua>
+                <egilea>The Allman Brothers Band</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="50">
+                <izenburua>Here's Little Richard</izenburua>
+                <egilea>Little Richard</egilea>
+                <urtea>1957</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="51">
+                <izenburua>Bridge Over Troubled Water</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="52">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="53">
+                <izenburua>The Birth Of Soul: The Complete Atlantic R&amp;B</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="54">
+                <izenburua>Electric Ladyland</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="55">
+                <izenburua>Elvis Presley</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1956</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="56">
+                <izenburua>Songs In The Key Of Life</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="57">
+                <izenburua>Beggars Banquet</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="58">
+                <izenburua>Trout Mask Replica</izenburua>
+                <egilea>Captain Beefheart And His Magic Band</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="59">
+                <izenburua>Meet The Beatles</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="60">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="61">
+                <izenburua>Appetite For Destruction</izenburua>
+                <egilea>Guns N'Roses</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="62">
+                <izenburua>Achtung Baby</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="63">
+                <izenburua>Sticky Fingers</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="64">
+                <izenburua>Back To Mono (1958-1969)</izenburua>
+                <egilea>Phil Spector</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="65">
+                <izenburua>Moondance</izenburua>
+                <egilea>Van Morrison</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="66">
+                <izenburua>Led Zeppelin IV</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="67">
+                <izenburua>The Stranger</izenburua>
+                <egilea>Billy Joel</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="68">
+                <izenburua>Off The Wall</izenburua>
+                <egilea>Michael Jackson</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="69">
+                <izenburua>Superfly</izenburua>
+                <egilea>Curtis Mayfield</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="70">
+                <izenburua>Physical Graffiti</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="71">
+                <izenburua>After The Gold Rush</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="72">
+                <izenburua>Purple Rain</izenburua>
+                <egilea>Prince And The Revolution</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="73">
+                <izenburua>Back In Black</izenburua>
+                <egilea>AC/DC</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="74">
+                <izenburua>Otis Blue</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="75">
+                <izenburua>Led Zeppelin II</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="76">
+                <izenburua>Imagine</izenburua>
+                <egilea>John Lennon</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="77">
+                <izenburua>The Clash</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="78">
+                <izenburua>Harvest</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="79">
+                <izenburua>Star Time</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="80">
+                <izenburua>Odessey And Oracle</izenburua>
+                <egilea>The Zombies</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="81">
+                <izenburua>Graceland</izenburua>
+                <egilea>Paul Simon</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="82">
+                <izenburua>Axis: Bold As Love</izenburua>
+                <egilea>The Jimi Hendrix Experience</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="83">
+                <izenburua>I Never Loved A Man The Way I Love You</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="84">
+                <izenburua>Lady Soul</izenburua>
+                <egilea>Aretha Franklin</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="85">
+                <izenburua>Born In The U.S.A.</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="86">
+                <izenburua>Let It Be</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="87">
+                <izenburua>The Wall</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="88">
+                <izenburua>At Folsom Prison</izenburua>
+                <egilea>Johnny Cash</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="89">
+                <izenburua>Dusty In Memphis</izenburua>
+                <egilea>Dusty Springfield</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="90">
+                <izenburua>Talking Book</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="91">
+                <izenburua>Goodbye Yellow Brick Road</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="92">
+                <izenburua>20 Golden Greats</izenburua>
+                <egilea>Buddy Holly</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="93">
+                <izenburua>Sign 'o' The Times</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="94">
+                <izenburua>Bitches Brew</izenburua>
+                <egilea>Miles Davis</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="95">
+                <izenburua>Green River</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="96">
+                <izenburua>Tommy</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="97">
+                <izenburua>The Freewheelin' Bob Dylan</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1963</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="98">
+                <izenburua>This Year's Model</izenburua>
+                <egilea>Elvis Costello</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="99">
+                <izenburua>There's A Riot Goin' On</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="100">
+                <izenburua>In The Wee Small Hours</izenburua>
+                <egilea>Frank Sinatra</egilea>
+                <urtea>1955</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="101">
+                <izenburua>Fresh Cream</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="102">
+                <izenburua>Giant Steps</izenburua>
+                <egilea>John Coltrane</egilea>
+                <urtea>1960</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="103">
+                <izenburua>Sweet Baby James</izenburua>
+                <egilea>James Taylor</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="104">
+                <izenburua>Modern Sounds In Country And Western Music</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1962</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="105">
+                <izenburua>Rocket To Russia</izenburua>
+                <egilea>Ramones</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="106">
+                <izenburua>Portrait Of A Legend 1951-1964</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>2003</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="107">
+                <izenburua>Hunky Dory</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="108">
+                <izenburua>Aftermath</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="109">
+                <izenburua>Loaded</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="110">
+                <izenburua>The Bends</izenburua>
+                <egilea>Radiohead</egilea>
+                <urtea>1955</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="111">
+                <izenburua>Court And Spark</izenburua>
+                <egilea>Joni Mitchell</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="112">
+                <izenburua>Disraeli Gears</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="113">
+                <izenburua>The Who Sell Out</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="114">
+                <izenburua>Out Of Our Heads</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="115">
+                <izenburua>Layla And Other Assorted Love Songs</izenburua>
+                <egilea>Derek And The Dominos</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="116">
+                <izenburua>At Last!</izenburua>
+                <egilea>Etta James</egilea>
+                <urtea>1961</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="117">
+                <izenburua>Sweetheart Of The Rodeo</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="118">
+                <izenburua>Stand!</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="119">
+                <izenburua>The Harder They Come</izenburua>
+                <egilea>Banda Sonora</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="120">
+                <izenburua>Raising Hell</izenburua>
+                <egilea>Run-DMC</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="121">
+                <izenburua>Moby Grape</izenburua>
+                <egilea>Moby Grape</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="122">
+                <izenburua>Pearl</izenburua>
+                <egilea>Janis Joplin</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="123">
+                <izenburua>Catch A Fire</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="124">
+                <izenburua>Younger Than Yesterday</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="125">
+                <izenburua>Raw Power</izenburua>
+                <egilea>The Stooges</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="126">
+                <izenburua>Remain In Light</izenburua>
+                <egilea>Talking Heads</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="127">
+                <izenburua>If You Can Believe Your Eyes And Ears</izenburua>
+                <egilea>The Mamas And The Papas</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="128">
+                <izenburua>Marquee Moon</izenburua>
+                <egilea>Television</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="129">
+                <izenburua>40 Greatest Hits</izenburua>
+                <egilea>Hank Williams</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="130">
+                <izenburua>Paranoid</izenburua>
+                <egilea>Black Sabbath</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="131">
+                <izenburua>Saturday Night Fever</izenburua>
+                <egilea>Banda Sonora</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="132">
+                <izenburua>The Wild, The Innocent And The E Street Shuffle</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="133">
+                <izenburua>Ready To Die</izenburua>
+                <egilea>The Notorious B.I.G.</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="134">
+                <izenburua>Slanted And Enchanted</izenburua>
+                <egilea>Pavement</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="135">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="136">
+                <izenburua>Tim</izenburua>
+                <egilea>The Replacements</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="137">
+                <izenburua>The Chronic</izenburua>
+                <egilea>Dr. Dre</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="138">
+                <izenburua>Rejuvenation</izenburua>
+                <egilea>The Meters</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="139">
+                <izenburua>All That You Can't Leave Behind</izenburua>
+                <egilea>U2</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="140">
+                <izenburua>Parallel Lines</izenburua>
+                <egilea>Blondie</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="141">
+                <izenburua>Live At The Regal</izenburua>
+                <egilea>B.B. King</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="142">
+                <izenburua>A Christmas Gift For You</izenburua>
+                <egilea>Phil Spector</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="143">
+                <izenburua>Gris-Gris</izenburua>
+                <egilea>Dr. John</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="144">
+                <izenburua>Straight Outta Compton</izenburua>
+                <egilea>N.W.A.</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="145">
+                <izenburua>Aja</izenburua>
+                <egilea>Steely Dan</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="146">
+                <izenburua>Surrealistic Pillow</izenburua>
+                <egilea>Jefferson Airplane</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="147">
+                <izenburua>Dreams To Remember</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="148">
+                <izenburua>Dej� Vu</izenburua>
+                <egilea>Crosby, Stills, Nash And Young</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="149">
+                <izenburua>Houses Of The Holy</izenburua>
+                <egilea>Led Zeppelin</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="150">
+                <izenburua>Santana</izenburua>
+                <egilea>Santana</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="151">
+                <izenburua>Darkness On The Edge Of Town</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="152">
+                <izenburua>The B-52's</izenburua>
+                <egilea>The B-52's</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="153">
+                <izenburua>Moanin' In The Moonlight</izenburua>
+                <egilea>Howlin' Wolf</egilea>
+                <urtea>1959</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="154">
+                <izenburua>The Low End Theory</izenburua>
+                <egilea>A Tribe Called Quest</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="155">
+                <izenburua>Pretenders</izenburua>
+                <egilea>The Pretenders</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="156">
+                <izenburua>Paul's Boutique</izenburua>
+                <egilea>Beastie Boys</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="157">
+                <izenburua>Closer</izenburua>
+                <egilea>Joy Division</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="158">
+                <izenburua>Captain Fantastic And The Brown Dirt Cowboy</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="159">
+                <izenburua>Alive</izenburua>
+                <egilea>Kiss</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="160">
+                <izenburua>Electric Warrior</izenburua>
+                <egilea>T.Rex</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="161">
+                <izenburua>The Dock Of The Bay</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="162">
+                <izenburua>OK Computer</izenburua>
+                <egilea>Radiohead</egilea>
+                <urtea>1997</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="163">
+                <izenburua>1999</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="164">
+                <izenburua>Heart Like A Wheel</izenburua>
+                <egilea>Linda Ronstadt</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="165">
+                <izenburua>Let's Get It On</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="166">
+                <izenburua>Imperial Bedroom</izenburua>
+                <egilea>Elvis Costello And The Attractions</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="167">
+                <izenburua>Master Of Puppets</izenburua>
+                <egilea>Metallica</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="168">
+                <izenburua>My Aim Is True</izenburua>
+                <egilea>Elvis Costello</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="169">
+                <izenburua>Exodus</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="170">
+                <izenburua>Live At Leeds</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="171">
+                <izenburua>The Notorious Byrd Brothers</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="172">
+                <izenburua>Every Picture Tells A Story</izenburua>
+                <egilea>Rod Stewart</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="173">
+                <izenburua>Something/Anything?</izenburua>
+                <egilea>Todd Rundgren</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="174">
+                <izenburua>Desire</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="175">
+                <izenburua>Close To You</izenburua>
+                <egilea>The Carpenters</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="176">
+                <izenburua>Rocks</izenburua>
+                <egilea>Aerosmith</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="177">
+                <izenburua>One Nation Under A Groove</izenburua>
+                <egilea>Funkadelic</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="178">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="179">
+                <izenburua>The Anthology 1961-1977</izenburua>
+                <egilea>Curtis Mayfield And The Impressions</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="180">
+                <izenburua>The Definitive Collection</izenburua>
+                <egilea>Abba</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="181">
+                <izenburua>The Rolling Stones, Now!</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="182">
+                <izenburua>Natty Dread</izenburua>
+                <egilea>Bob Marley And The Wailers</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="183">
+                <izenburua>Fleetwood Mac</izenburua>
+                <egilea>Fleetwood Mac</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="184">
+                <izenburua>Red Headed Stranger</izenburua>
+                <egilea>Willie Nelson</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="185">
+                <izenburua>The Stooges</izenburua>
+                <egilea>The Stooges</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="186">
+                <izenburua>Fresh</izenburua>
+                <egilea>Sly And The Family Stone</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="187">
+                <izenburua>So</izenburua>
+                <egilea>Peter Gabriel</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="188">
+                <izenburua>Buffalo Springfield Again</izenburua>
+                <egilea>Buffalo Springfield</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="189">
+                <izenburua>Happy Trails</izenburua>
+                <egilea>Quicksilver Messenger Service</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="190">
+                <izenburua>From Elvis In Memphis</izenburua>
+                <egilea>Elvis Presley</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="191">
+                <izenburua>Fun House</izenburua>
+                <egilea>The Stooges</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="192">
+                <izenburua>The Gilded Palace Of Sin</izenburua>
+                <egilea>The Flying Burrito Brothers</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="193">
+                <izenburua>Dookie</izenburua>
+                <egilea>Green Day</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="194">
+                <izenburua>Transformer</izenburua>
+                <egilea>Lou Reed</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="195">
+                <izenburua>Blues Breakers</izenburua>
+                <egilea>John Mayall With Eric Clapton</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="196">
+                <izenburua>Nuggets: Original Artifacts From The First Psychedelic Era, 1965-1968</izenburua>
+                <egilea>Various Artists</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="197">
+                <izenburua>Murmur</izenburua>
+                <egilea>R.E.M.</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="198">
+                <izenburua>The Best Of</izenburua>
+                <egilea>Little Walter</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="199">
+                <izenburua>Highway To Hell</izenburua>
+                <egilea>AC/DC</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="200">
+                <izenburua>The Downward Spiral</izenburua>
+                <egilea>Nine Inch Nails</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="201">
+                <izenburua>Parsley, Sage, Rosemary And Thyme</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="202">
+                <izenburua>Bad</izenburua>
+                <egilea>Michael Jackson</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="203">
+                <izenburua>Wheels Of Fire</izenburua>
+                <egilea>Cream</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="204">
+                <izenburua>Dirty Mind</izenburua>
+                <egilea>Prince</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="205">
+                <izenburua>Abraxas</izenburua>
+                <egilea>Santana</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="206">
+                <izenburua>Tea For The Tillerman</izenburua>
+                <egilea>Cat Stevens</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="207">
+                <izenburua>Ten</izenburua>
+                <egilea>Pearl Jam</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="208">
+                <izenburua>Everybody Knows This Is Nowhere</izenburua>
+                <egilea>Neil Young With Crazy Horse</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="209">
+                <izenburua>Wish You Were Here</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="210">
+                <izenburua>Crooked Rain, Crooked Rain</izenburua>
+                <egilea>Pavement</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="211">
+                <izenburua>Tattoo You</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="212">
+                <izenburua>Proud Mary</izenburua>
+                <egilea>Ike And Tina Turner</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="213">
+                <izenburua>New York Dolls</izenburua>
+                <egilea>New York Dolls</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="214">
+                <izenburua>Bo Diddley / Go Bo Diddley</izenburua>
+                <egilea>Bo Diddley</egilea>
+                <urtea>1959</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="215">
+                <izenburua>Two Steps From The Blues</izenburua>
+                <egilea>Bobby Bland</egilea>
+                <urtea>1961</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="216">
+                <izenburua>The Queen Is Dead</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="217">
+                <izenburua>Licensed To Ill</izenburua>
+                <egilea>Beastie Boys</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="218">
+                <izenburua>Look-ka Py Py</izenburua>
+                <egilea>The Meters</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="219">
+                <izenburua>Loveless</izenburua>
+                <egilea>My Bloody Valentine</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="220">
+                <izenburua>New Orleans Piano</izenburua>
+                <egilea>Professor Longhair</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="221">
+                <izenburua>War</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="222">
+                <izenburua>The Neil Diamond Collection</izenburua>
+                <egilea>Neil Diamond</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="223">
+                <izenburua>Howlin' Wolf</izenburua>
+                <egilea>Howlin' Wolf</egilea>
+                <urtea>1962</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="224">
+                <izenburua>Nebraska</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="225">
+                <izenburua>The Complete Hank Williams</izenburua>
+                <egilea>Hank Williams</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="226">
+                <izenburua>Doolittle</izenburua>
+                <egilea>Pixies</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="227">
+                <izenburua>Paid In Full</izenburua>
+                <egilea>Eric B. And Rakim</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="228">
+                <izenburua>Toys In The Attic</izenburua>
+                <egilea>Aerosmith</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="229">
+                <izenburua>Nick Of Time</izenburua>
+                <egilea>Bonnie Raitt</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="230">
+                <izenburua>A Night At The Opera</izenburua>
+                <egilea>Queen</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="231">
+                <izenburua>The Kink Kronikles</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="232">
+                <izenburua>Mr. Tambourine Man</izenburua>
+                <egilea>The Byrds</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="233">
+                <izenburua>Bookends</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="234">
+                <izenburua>The Ultimate Collection</izenburua>
+                <egilea>Patsy Cline</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="235">
+                <izenburua>Mr. Excitement</izenburua>
+                <egilea>Jackie Wilson</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="236">
+                <izenburua>The Who Sings My Generation</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="237">
+                <izenburua>Like A Prayer</izenburua>
+                <egilea>Madonna</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="238">
+                <izenburua>Can't Buy A Thrill</izenburua>
+                <egilea>Steely Dan</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="239">
+                <izenburua>Let It Be</izenburua>
+                <egilea>The Replacements</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="240">
+                <izenburua>Run-DMC</izenburua>
+                <egilea>Run-DMC</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="241">
+                <izenburua>Black Sabbath</izenburua>
+                <egilea>Black Sabbath</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="242">
+                <izenburua>All Killer, No Filler!</izenburua>
+                <egilea>Jerry Lee Lewis</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="243">
+                <izenburua>Freak Out!</izenburua>
+                <egilea>The Mothers Of Invention</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="244">
+                <izenburua>Live Dead</izenburua>
+                <egilea>Grateful Dead</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="245">
+                <izenburua>Bryter Layter</izenburua>
+                <egilea>Nick Drake</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="246">
+                <izenburua>The Shape Of Jazz To Come</izenburua>
+                <egilea>Ornette Coleman</egilea>
+                <urtea>1959</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="247">
+                <izenburua>Automatic For The People</izenburua>
+                <egilea>R.E.M.</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="248">
+                <izenburua>Reasonable Doubt</izenburua>
+                <egilea>Jay-Z</egilea>
+                <urtea>1996</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="249">
+                <izenburua>Low</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="250">
+                <izenburua>The River</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="251">
+                <izenburua>Dictionary Of Soul</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="252">
+                <izenburua>Metallica</izenburua>
+                <egilea>Metallica</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="253">
+                <izenburua>Trans-Europe Express</izenburua>
+                <egilea>Kraftwerk</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="254">
+                <izenburua>Whitney Houston</izenburua>
+                <egilea>Whitney Houston</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="255">
+                <izenburua>The Village Green Preservation Society</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="256">
+                <izenburua>The Velvet Rope</izenburua>
+                <egilea>Janet Jackson</egilea>
+                <urtea>1997</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="257">
+                <izenburua>Stardust</izenburua>
+                <egilea>Willie Nelson</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="258">
+                <izenburua>American Beauty</izenburua>
+                <egilea>Grateful Dead</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="259">
+                <izenburua>Crosby, Stills And Nash</izenburua>
+                <egilea>Crosby, Stills And Nash</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="260">
+                <izenburua>Buena Vista Social Club</izenburua>
+                <egilea>Buena Vista Social Club</egilea>
+                <urtea>1997</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="261">
+                <izenburua>Tracy Chapman</izenburua>
+                <egilea>Tracy Chapman</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="262">
+                <izenburua>Workingman's Dead</izenburua>
+                <egilea>Grateful Dead</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="263">
+                <izenburua>The Genius Of Ray Charles</izenburua>
+                <egilea>Ray Charles</egilea>
+                <urtea>1959</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="264">
+                <izenburua>Child Is Father To The Man</izenburua>
+                <egilea>Blood, Sweat And Tears</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="265">
+                <izenburua>Cosmo's Factory</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="266">
+                <izenburua>Quadrophenia</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="267">
+                <izenburua>There Goes Rhymin'Simon</izenburua>
+                <egilea>Paul Simon</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="268">
+                <izenburua>Psycho Candy</izenburua>
+                <egilea>The Jesus And Mary Chain</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="269">
+                <izenburua>Some Girls</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="270">
+                <izenburua>The Beach Boys Today!</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="271">
+                <izenburua>Going To A Go-Go</izenburua>
+                <egilea>Smokey Robinson &amp; The Miracles</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="272">
+                <izenburua>Nightbirds</izenburua>
+                <egilea>Labelle</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="273">
+                <izenburua>The Slim Shady LP</izenburua>
+                <egilea>Eminem</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="274">
+                <izenburua>Mothership Connection</izenburua>
+                <egilea>Parliament</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="275">
+                <izenburua>Rhythm Nation 1814</izenburua>
+                <egilea>Janet Jackson</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="276">
+                <izenburua>Anthology Of American Folk Music</izenburua>
+                <egilea>Various Artists</egilea>
+                <urtea>1952</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="277">
+                <izenburua>Aladdin Sane</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="278">
+                <izenburua>The Immaculate Collection</izenburua>
+                <egilea>Madonna</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="279">
+                <izenburua>My Life</izenburua>
+                <egilea>Mary J. Blige</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="280">
+                <izenburua>Folk Singer</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="281">
+                <izenburua>Can't Get Enough</izenburua>
+                <egilea>Barry White</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="282">
+                <izenburua>The Cars</izenburua>
+                <egilea>The Cars</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="283">
+                <izenburua>Five Leaves Left</izenburua>
+                <egilea>Nick Drake</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="284">
+                <izenburua>Music Of My Mind</izenburua>
+                <egilea>Stevie Wonder</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="285">
+                <izenburua>I'm Still Love With You</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="286">
+                <izenburua>Los Angeles</izenburua>
+                <egilea>X</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="287">
+                <izenburua>Anthem Of The Sun</izenburua>
+                <egilea>Grateful Dead</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="288">
+                <izenburua>Something Else</izenburua>
+                <egilea>The Kinks</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="289">
+                <izenburua>Call Me</izenburua>
+                <egilea>Al Green</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="290">
+                <izenburua>Talking Heads: 77</izenburua>
+                <egilea>Talking Heads</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="291">
+                <izenburua>The Basement Tapes</izenburua>
+                <egilea>Bob Dylan And The Band</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="292">
+                <izenburua>White Light / White Heat</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="293">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>Simon And Garfunkel</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="294">
+                <izenburua>Kick Out The Jams</izenburua>
+                <egilea>MC5</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="295">
+                <izenburua>Meat Is Murder</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="296">
+                <izenburua>We're Only In It For The Money</izenburua>
+                <egilea>The Mothers Of Invention</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="297">
+                <izenburua>Wezzer (Blue Album)</izenburua>
+                <egilea>Weezer</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="298">
+                <izenburua>Master Of Reality</izenburua>
+                <egilea>Black Sabbath</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="299">
+                <izenburua>Coats Of Many Colors</izenburua>
+                <egilea>Dolly Parton</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="300">
+                <izenburua>Fear Of A Black Planet</izenburua>
+                <egilea>Public Enemy</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="301">
+                <izenburua>John Wesley Harding</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="302">
+                <izenburua>The Marshall Mathers LP</izenburua>
+                <egilea>Eminem</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="303">
+                <izenburua>Grace</izenburua>
+                <egilea>Jeff Buckley</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="304">
+                <izenburua>Car Wheels On A Gravel Road</izenburua>
+                <egilea>Lucinda Williams</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="305">
+                <izenburua>Odelay</izenburua>
+                <egilea>Beck</egilea>
+                <urtea>1996</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="306">
+                <izenburua>Songs For Swingin' Lovers</izenburua>
+                <egilea>Frank Sinatra</egilea>
+                <urtea>1956</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="307">
+                <izenburua>Avalon</izenburua>
+                <egilea>Roxy Music</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="308">
+                <izenburua>Sun Records Collection</izenburua>
+                <egilea>Various Artists</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="309">
+                <izenburua>Nothing's Shocking</izenburua>
+                <egilea>Jane's Addiction</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="310">
+                <izenburua>BloodSugar-SexMagik</izenburua>
+                <egilea>Red Hot Chili Peppers</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="311">
+                <izenburua>Unplugged</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="312">
+                <izenburua>The Miseducation Of Lauryn Hill</izenburua>
+                <egilea>Lauryn Hill</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="313">
+                <izenburua>Damn The Torpedoes</izenburua>
+                <egilea>Tom Petty And The Heartbreakers</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="314">
+                <izenburua>The Velvet Underground</izenburua>
+                <egilea>The Velvet Underground</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="315">
+                <izenburua>Surfer Rosa</izenburua>
+                <egilea>Pixies</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="316">
+                <izenburua>Rock Steady</izenburua>
+                <egilea>No Doubt</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="317">
+                <izenburua>The Eminen Show</izenburua>
+                <egilea>Eminem</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="318">
+                <izenburua>Back Stabbers</izenburua>
+                <egilea>The O'Jays</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="319">
+                <izenburua>Burnin'</izenburua>
+                <egilea>The Waylers</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="320">
+                <izenburua>Pink Moon</izenburua>
+                <egilea>Nick Drake</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="321">
+                <izenburua>Sail Away</izenburua>
+                <egilea>Randy Newman</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="322">
+                <izenburua>Ghost In the Machine</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="323">
+                <izenburua>Station To Station</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="324">
+                <izenburua>The Very Best</izenburua>
+                <egilea>Linda Ronstadt</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="325">
+                <izenburua>Slowhand</izenburua>
+                <egilea>Eric Clapton</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="326">
+                <izenburua>Desintegration</izenburua>
+                <egilea>The Cure</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="327">
+                <izenburua>Jagged Little Pill</izenburua>
+                <egilea>Alanis Morissette</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="328">
+                <izenburua>Exile In Guyville</izenburua>
+                <egilea>Liz Phair</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="329">
+                <izenburua>Daydream Nation</izenburua>
+                <egilea>Sonic Youth</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="330">
+                <izenburua>In Th Jungle Groove</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="331">
+                <izenburua>Tonight's The Night</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="332">
+                <izenburua>Help!</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="333">
+                <izenburua>Shoot Out The Lights</izenburua>
+                <egilea>Richard And Linda Thompson</egilea>
+                <urtea>1982</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="334">
+                <izenburua>Wild Gift</izenburua>
+                <egilea>X</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="335">
+                <izenburua>Squeezing Out Sparks</izenburua>
+                <egilea>Graham Parker</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="336">
+                <izenburua>Superunknown</izenburua>
+                <egilea>Soundgarden</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="337">
+                <izenburua>Aqualung</izenburua>
+                <egilea>Jethro Tull</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="338">
+                <izenburua>Cheap Thrills</izenburua>
+                <egilea>Big Brother And The Holding Company</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="339">
+                <izenburua>The Heart Of Saturday Night</izenburua>
+                <egilea>Tom Waits</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="340">
+                <izenburua>Damaged</izenburua>
+                <egilea>Black Flag</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="341">
+                <izenburua>Play</izenburua>
+                <egilea>Moby</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="342">
+                <izenburua>Violator</izenburua>
+                <egilea>Depeche Mode</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="343">
+                <izenburua>Bat Out Of Hell</izenburua>
+                <egilea>Meat Loaf</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="344">
+                <izenburua>Berlin</izenburua>
+                <egilea>Lou Reed</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="345">
+                <izenburua>Stop Making Sense</izenburua>
+                <egilea>Talking Heads</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="346">
+                <izenburua>3 Feet High And Rising</izenburua>
+                <egilea>De La Soul</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="347">
+                <izenburua>Piper At The Gates Of Dawn</izenburua>
+                <egilea>Pink Floyd</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="348">
+                <izenburua>At Newport 1960</izenburua>
+                <egilea>Muddy Waters</egilea>
+                <urtea>1960</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="349">
+                <izenburua>Roger The Engineer</izenburua>
+                <egilea>The Yardbirds</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="350">
+                <izenburua>Rust Never Sleeps</izenburua>
+                <egilea>Neil Young</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="351">
+                <izenburua>Brothers In Arms</izenburua>
+                <egilea>Dire Straits</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="352">
+                <izenburua>52nd Street</izenburua>
+                <egilea>Billy Joel</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="353">
+                <izenburua>Having A Rave Up With The Yardbirds</izenburua>
+                <egilea>The Yardbirds</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="354">
+                <izenburua>12 Songs</izenburua>
+                <egilea>Randy Newman</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="355">
+                <izenburua>Between The Buttons</izenburua>
+                <egilea>The Rolling Stones</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="356">
+                <izenburua>Sketches Of Spain</izenburua>
+                <egilea>Miles Davis</egilea>
+                <urtea>1960</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="357">
+                <izenburua>Honky Ch�teau</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="358">
+                <izenburua>Singles Going Steady</izenburua>
+                <egilea>Buzzcocks</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="359">
+                <izenburua>Stankonia</izenburua>
+                <egilea>Outkast</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="360">
+                <izenburua>Siamese Dream</izenburua>
+                <egilea>The Smashing Pumpkins</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="361">
+                <izenburua>Substance</izenburua>
+                <egilea>New Order</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="362">
+                <izenburua>L.A. Woman</izenburua>
+                <egilea>The Doors</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="363">
+                <izenburua>Ray Of Light</izenburua>
+                <egilea>Madonna</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="364">
+                <izenburua>American Recordings</izenburua>
+                <egilea>Johnny Cash</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="365">
+                <izenburua>Louder Than Bombs</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="366">
+                <izenburua>Mott</izenburua>
+                <egilea>Mott The Hoople</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="367">
+                <izenburua>Is This It</izenburua>
+                <egilea>The Strokes</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="368">
+                <izenburua>Rage Against The Machine</izenburua>
+                <egilea>Rage Against The Machine</egilea>
+                <urtea>1992</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="369">
+                <izenburua>Regatta De Blanc</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="370">
+                <izenburua>Volunteers</izenburua>
+                <egilea>Jefferson Airplane</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="371">
+                <izenburua>Siren</izenburua>
+                <egilea>Roxy Music</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="372">
+                <izenburua>Late For The Sky</izenburua>
+                <egilea>Jackson Browne</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="373">
+                <izenburua>Post</izenburua>
+                <egilea>Bj�rk</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="374">
+                <izenburua>The Eagles</izenburua>
+                <egilea>The Eagles</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="375">
+                <izenburua>The Ultimate Collection: 1948-1950</izenburua>
+                <egilea>John Lee Hooker</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="376">
+                <izenburua>(What's The Story) Morning Glory</izenburua>
+                <egilea>Oasis</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="377">
+                <izenburua>Craxysexycool</izenburua>
+                <egilea>TLC</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="378">
+                <izenburua>Funky Kingston</izenburua>
+                <egilea>Toots &amp; The Maytals</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="379">
+                <izenburua>Greetings From Asbury Park, N.J.</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="380">
+                <izenburua>Sunflower</izenburua>
+                <egilea>The Beach Boys</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="381">
+                <izenburua>Modern Lovers</izenburua>
+                <egilea>Modern Lovers</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="382">
+                <izenburua>More Songs About Buildings And Food</izenburua>
+                <egilea>Talking Heads</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="383">
+                <izenburua>A Quick One (Happy Jack)</izenburua>
+                <egilea>The Who</egilea>
+                <urtea>1966</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="384">
+                <izenburua>Pyromania</izenburua>
+                <egilea>Def Leppard</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="385">
+                <izenburua>Pretzel Logic</izenburua>
+                <egilea>Steely Dan</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="386">
+                <izenburua>Enter The Wu-Tang: 36 Chambers</izenburua>
+                <egilea>Wu-Tang Clan</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="387">
+                <izenburua>Country Life</izenburua>
+                <egilea>Roxy Music</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="388">
+                <izenburua>A Hard Day's Night</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="389">
+                <izenburua>The End Of Innocence</izenburua>
+                <egilea>Don Henley</egilea>
+                <urtea>1989</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="390">
+                <izenburua>Elephant</izenburua>
+                <egilea>The White Stripes</egilea>
+                <urtea>2003</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="391">
+                <izenburua>The Pretender</izenburua>
+                <egilea>Jackson Browne</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="392">
+                <izenburua>Willy And The Poor Boys</izenburua>
+                <egilea>Creedence Clearwater Revival</egilea>
+                <urtea>1969</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="393">
+                <izenburua>Good Old Boys</izenburua>
+                <egilea>Randy Newman</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="394">
+                <izenburua>For Your Pleasure</izenburua>
+                <egilea>Roxy Music</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="395">
+                <izenburua>Blue Lines</izenburua>
+                <egilea>Massive Attack</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="396">
+                <izenburua>Eliminator</izenburua>
+                <egilea>ZZ Top</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="397">
+                <izenburua>Rain Dogs</izenburua>
+                <egilea>Tom Waits</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="398">
+                <izenburua>Anthology</izenburua>
+                <egilea>Temptations</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="399">
+                <izenburua>Californication</izenburua>
+                <egilea>Red Hot Chili Peppers</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="400">
+                <izenburua>Illmatic</izenburua>
+                <egilea>Nas</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="401">
+                <izenburua>(Pronounced Leh-Nerd-Skin-Nerd)</izenburua>
+                <egilea>Lynyrd Skynyrd</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="402">
+                <izenburua>Dr. John's Gumbo</izenburua>
+                <egilea>Dr. John</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="403">
+                <izenburua>Radio City</izenburua>
+                <egilea>Big Star</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="404">
+                <izenburua>Sandinista!</izenburua>
+                <egilea>The Clash</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="405">
+                <izenburua>Rid Of Me</izenburua>
+                <egilea>PJ Harvey</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="406">
+                <izenburua>I Do Not Want What I Haven't Got</izenburua>
+                <egilea>Sin�ad O'Connor</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="407">
+                <izenburua>Strange Days</izenburua>
+                <egilea>The Doors</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="408">
+                <izenburua>Time Out Of Mind</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>1997</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="409">
+                <izenburua>461 Ocean Boulevard</izenburua>
+                <egilea>Eric Clapton</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="410">
+                <izenburua>Pink Flag</izenburua>
+                <egilea>Wire</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="411">
+                <izenburua>Double Nickels On The Dime</izenburua>
+                <egilea>Minutemen</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="412">
+                <izenburua>Mezzanine</izenburua>
+                <egilea>Massive Attack</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="413">
+                <izenburua>Beauty And The Beat</izenburua>
+                <egilea>Go-Go's</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="414">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>James Brown</egilea>
+                <urtea>1991</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="415">
+                <izenburua>Van Halen</izenburua>
+                <egilea>Van Halen</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="416">
+                <izenburua>Mule Variations</izenburua>
+                <egilea>Tom Waits</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="417">
+                <izenburua>Boy</izenburua>
+                <egilea>U2</egilea>
+                <urtea>1980</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="418">
+                <izenburua>Band On The Run</izenburua>
+                <egilea>Wings</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="419">
+                <izenburua>Dummy</izenburua>
+                <egilea>Portishead</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="420">
+                <izenburua>With The Beatles</izenburua>
+                <egilea>The Beatles</egilea>
+                <urtea>1963</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="421">
+                <izenburua>"The ""Chirping"" Crickets"</izenburua>
+                <egilea>Buddy Holly And The Crickets</egilea>
+                <urtea>1957</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="422">
+                <izenburua>The Best Of The Girl Groups</izenburua>
+                <egilea>Various Artists</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="423">
+                <izenburua>Greatest Hits</izenburua>
+                <egilea>The Mamas And The Papas</egilea>
+                <urtea>1998</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="424">
+                <izenburua>King Of The Delta Blues Singers Vol. 2</izenburua>
+                <egilea>Robert Johnson</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="425">
+                <izenburua>Changesonebowie</izenburua>
+                <egilea>David Bowie</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="426">
+                <izenburua>The Battle Of Los Angeles</izenburua>
+                <egilea>Rage Against The Machine</egilea>
+                <urtea>1999</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="427">
+                <izenburua>Presenting The Fabulous Ronettes</izenburua>
+                <egilea>The Ronettes</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="428">
+                <izenburua>Kid A</izenburua>
+                <egilea>Radiohead</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="429">
+                <izenburua>Grievous Angel</izenburua>
+                <egilea>Gram Parsons</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="430">
+                <izenburua>At Budokan</izenburua>
+                <egilea>Cheap Trick</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="431">
+                <izenburua>Anthology</izenburua>
+                <egilea>Diana Ross And The Supremes</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="432">
+                <izenburua>Sleepless</izenburua>
+                <egilea>Peter Wolf</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="433">
+                <izenburua>Another Green World</izenburua>
+                <egilea>Brian Eno</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="434">
+                <izenburua>Outlandos D'Amour</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="435">
+                <izenburua>To Bring You My Love</izenburua>
+                <egilea>PJ Harvey</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="436">
+                <izenburua>Here Comes The Warm Jets</izenburua>
+                <egilea>Brian Eno</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="437">
+                <izenburua>All Things Must Pass</izenburua>
+                <egilea>George Harrison</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="438">
+                <izenburua># 1 Record</izenburua>
+                <egilea>Big Star</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="439">
+                <izenburua>In Utero</izenburua>
+                <egilea>Nirvana</egilea>
+                <urtea>1993</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="440">
+                <izenburua>Sea Change</izenburua>
+                <egilea>Beck</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="441">
+                <izenburua>Tragic Kingdom</izenburua>
+                <egilea>No Doubt</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="442">
+                <izenburua>Boys Don't Cry</izenburua>
+                <egilea>The Cure</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="443">
+                <izenburua>Live At The Harlem Square Club, 1963</izenburua>
+                <egilea>Sam Cooke</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="444">
+                <izenburua>Criminal Minded</izenburua>
+                <egilea>Boogie Down Productions</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="445">
+                <izenburua>Rum Sodomy And The Lash</izenburua>
+                <egilea>The Pogues</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="446">
+                <izenburua>Suicide</izenburua>
+                <egilea>Suicide</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="447">
+                <izenburua>Q: Are We Not Men? A: We Are Devo</izenburua>
+                <egilea>Devo</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="448">
+                <izenburua>In Color</izenburua>
+                <egilea>Cheap Trick</egilea>
+                <urtea>1977</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="449">
+                <izenburua>The World Is A Ghetto</izenburua>
+                <egilea>War</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="450">
+                <izenburua>Fly Like An Eagle</izenburua>
+                <egilea>Steve Miller Band</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="451">
+                <izenburua>Back In The USA</izenburua>
+                <egilea>MC5</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="452">
+                <izenburua>Music</izenburua>
+                <egilea>Madonna</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="453">
+                <izenburua>Ritual De Lo Habitual</izenburua>
+                <egilea>Jane's Addiction</egilea>
+                <urtea>1990</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="454">
+                <izenburua>Getz/Gilberto</izenburua>
+                <egilea>Stan Getz</egilea>
+                <urtea>1964</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="455">
+                <izenburua>Synchronicity</izenburua>
+                <egilea>The Police</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="456">
+                <izenburua>Third Sisters Lovers</izenburua>
+                <egilea>Big Star</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="457">
+                <izenburua>For Everyman</izenburua>
+                <egilea>Jackson Browne</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="458">
+                <izenburua>John Prine</izenburua>
+                <egilea>John Prine</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="459">
+                <izenburua>Strictly Business</izenburua>
+                <egilea>EPMD</egilea>
+                <urtea>1988</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="460">
+                <izenburua>Love It To Death</izenburua>
+                <egilea>Alice Cooper</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="461">
+                <izenburua>How Will The Wolf Survive?</izenburua>
+                <egilea>Los Lobos</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="462">
+                <izenburua>Here, My Dear</izenburua>
+                <egilea>Marvin Gaye</egilea>
+                <urtea>1978</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="463">
+                <izenburua>Tumbleweed Collection</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="464">
+                <izenburua>The Blueprint</izenburua>
+                <egilea>Jay-Z</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="465">
+                <izenburua>Golden Hits</izenburua>
+                <egilea>The Drifters</egilea>
+                <urtea>1968</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="466">
+                <izenburua>Live Through This</izenburua>
+                <egilea>Hole</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="467">
+                <izenburua>Love And Theft</izenburua>
+                <egilea>Bob Dylan</egilea>
+                <urtea>2001</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="468">
+                <izenburua>Elton John</izenburua>
+                <egilea>Elton John</egilea>
+                <urtea>1970</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="469">
+                <izenburua>Metal Box</izenburua>
+                <egilea>Public Image Ltd.</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="470">
+                <izenburua>Document</izenburua>
+                <egilea>R.E.M.</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="471">
+                <izenburua>Heaven Up Here</izenburua>
+                <egilea>Echo And The Bunnymen</egilea>
+                <urtea>1981</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="472">
+                <izenburua>Hysteria</izenburua>
+                <egilea>Def Leppard</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="473">
+                <izenburua>A Rush Of Blood To The Head</izenburua>
+                <egilea>Coldplay</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="474">
+                <izenburua>Live In Europe</izenburua>
+                <egilea>Otis Redding</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="475">
+                <izenburua>Tunnel Of Love</izenburua>
+                <egilea>Bruce Springsteen</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="476">
+                <izenburua>The Paul Butterfield Blues Band</izenburua>
+                <egilea>The Paul Butterfield Blues Band</egilea>
+                <urtea>1965</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="477">
+                <izenburua>The Score</izenburua>
+                <egilea>The Fugees</egilea>
+                <urtea>1996</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="478">
+                <izenburua>Radio</izenburua>
+                <egilea>LL Cool J</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="479">
+                <izenburua>I Want To See The Bright Lights Tonight</izenburua>
+                <egilea>Richard And Linda Thompson</egilea>
+                <urtea>1974</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="480">
+                <izenburua>Faith</izenburua>
+                <egilea>George Michael</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="481">
+                <izenburua>The Smiths</izenburua>
+                <egilea>The Smiths</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="482">
+                <izenburua>Armed Forces</izenburua>
+                <egilea>Elvis Costello And The Attractions</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="483">
+                <izenburua>Life After Death</izenburua>
+                <egilea>The Notorious B.I.G.</egilea>
+                <urtea>1997</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="484">
+                <izenburua>Branded Man</izenburua>
+                <egilea>Merle Haggard</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="485">
+                <izenburua>All Time Greatest Hits</izenburua>
+                <egilea>Loretta Lynn</egilea>
+                <urtea>2002</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="486">
+                <izenburua>Maggot Brain</izenburua>
+                <egilea>Funkadelic</egilea>
+                <urtea>1971</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="487">
+                <izenburua>Mellon Collie And The Infinite Sadness</izenburua>
+                <egilea>The Smashing Pumpkins</egilea>
+                <urtea>1995</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="488">
+                <izenburua>Voodoo</izenburua>
+                <egilea>D'Angelo</egilea>
+                <urtea>2000</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="489">
+                <izenburua>Guitar Town</izenburua>
+                <egilea>Steve Earle</egilea>
+                <urtea>1986</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="490">
+                <izenburua>Entertainment</izenburua>
+                <egilea>Gang Of Four</egilea>
+                <urtea>1979</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="491">
+                <izenburua>All The Young Dudes</izenburua>
+                <egilea>Mott The Hoople</egilea>
+                <urtea>1972</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="492">
+                <izenburua>Vitalogy</izenburua>
+                <egilea>Pearl Jam</egilea>
+                <urtea>1994</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="493">
+                <izenburua>That's The Way Of The World</izenburua>
+                <egilea>Earth, Wind And Fire</egilea>
+                <urtea>1975</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="494">
+                <izenburua>She's So Unusual</izenburua>
+                <egilea>Cyndi Lauper</egilea>
+                <urtea>1983</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="495">
+                <izenburua>New Day Rising</izenburua>
+                <egilea>H�sker D�</egilea>
+                <urtea>1985</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="496">
+                <izenburua>Destroyer</izenburua>
+                <egilea>Kiss</egilea>
+                <urtea>1976</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="497">
+                <izenburua>Yo! Bum Rush The Show</izenburua>
+                <egilea>Public Enemy</egilea>
+                <urtea>1987</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="498">
+                <izenburua>Tres Hombres</izenburua>
+                <egilea>ZZ Top</egilea>
+                <urtea>1973</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="499">
+                <izenburua>Born Under A Bad Sign</izenburua>
+                <egilea>Albert King</egilea>
+                <urtea>1967</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+        <diskoa id="500">
+                <izenburua>Touch</izenburua>
+                <egilea>Eurythmics</egilea>
+                <urtea>1984</urtea>
+                <formatua>Biniloa</formatua>
+                <prezioa>24</prezioa>
+        </diskoa>
+</diskoak>

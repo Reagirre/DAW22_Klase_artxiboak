@@ -1,0 +1,500 @@
+1;;Sgt. Pepper's Lonely Hearts Club Band;;The Beatles;;1967;;Biniloa;;24
+2;;Pet Sounds;;The Beach Boys;;1966;;Biniloa;;24
+3;;Revolver;;The Beatles;;1966;;Biniloa;;24
+4;;Highway 61 Revisited;;Bob Dylan;;1965;;Biniloa;;24
+5;;Rubber Soul;;The Beatles;;1965;;Biniloa;;24
+6;;What's Going On;;Marvin Gaye;;1971;;Biniloa;;24
+7;;Exile On Main Street;;The Rolling Stones;;1972;;Biniloa;;24
+8;;London Calling;;The Clash;;1980;;Biniloa;;24
+9;;Blonde On Blonde;;Bob Dylan;;1966;;Biniloa;;24
+10;;The Beatles (White Album);;The Beatles;;1968;;Biniloa;;24
+11;;The Sun Sessions;;Elvis Presley;;1976;;Biniloa;;24
+12;;Kind Of Blue;;Miles Davis;;1959;;Biniloa;;24
+13;;The Velvet Underground;;The Velvet Underground And Nico;;1967;;Biniloa;;24
+14;;Abbey Road;;The Beatles;;1969;;Biniloa;;24
+15;;Are You Experienced?;;The Jimi Hendrix Experience;;1967;;Biniloa;;24
+16;;Blood On The Tracks;;Bob Dylan;;1975;;Biniloa;;24
+17;;Nevermind;;Nirvana;;1991;;Biniloa;;24
+18;;Born To Run;;Bruce Springsteen;;1975;;Biniloa;;24
+19;;Astral Weeks;;Van Morrison;;1968;;Biniloa;;24
+20;;Thriller;;Michael Jackson;;1982;;Biniloa;;24
+21;;The Great Twenty-Eight;;Chuck Berry;;1982;;Biniloa;;24
+22;;Plastic Ono Band;;John Lennon;;1970;;Biniloa;;24
+23;;Innervisions;;Stevie Wonder;;1973;;Biniloa;;24
+24;;Live At The Apollo;;James Brown;;1963;;Biniloa;;24
+25;;Rumours;;Fleetwood Mac;;1977;;Biniloa;;24
+26;;The Joshua Tree;;U2;;1987;;Biniloa;;24
+27;;King Of The Delta Blues Singers;;Robert Johnson;;1961;;Biniloa;;24
+28;;Who's Next;;The Who;;1971;;Biniloa;;24
+29;;Led Zeppelin;;Led Zeppelin;;1969;;Biniloa;;24
+30;;Blue;;Joni Mitchell;;1971;;Biniloa;;24
+31;;Bringing It All Back Home;;Bob Dylan;;1965;;Biniloa;;24
+32;;Let It Bleed;;The Rolling Stones;;1969;;Biniloa;;24
+33;;Ramones;;Ramones;;1976;;Biniloa;;24
+34;;Music From Big Pink;;The Band;;1968;;Biniloa;;24
+35;;The Rise Rise And Fall Of Ziggy Stardust And The Spiders From Mars;;David Bowie;;1972;;Biniloa;;24
+36;;Tapestry;;Carole King;;1971;;Biniloa;;24
+37;;Hotel California;;The Eagles;;1976;;Biniloa;;24
+38;;The Anthology;;Muddy Waters;;2001;;Biniloa;;24
+39;;Please Please Me;;The Beatles;;1963;;Biniloa;;24
+40;;Forever Changes;;Love;;1967;;Biniloa;;24
+41;;Never Mind The Bollocks, Here's The Sex Pistols;;The Sex Pistols;;1977;;Biniloa;;24
+42;;The Doors;;The Doors;;1967;;Biniloa;;24
+43;;The Dark Side Of The Moon;;Pink Floyd;;1973;;Biniloa;;24
+44;;Horses;;Patty Smith;;1975;;Biniloa;;24
+45;;The Band;;The Band;;1969;;Biniloa;;24
+46;;Legend;;Bob Marley And The Wailers;;1984;;Biniloa;;24
+47;;A Love Supreme;;John Coltrane;;1964;;Biniloa;;24
+48;;It Takes A Nation Of Millions To Hold Us Back;;Public Enemy;;1988;;Biniloa;;24
+49;;At Fillmore East;;The Allman Brothers Band;;1971;;Biniloa;;24
+50;;Here's Little Richard;;Little Richard;;1957;;Biniloa;;24
+51;;Bridge Over Troubled Water;;Simon And Garfunkel;;1970;;Biniloa;;24
+52;;Greatest Hits;;Al Green;;1975;;Biniloa;;24
+53;;The Birth Of Soul: The Complete Atlantic R&B;;Ray Charles;;1991;;Biniloa;;24
+54;;Electric Ladyland;;The Jimi Hendrix Experience;;1968;;Biniloa;;24
+55;;Elvis Presley;;Elvis Presley;;1956;;Biniloa;;24
+56;;Songs In The Key Of Life;;Stevie Wonder;;1976;;Biniloa;;24
+57;;Beggars Banquet;;The Rolling Stones;;1968;;Biniloa;;24
+58;;Trout Mask Replica;;Captain Beefheart And His Magic Band;;1969;;Biniloa;;24
+59;;Meet The Beatles;;The Beatles;;1964;;Biniloa;;24
+60;;Greatest Hits;;Sly And The Family Stone;;1970;;Biniloa;;24
+61;;Appetite For Destruction;;Guns N'Roses;;1987;;Biniloa;;24
+62;;Achtung Baby;;U2;;1991;;Biniloa;;24
+63;;Sticky Fingers;;The Rolling Stones;;1971;;Biniloa;;24
+64;;Back To Mono (1958-1969);;Phil Spector;;1991;;Biniloa;;24
+65;;Moondance;;Van Morrison;;1970;;Biniloa;;24
+66;;Led Zeppelin IV;;Led Zeppelin;;1971;;Biniloa;;24
+67;;The Stranger;;Billy Joel;;1977;;Biniloa;;24
+68;;Off The Wall;;Michael Jackson;;1979;;Biniloa;;24
+69;;Superfly;;Curtis Mayfield;;1972;;Biniloa;;24
+70;;Physical Graffiti;;Led Zeppelin;;1975;;Biniloa;;24
+71;;After The Gold Rush;;Neil Young;;1970;;Biniloa;;24
+72;;Purple Rain;;Prince And The Revolution;;1984;;Biniloa;;24
+73;;Back In Black;;AC/DC;;1980;;Biniloa;;24
+74;;Otis Blue;;Otis Redding;;1965;;Biniloa;;24
+75;;Led Zeppelin II;;Led Zeppelin;;1969;;Biniloa;;24
+76;;Imagine;;John Lennon;;1971;;Biniloa;;24
+77;;The Clash;;The Clash;;1977;;Biniloa;;24
+78;;Harvest;;Neil Young;;1972;;Biniloa;;24
+79;;Star Time;;James Brown;;1991;;Biniloa;;24
+80;;Odessey And Oracle;;The Zombies;;1969;;Biniloa;;24
+81;;Graceland;;Paul Simon;;1986;;Biniloa;;24
+82;;Axis: Bold As Love;;The Jimi Hendrix Experience;;1968;;Biniloa;;24
+83;;I Never Loved A Man The Way I Love You;;Aretha Franklin;;1967;;Biniloa;;24
+84;;Lady Soul;;Aretha Franklin;;1968;;Biniloa;;24
+85;;Born In The U.S.A.;;Bruce Springsteen;;1984;;Biniloa;;24
+86;;Let It Be;;The Beatles;;1970;;Biniloa;;24
+87;;The Wall;;Pink Floyd;;1979;;Biniloa;;24
+88;;At Folsom Prison;;Johnny Cash;;1968;;Biniloa;;24
+89;;Dusty In Memphis;;Dusty Springfield;;1969;;Biniloa;;24
+90;;Talking Book;;Stevie Wonder;;1972;;Biniloa;;24
+91;;Goodbye Yellow Brick Road;;Elton John;;1973;;Biniloa;;24
+92;;20 Golden Greats;;Buddy Holly;;1978;;Biniloa;;24
+93;;Sign 'o' The Times;;Prince;;1987;;Biniloa;;24
+94;;Bitches Brew;;Miles Davis;;1970;;Biniloa;;24
+95;;Green River;;Creedence Clearwater Revival;;1969;;Biniloa;;24
+96;;Tommy;;The Who;;1969;;Biniloa;;24
+97;;The Freewheelin' Bob Dylan;;Bob Dylan;;1963;;Biniloa;;24
+98;;This Year's Model;;Elvis Costello;;1978;;Biniloa;;24
+99;;There's A Riot Goin' On;;Sly And The Family Stone;;1971;;Biniloa;;24
+100;;In The Wee Small Hours;;Frank Sinatra;;1955;;Biniloa;;24
+101;;Fresh Cream;;Cream;;1967;;Biniloa;;24
+102;;Giant Steps;;John Coltrane;;1960;;Biniloa;;24
+103;;Sweet Baby James;;James Taylor;;1970;;Biniloa;;24
+104;;Modern Sounds In Country And Western Music;;Ray Charles;;1962;;Biniloa;;24
+105;;Rocket To Russia;;Ramones;;1977;;Biniloa;;24
+106;;Portrait Of A Legend 1951-1964;;Sam Cooke;;2003;;Biniloa;;24
+107;;Hunky Dory;;David Bowie;;1970;;Biniloa;;24
+108;;Aftermath;;The Rolling Stones;;1966;;Biniloa;;24
+109;;Loaded;;The Velvet Underground;;1970;;Biniloa;;24
+110;;The Bends;;Radiohead;;1955;;Biniloa;;24
+111;;Court And Spark;;Joni Mitchell;;1974;;Biniloa;;24
+112;;Disraeli Gears;;Cream;;1967;;Biniloa;;24
+113;;The Who Sell Out;;The Who;;1967;;Biniloa;;24
+114;;Out Of Our Heads;;The Rolling Stones;;1965;;Biniloa;;24
+115;;Layla And Other Assorted Love Songs;;Derek And The Dominos;;1970;;Biniloa;;24
+116;;At Last!;;Etta James;;1961;;Biniloa;;24
+117;;Sweetheart Of The Rodeo;;The Byrds;;1968;;Biniloa;;24
+118;;Stand!;;Sly And The Family Stone;;1969;;Biniloa;;24
+119;;The Harder They Come;;Banda Sonora;;1973;;Biniloa;;24
+120;;Raising Hell;;Run-DMC;;1986;;Biniloa;;24
+121;;Moby Grape;;Moby Grape;;1967;;Biniloa;;24
+122;;Pearl;;Janis Joplin;;1971;;Biniloa;;24
+123;;Catch A Fire;;Bob Marley And The Wailers;;1973;;Biniloa;;24
+124;;Younger Than Yesterday;;The Byrds;;1967;;Biniloa;;24
+125;;Raw Power;;The Stooges;;1973;;Biniloa;;24
+126;;Remain In Light;;Talking Heads;;1980;;Biniloa;;24
+127;;If You Can Believe Your Eyes And Ears;;The Mamas And The Papas;;1966;;Biniloa;;24
+128;;Marquee Moon;;Television;;1977;;Biniloa;;24
+129;;40 Greatest Hits;;Hank Williams;;1978;;Biniloa;;24
+130;;Paranoid;;Black Sabbath;;1971;;Biniloa;;24
+131;;Saturday Night Fever;;Banda Sonora;;1977;;Biniloa;;24
+132;;The Wild, The Innocent And The E Street Shuffle;;Bruce Springsteen;;1973;;Biniloa;;24
+133;;Ready To Die;;The Notorious B.I.G.;;1994;;Biniloa;;24
+134;;Slanted And Enchanted;;Pavement;;1992;;Biniloa;;24
+135;;Greatest Hits;;Elton John;;1974;;Biniloa;;24
+136;;Tim;;The Replacements;;1985;;Biniloa;;24
+137;;The Chronic;;Dr. Dre;;1992;;Biniloa;;24
+138;;Rejuvenation;;The Meters;;1974;;Biniloa;;24
+139;;All That You Can't Leave Behind;;U2;;2000;;Biniloa;;24
+140;;Parallel Lines;;Blondie;;1978;;Biniloa;;24
+141;;Live At The Regal;;B.B. King;;1965;;Biniloa;;24
+142;;A Christmas Gift For You;;Phil Spector;;1972;;Biniloa;;24
+143;;Gris-Gris;;Dr. John;;1968;;Biniloa;;24
+144;;Straight Outta Compton;;N.W.A.;;1988;;Biniloa;;24
+145;;Aja;;Steely Dan;;1977;;Biniloa;;24
+146;;Surrealistic Pillow;;Jefferson Airplane;;1967;;Biniloa;;24
+147;;Dreams To Remember;;Otis Redding;;1998;;Biniloa;;24
+148;;Dejà Vu;;Crosby, Stills, Nash And Young;;1970;;Biniloa;;24
+149;;Houses Of The Holy;;Led Zeppelin;;1973;;Biniloa;;24
+150;;Santana;;Santana;;1969;;Biniloa;;24
+151;;Darkness On The Edge Of Town;;Bruce Springsteen;;1978;;Biniloa;;24
+152;;The B-52's;;The B-52's;;1979;;Biniloa;;24
+153;;Moanin' In The Moonlight;;Howlin' Wolf;;1959;;Biniloa;;24
+154;;The Low End Theory;;A Tribe Called Quest;;1991;;Biniloa;;24
+155;;Pretenders;;The Pretenders;;1980;;Biniloa;;24
+156;;Paul's Boutique;;Beastie Boys;;1989;;Biniloa;;24
+157;;Closer;;Joy Division;;1980;;Biniloa;;24
+158;;Captain Fantastic And The Brown Dirt Cowboy;;Elton John;;1975;;Biniloa;;24
+159;;Alive;;Kiss;;1975;;Biniloa;;24
+160;;Electric Warrior;;T.Rex;;1971;;Biniloa;;24
+161;;The Dock Of The Bay;;Otis Redding;;1968;;Biniloa;;24
+162;;OK Computer;;Radiohead;;1997;;Biniloa;;24
+163;;1999;;Prince;;1982;;Biniloa;;24
+164;;Heart Like A Wheel;;Linda Ronstadt;;1974;;Biniloa;;24
+165;;Let's Get It On;;Marvin Gaye;;1973;;Biniloa;;24
+166;;Imperial Bedroom;;Elvis Costello And The Attractions;;1982;;Biniloa;;24
+167;;Master Of Puppets;;Metallica;;1986;;Biniloa;;24
+168;;My Aim Is True;;Elvis Costello;;1977;;Biniloa;;24
+169;;Exodus;;Bob Marley And The Wailers;;1977;;Biniloa;;24
+170;;Live At Leeds;;The Who;;1970;;Biniloa;;24
+171;;The Notorious Byrd Brothers;;The Byrds;;1968;;Biniloa;;24
+172;;Every Picture Tells A Story;;Rod Stewart;;1971;;Biniloa;;24
+173;;Something/Anything?;;Todd Rundgren;;1972;;Biniloa;;24
+174;;Desire;;Bob Dylan;;1976;;Biniloa;;24
+175;;Close To You;;The Carpenters;;1970;;Biniloa;;24
+176;;Rocks;;Aerosmith;;1976;;Biniloa;;24
+177;;One Nation Under A Groove;;Funkadelic;;1978;;Biniloa;;24
+178;;Greatest Hits;;The Byrds;;1967;;Biniloa;;24
+179;;The Anthology 1961-1977;;Curtis Mayfield And The Impressions;;1992;;Biniloa;;24
+180;;The Definitive Collection;;Abba;;2001;;Biniloa;;24
+181;;The Rolling Stones, Now!;;The Rolling Stones;;1965;;Biniloa;;24
+182;;Natty Dread;;Bob Marley And The Wailers;;1974;;Biniloa;;24
+183;;Fleetwood Mac;;Fleetwood Mac;;1975;;Biniloa;;24
+184;;Red Headed Stranger;;Willie Nelson;;1975;;Biniloa;;24
+185;;The Stooges;;The Stooges;;1969;;Biniloa;;24
+186;;Fresh;;Sly And The Family Stone;;1973;;Biniloa;;24
+187;;So;;Peter Gabriel;;1986;;Biniloa;;24
+188;;Buffalo Springfield Again;;Buffalo Springfield;;1967;;Biniloa;;24
+189;;Happy Trails;;Quicksilver Messenger Service;;1969;;Biniloa;;24
+190;;From Elvis In Memphis;;Elvis Presley;;1969;;Biniloa;;24
+191;;Fun House;;The Stooges;;1970;;Biniloa;;24
+192;;The Gilded Palace Of Sin;;The Flying Burrito Brothers;;1969;;Biniloa;;24
+193;;Dookie;;Green Day;;1994;;Biniloa;;24
+194;;Transformer;;Lou Reed;;1972;;Biniloa;;24
+195;;Blues Breakers;;John Mayall With Eric Clapton;;1966;;Biniloa;;24
+196;;Nuggets: Original Artifacts From The First Psychedelic Era, 1965-1968;;Various Artists;;1972;;Biniloa;;24
+197;;Murmur;;R.E.M.;;1983;;Biniloa;;24
+198;;The Best Of;;Little Walter;;1964;;Biniloa;;24
+199;;Highway To Hell;;AC/DC;;1979;;Biniloa;;24
+200;;The Downward Spiral;;Nine Inch Nails;;1994;;Biniloa;;24
+201;;Parsley, Sage, Rosemary And Thyme;;Simon And Garfunkel;;1966;;Biniloa;;24
+202;;Bad;;Michael Jackson;;1987;;Biniloa;;24
+203;;Wheels Of Fire;;Cream;;1968;;Biniloa;;24
+204;;Dirty Mind;;Prince;;1980;;Biniloa;;24
+205;;Abraxas;;Santana;;1970;;Biniloa;;24
+206;;Tea For The Tillerman;;Cat Stevens;;1970;;Biniloa;;24
+207;;Ten;;Pearl Jam;;1991;;Biniloa;;24
+208;;Everybody Knows This Is Nowhere;;Neil Young With Crazy Horse;;1969;;Biniloa;;24
+209;;Wish You Were Here;;Pink Floyd;;1975;;Biniloa;;24
+210;;Crooked Rain, Crooked Rain;;Pavement;;1994;;Biniloa;;24
+211;;Tattoo You;;The Rolling Stones;;1981;;Biniloa;;24
+212;;Proud Mary;;Ike And Tina Turner;;1991;;Biniloa;;24
+213;;New York Dolls;;New York Dolls;;1973;;Biniloa;;24
+214;;Bo Diddley / Go Bo Diddley;;Bo Diddley;;1959;;Biniloa;;24
+215;;Two Steps From The Blues;;Bobby Bland;;1961;;Biniloa;;24
+216;;The Queen Is Dead;;The Smiths;;1986;;Biniloa;;24
+217;;Licensed To Ill;;Beastie Boys;;1986;;Biniloa;;24
+218;;Look-ka Py Py;;The Meters;;1970;;Biniloa;;24
+219;;Loveless;;My Bloody Valentine;;1991;;Biniloa;;24
+220;;New Orleans Piano;;Professor Longhair;;1972;;Biniloa;;24
+221;;War;;U2;;1983;;Biniloa;;24
+222;;The Neil Diamond Collection;;Neil Diamond;;1999;;Biniloa;;24
+223;;Howlin' Wolf;;Howlin' Wolf;;1962;;Biniloa;;24
+224;;Nebraska;;Bruce Springsteen;;1982;;Biniloa;;24
+225;;The Complete Hank Williams;;Hank Williams;;1998;;Biniloa;;24
+226;;Doolittle;;Pixies;;1989;;Biniloa;;24
+227;;Paid In Full;;Eric B. And Rakim;;1987;;Biniloa;;24
+228;;Toys In The Attic;;Aerosmith;;1975;;Biniloa;;24
+229;;Nick Of Time;;Bonnie Raitt;;1989;;Biniloa;;24
+230;;A Night At The Opera;;Queen;;1975;;Biniloa;;24
+231;;The Kink Kronikles;;The Kinks;;1972;;Biniloa;;24
+232;;Mr. Tambourine Man;;The Byrds;;1965;;Biniloa;;24
+233;;Bookends;;Simon And Garfunkel;;1968;;Biniloa;;24
+234;;The Ultimate Collection;;Patsy Cline;;2000;;Biniloa;;24
+235;;Mr. Excitement;;Jackie Wilson;;1992;;Biniloa;;24
+236;;The Who Sings My Generation;;The Who;;1965;;Biniloa;;24
+237;;Like A Prayer;;Madonna;;1989;;Biniloa;;24
+238;;Can't Buy A Thrill;;Steely Dan;;1972;;Biniloa;;24
+239;;Let It Be;;The Replacements;;1984;;Biniloa;;24
+240;;Run-DMC;;Run-DMC;;1984;;Biniloa;;24
+241;;Black Sabbath;;Black Sabbath;;1970;;Biniloa;;24
+242;;All Killer, No Filler!;;Jerry Lee Lewis;;1993;;Biniloa;;24
+243;;Freak Out!;;The Mothers Of Invention;;1966;;Biniloa;;24
+244;;Live Dead;;Grateful Dead;;1969;;Biniloa;;24
+245;;Bryter Layter;;Nick Drake;;1970;;Biniloa;;24
+246;;The Shape Of Jazz To Come;;Ornette Coleman;;1959;;Biniloa;;24
+247;;Automatic For The People;;R.E.M.;;1992;;Biniloa;;24
+248;;Reasonable Doubt;;Jay-Z;;1996;;Biniloa;;24
+249;;Low;;David Bowie;;1977;;Biniloa;;24
+250;;The River;;Bruce Springsteen;;1980;;Biniloa;;24
+251;;Dictionary Of Soul;;Otis Redding;;1966;;Biniloa;;24
+252;;Metallica;;Metallica;;1991;;Biniloa;;24
+253;;Trans-Europe Express;;Kraftwerk;;1977;;Biniloa;;24
+254;;Whitney Houston;;Whitney Houston;;1985;;Biniloa;;24
+255;;The Village Green Preservation Society;;The Kinks;;1968;;Biniloa;;24
+256;;The Velvet Rope;;Janet Jackson;;1997;;Biniloa;;24
+257;;Stardust;;Willie Nelson;;1978;;Biniloa;;24
+258;;American Beauty;;Grateful Dead;;1970;;Biniloa;;24
+259;;Crosby, Stills And Nash;;Crosby, Stills And Nash;;1969;;Biniloa;;24
+260;;Buena Vista Social Club;;Buena Vista Social Club;;1997;;Biniloa;;24
+261;;Tracy Chapman;;Tracy Chapman;;1988;;Biniloa;;24
+262;;Workingman's Dead;;Grateful Dead;;1970;;Biniloa;;24
+263;;The Genius Of Ray Charles;;Ray Charles;;1959;;Biniloa;;24
+264;;Child Is Father To The Man;;Blood, Sweat And Tears;;1968;;Biniloa;;24
+265;;Cosmo's Factory;;Creedence Clearwater Revival;;1970;;Biniloa;;24
+266;;Quadrophenia;;The Who;;1973;;Biniloa;;24
+267;;There Goes Rhymin'Simon;;Paul Simon;;1973;;Biniloa;;24
+268;;Psycho Candy;;The Jesus And Mary Chain;;1985;;Biniloa;;24
+269;;Some Girls;;The Rolling Stones;;1978;;Biniloa;;24
+270;;The Beach Boys Today!;;The Beach Boys;;1965;;Biniloa;;24
+271;;Going To A Go-Go;;Smokey Robinson & The Miracles;;1965;;Biniloa;;24
+272;;Nightbirds;;Labelle;;1974;;Biniloa;;24
+273;;The Slim Shady LP;;Eminem;;1999;;Biniloa;;24
+274;;Mothership Connection;;Parliament;;1976;;Biniloa;;24
+275;;Rhythm Nation 1814;;Janet Jackson;;1989;;Biniloa;;24
+276;;Anthology Of American Folk Music;;Various Artists;;1952;;Biniloa;;24
+277;;Aladdin Sane;;David Bowie;;1973;;Biniloa;;24
+278;;The Immaculate Collection;;Madonna;;1990;;Biniloa;;24
+279;;My Life;;Mary J. Blige;;1994;;Biniloa;;24
+280;;Folk Singer;;Muddy Waters;;1964;;Biniloa;;24
+281;;Can't Get Enough;;Barry White;;1974;;Biniloa;;24
+282;;The Cars;;The Cars;;1978;;Biniloa;;24
+283;;Five Leaves Left;;Nick Drake;;1969;;Biniloa;;24
+284;;Music Of My Mind;;Stevie Wonder;;1972;;Biniloa;;24
+285;;I'm Still Love With You;;Al Green;;1972;;Biniloa;;24
+286;;Los Angeles;;X;;1980;;Biniloa;;24
+287;;Anthem Of The Sun;;Grateful Dead;;1968;;Biniloa;;24
+288;;Something Else;;The Kinks;;1968;;Biniloa;;24
+289;;Call Me;;Al Green;;1973;;Biniloa;;24
+290;;Talking Heads: 77;;Talking Heads;;1977;;Biniloa;;24
+291;;The Basement Tapes;;Bob Dylan And The Band;;1975;;Biniloa;;24
+292;;White Light / White Heat;;The Velvet Underground;;1967;;Biniloa;;24
+293;;Greatest Hits;;Simon And Garfunkel;;1972;;Biniloa;;24
+294;;Kick Out The Jams;;MC5;;1969;;Biniloa;;24
+295;;Meat Is Murder;;The Smiths;;1985;;Biniloa;;24
+296;;We're Only In It For The Money;;The Mothers Of Invention;;1968;;Biniloa;;24
+297;;Wezzer (Blue Album);;Weezer;;1994;;Biniloa;;24
+298;;Master Of Reality;;Black Sabbath;;1971;;Biniloa;;24
+299;;Coats Of Many Colors;;Dolly Parton;;1971;;Biniloa;;24
+300;;Fear Of A Black Planet;;Public Enemy;;1990;;Biniloa;;24
+301;;John Wesley Harding;;Bob Dylan;;1967;;Biniloa;;24
+302;;The Marshall Mathers LP;;Eminem;;2000;;Biniloa;;24
+303;;Grace;;Jeff Buckley;;1994;;Biniloa;;24
+304;;Car Wheels On A Gravel Road;;Lucinda Williams;;1998;;Biniloa;;24
+305;;Odelay;;Beck;;1996;;Biniloa;;24
+306;;Songs For Swingin' Lovers;;Frank Sinatra;;1956;;Biniloa;;24
+307;;Avalon;;Roxy Music;;1982;;Biniloa;;24
+308;;Sun Records Collection;;Various Artists;;1994;;Biniloa;;24
+309;;Nothing's Shocking;;Jane's Addiction;;1988;;Biniloa;;24
+310;;BloodSugar-SexMagik;;Red Hot Chili Peppers;;1991;;Biniloa;;24
+311;;Unplugged;;Nirvana;;1994;;Biniloa;;24
+312;;The Miseducation Of Lauryn Hill;;Lauryn Hill;;1998;;Biniloa;;24
+313;;Damn The Torpedoes;;Tom Petty And The Heartbreakers;;1979;;Biniloa;;24
+314;;The Velvet Underground;;The Velvet Underground;;1969;;Biniloa;;24
+315;;Surfer Rosa;;Pixies;;1988;;Biniloa;;24
+316;;Rock Steady;;No Doubt;;2001;;Biniloa;;24
+317;;The Eminen Show;;Eminem;;2002;;Biniloa;;24
+318;;Back Stabbers;;The O'Jays;;1972;;Biniloa;;24
+319;;Burnin';;The Waylers;;1973;;Biniloa;;24
+320;;Pink Moon;;Nick Drake;;1972;;Biniloa;;24
+321;;Sail Away;;Randy Newman;;1972;;Biniloa;;24
+322;;Ghost In the Machine;;The Police;;1981;;Biniloa;;24
+323;;Station To Station;;David Bowie;;1976;;Biniloa;;24
+324;;The Very Best;;Linda Ronstadt;;2002;;Biniloa;;24
+325;;Slowhand;;Eric Clapton;;1977;;Biniloa;;24
+326;;Desintegration;;The Cure;;1989;;Biniloa;;24
+327;;Jagged Little Pill;;Alanis Morissette;;1995;;Biniloa;;24
+328;;Exile In Guyville;;Liz Phair;;1993;;Biniloa;;24
+329;;Daydream Nation;;Sonic Youth;;1988;;Biniloa;;24
+330;;In Th Jungle Groove;;James Brown;;1986;;Biniloa;;24
+331;;Tonight's The Night;;Neil Young;;1975;;Biniloa;;24
+332;;Help!;;The Beatles;;1965;;Biniloa;;24
+333;;Shoot Out The Lights;;Richard And Linda Thompson;;1982;;Biniloa;;24
+334;;Wild Gift;;X;;1981;;Biniloa;;24
+335;;Squeezing Out Sparks;;Graham Parker;;1979;;Biniloa;;24
+336;;Superunknown;;Soundgarden;;1994;;Biniloa;;24
+337;;Aqualung;;Jethro Tull;;1971;;Biniloa;;24
+338;;Cheap Thrills;;Big Brother And The Holding Company;;1968;;Biniloa;;24
+339;;The Heart Of Saturday Night;;Tom Waits;;1974;;Biniloa;;24
+340;;Damaged;;Black Flag;;1981;;Biniloa;;24
+341;;Play;;Moby;;1999;;Biniloa;;24
+342;;Violator;;Depeche Mode;;1990;;Biniloa;;24
+343;;Bat Out Of Hell;;Meat Loaf;;1977;;Biniloa;;24
+344;;Berlin;;Lou Reed;;1973;;Biniloa;;24
+345;;Stop Making Sense;;Talking Heads;;1984;;Biniloa;;24
+346;;3 Feet High And Rising;;De La Soul;;1989;;Biniloa;;24
+347;;Piper At The Gates Of Dawn;;Pink Floyd;;1967;;Biniloa;;24
+348;;At Newport 1960;;Muddy Waters;;1960;;Biniloa;;24
+349;;Roger The Engineer;;The Yardbirds;;1966;;Biniloa;;24
+350;;Rust Never Sleeps;;Neil Young;;1979;;Biniloa;;24
+351;;Brothers In Arms;;Dire Straits;;1985;;Biniloa;;24
+352;;52nd Street;;Billy Joel;;1978;;Biniloa;;24
+353;;Having A Rave Up With The Yardbirds;;The Yardbirds;;1965;;Biniloa;;24
+354;;12 Songs;;Randy Newman;;1970;;Biniloa;;24
+355;;Between The Buttons;;The Rolling Stones;;1967;;Biniloa;;24
+356;;Sketches Of Spain;;Miles Davis;;1960;;Biniloa;;24
+357;;Honky Château;;Elton John;;1972;;Biniloa;;24
+358;;Singles Going Steady;;Buzzcocks;;1979;;Biniloa;;24
+359;;Stankonia;;Outkast;;2000;;Biniloa;;24
+360;;Siamese Dream;;The Smashing Pumpkins;;1993;;Biniloa;;24
+361;;Substance;;New Order;;1987;;Biniloa;;24
+362;;L.A. Woman;;The Doors;;1971;;Biniloa;;24
+363;;Ray Of Light;;Madonna;;1998;;Biniloa;;24
+364;;American Recordings;;Johnny Cash;;1994;;Biniloa;;24
+365;;Louder Than Bombs;;The Smiths;;1987;;Biniloa;;24
+366;;Mott;;Mott The Hoople;;1973;;Biniloa;;24
+367;;Is This It;;The Strokes;;2001;;Biniloa;;24
+368;;Rage Against The Machine;;Rage Against The Machine;;1992;;Biniloa;;24
+369;;Regatta De Blanc;;The Police;;1979;;Biniloa;;24
+370;;Volunteers;;Jefferson Airplane;;1969;;Biniloa;;24
+371;;Siren;;Roxy Music;;1975;;Biniloa;;24
+372;;Late For The Sky;;Jackson Browne;;1974;;Biniloa;;24
+373;;Post;;Björk;;1995;;Biniloa;;24
+374;;The Eagles;;The Eagles;;1972;;Biniloa;;24
+375;;The Ultimate Collection: 1948-1950;;John Lee Hooker;;1991;;Biniloa;;24
+376;;(What's The Story) Morning Glory;;Oasis;;1995;;Biniloa;;24
+377;;Craxysexycool;;TLC;;1994;;Biniloa;;24
+378;;Funky Kingston;;Toots & The Maytals;;1973;;Biniloa;;24
+379;;Greetings From Asbury Park, N.J.;;Bruce Springsteen;;1973;;Biniloa;;24
+380;;Sunflower;;The Beach Boys;;1970;;Biniloa;;24
+381;;Modern Lovers;;Modern Lovers;;1976;;Biniloa;;24
+382;;More Songs About Buildings And Food;;Talking Heads;;1978;;Biniloa;;24
+383;;A Quick One (Happy Jack);;The Who;;1966;;Biniloa;;24
+384;;Pyromania;;Def Leppard;;1983;;Biniloa;;24
+385;;Pretzel Logic;;Steely Dan;;1974;;Biniloa;;24
+386;;Enter The Wu-Tang: 36 Chambers;;Wu-Tang Clan;;1993;;Biniloa;;24
+387;;Country Life;;Roxy Music;;1974;;Biniloa;;24
+388;;A Hard Day's Night;;The Beatles;;1964;;Biniloa;;24
+389;;The End Of Innocence;;Don Henley;;1989;;Biniloa;;24
+390;;Elephant;;The White Stripes;;2003;;Biniloa;;24
+391;;The Pretender;;Jackson Browne;;1976;;Biniloa;;24
+392;;Willy And The Poor Boys;;Creedence Clearwater Revival;;1969;;Biniloa;;24
+393;;Good Old Boys;;Randy Newman;;1974;;Biniloa;;24
+394;;For Your Pleasure;;Roxy Music;;1973;;Biniloa;;24
+395;;Blue Lines;;Massive Attack;;1991;;Biniloa;;24
+396;;Eliminator;;ZZ Top;;1983;;Biniloa;;24
+397;;Rain Dogs;;Tom Waits;;1985;;Biniloa;;24
+398;;Anthology;;Temptations;;1995;;Biniloa;;24
+399;;Californication;;Red Hot Chili Peppers;;1999;;Biniloa;;24
+400;;Illmatic;;Nas;;1994;;Biniloa;;24
+401;;(Pronounced Leh-Nerd-Skin-Nerd);;Lynyrd Skynyrd;;1973;;Biniloa;;24
+402;;Dr. John's Gumbo;;Dr. John;;1972;;Biniloa;;24
+403;;Radio City;;Big Star;;1974;;Biniloa;;24
+404;;Sandinista!;;The Clash;;1980;;Biniloa;;24
+405;;Rid Of Me;;PJ Harvey;;1993;;Biniloa;;24
+406;;I Do Not Want What I Haven't Got;;Sinéad O'Connor;;1990;;Biniloa;;24
+407;;Strange Days;;The Doors;;1967;;Biniloa;;24
+408;;Time Out Of Mind;;Bob Dylan;;1997;;Biniloa;;24
+409;;461 Ocean Boulevard;;Eric Clapton;;1974;;Biniloa;;24
+410;;Pink Flag;;Wire;;1977;;Biniloa;;24
+411;;Double Nickels On The Dime;;Minutemen;;1984;;Biniloa;;24
+412;;Mezzanine;;Massive Attack;;1998;;Biniloa;;24
+413;;Beauty And The Beat;;Go-Go's;;1981;;Biniloa;;24
+414;;Greatest Hits;;James Brown;;1991;;Biniloa;;24
+415;;Van Halen;;Van Halen;;1978;;Biniloa;;24
+416;;Mule Variations;;Tom Waits;;1999;;Biniloa;;24
+417;;Boy;;U2;;1980;;Biniloa;;24
+418;;Band On The Run;;Wings;;1972;;Biniloa;;24
+419;;Dummy;;Portishead;;1994;;Biniloa;;24
+420;;With The Beatles;;The Beatles;;1963;;Biniloa;;24
+421;;"The ""Chirping"" Crickets";;Buddy Holly And The Crickets;;1957;;Biniloa;;24
+422;;The Best Of The Girl Groups;;Various Artists;;1990;;Biniloa;;24
+423;;Greatest Hits;;The Mamas And The Papas;;1998;;Biniloa;;24
+424;;King Of The Delta Blues Singers Vol. 2;;Robert Johnson;;1970;;Biniloa;;24
+425;;Changesonebowie;;David Bowie;;1976;;Biniloa;;24
+426;;The Battle Of Los Angeles;;Rage Against The Machine;;1999;;Biniloa;;24
+427;;Presenting The Fabulous Ronettes;;The Ronettes;;1964;;Biniloa;;24
+428;;Kid A;;Radiohead;;2000;;Biniloa;;24
+429;;Grievous Angel;;Gram Parsons;;1973;;Biniloa;;24
+430;;At Budokan;;Cheap Trick;;1979;;Biniloa;;24
+431;;Anthology;;Diana Ross And The Supremes;;2001;;Biniloa;;24
+432;;Sleepless;;Peter Wolf;;2002;;Biniloa;;24
+433;;Another Green World;;Brian Eno;;1975;;Biniloa;;24
+434;;Outlandos D'Amour;;The Police;;1978;;Biniloa;;24
+435;;To Bring You My Love;;PJ Harvey;;1995;;Biniloa;;24
+436;;Here Comes The Warm Jets;;Brian Eno;;1974;;Biniloa;;24
+437;;All Things Must Pass;;George Harrison;;1970;;Biniloa;;24
+438;;# 1 Record;;Big Star;;1972;;Biniloa;;24
+439;;In Utero;;Nirvana;;1993;;Biniloa;;24
+440;;Sea Change;;Beck;;2002;;Biniloa;;24
+441;;Tragic Kingdom;;No Doubt;;1995;;Biniloa;;24
+442;;Boys Don't Cry;;The Cure;;1979;;Biniloa;;24
+443;;Live At The Harlem Square Club, 1963;;Sam Cooke;;1985;;Biniloa;;24
+444;;Criminal Minded;;Boogie Down Productions;;1987;;Biniloa;;24
+445;;Rum Sodomy And The Lash;;The Pogues;;1985;;Biniloa;;24
+446;;Suicide;;Suicide;;1977;;Biniloa;;24
+447;;Q: Are We Not Men? A: We Are Devo;;Devo;;1978;;Biniloa;;24
+448;;In Color;;Cheap Trick;;1977;;Biniloa;;24
+449;;The World Is A Ghetto;;War;;1972;;Biniloa;;24
+450;;Fly Like An Eagle;;Steve Miller Band;;1976;;Biniloa;;24
+451;;Back In The USA;;MC5;;1970;;Biniloa;;24
+452;;Music;;Madonna;;2000;;Biniloa;;24
+453;;Ritual De Lo Habitual;;Jane's Addiction;;1990;;Biniloa;;24
+454;;Getz/Gilberto;;Stan Getz;;1964;;Biniloa;;24
+455;;Synchronicity;;The Police;;1983;;Biniloa;;24
+456;;Third Sisters Lovers;;Big Star;;1978;;Biniloa;;24
+457;;For Everyman;;Jackson Browne;;1973;;Biniloa;;24
+458;;John Prine;;John Prine;;1971;;Biniloa;;24
+459;;Strictly Business;;EPMD;;1988;;Biniloa;;24
+460;;Love It To Death;;Alice Cooper;;1971;;Biniloa;;24
+461;;How Will The Wolf Survive?;;Los Lobos;;1984;;Biniloa;;24
+462;;Here, My Dear;;Marvin Gaye;;1978;;Biniloa;;24
+463;;Tumbleweed Collection;;Elton John;;1971;;Biniloa;;24
+464;;The Blueprint;;Jay-Z;;2001;;Biniloa;;24
+465;;Golden Hits;;The Drifters;;1968;;Biniloa;;24
+466;;Live Through This;;Hole;;1994;;Biniloa;;24
+467;;Love And Theft;;Bob Dylan;;2001;;Biniloa;;24
+468;;Elton John;;Elton John;;1970;;Biniloa;;24
+469;;Metal Box;;Public Image Ltd.;;1979;;Biniloa;;24
+470;;Document;;R.E.M.;;1987;;Biniloa;;24
+471;;Heaven Up Here;;Echo And The Bunnymen;;1981;;Biniloa;;24
+472;;Hysteria;;Def Leppard;;1987;;Biniloa;;24
+473;;A Rush Of Blood To The Head;;Coldplay;;2002;;Biniloa;;24
+474;;Live In Europe;;Otis Redding;;1967;;Biniloa;;24
+475;;Tunnel Of Love;;Bruce Springsteen;;1987;;Biniloa;;24
+476;;The Paul Butterfield Blues Band;;The Paul Butterfield Blues Band;;1965;;Biniloa;;24
+477;;The Score;;The Fugees;;1996;;Biniloa;;24
+478;;Radio;;LL Cool J;;1985;;Biniloa;;24
+479;;I Want To See The Bright Lights Tonight;;Richard And Linda Thompson;;1974;;Biniloa;;24
+480;;Faith;;George Michael;;1987;;Biniloa;;24
+481;;The Smiths;;The Smiths;;1984;;Biniloa;;24
+482;;Armed Forces;;Elvis Costello And The Attractions;;1979;;Biniloa;;24
+483;;Life After Death;;The Notorious B.I.G.;;1997;;Biniloa;;24
+484;;Branded Man;;Merle Haggard;;1967;;Biniloa;;24
+485;;All Time Greatest Hits;;Loretta Lynn;;2002;;Biniloa;;24
+486;;Maggot Brain;;Funkadelic;;1971;;Biniloa;;24
+487;;Mellon Collie And The Infinite Sadness;;The Smashing Pumpkins;;1995;;Biniloa;;24
+488;;Voodoo;;D'Angelo;;2000;;Biniloa;;24
+489;;Guitar Town;;Steve Earle;;1986;;Biniloa;;24
+490;;Entertainment;;Gang Of Four;;1979;;Biniloa;;24
+491;;All The Young Dudes;;Mott The Hoople;;1972;;Biniloa;;24
+492;;Vitalogy;;Pearl Jam;;1994;;Biniloa;;24
+493;;That's The Way Of The World;;Earth, Wind And Fire;;1975;;Biniloa;;24
+494;;She's So Unusual;;Cyndi Lauper;;1983;;Biniloa;;24
+495;;New Day Rising;;Hüsker Dü;;1985;;Biniloa;;24
+496;;Destroyer;;Kiss;;1976;;Biniloa;;24
+497;;Yo! Bum Rush The Show;;Public Enemy;;1987;;Biniloa;;24
+498;;Tres Hombres;;ZZ Top;;1973;;Biniloa;;24
+499;;Born Under A Bad Sign;;Albert King;;1967;;Biniloa;;24
+500;;Touch;;Eurythmics;;1984;;Biniloa;;24

@@ -270,3 +270,184 @@ FROM
     liburua ON alea.LiburuKodea = liburua.LiburuKodea
 WHERE
     MID(alea.signatura, 3, 1) IN (0 , 9);
+
+
+
+SELECT 
+    liburua.titulua,
+    LENGTH(liburua.titulua) - LENGTH(REPLACE(liburua.titulua, ' ', '')) + 1 hitz_kopurua
+FROM
+    liburua;
+
+
+SELECT 
+    liburua.Titulua,
+    (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'a', ''))) + 
+    (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'e', ''))) + 
+    (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'i', ''))) + 
+    (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'o', ''))) + 
+    (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'u', ''))) bokal_kantitatea
+FROM
+    liburua;
+
+
+
+SELECT 
+    REPLACE(liburua.titulua, ' ', '*'),
+    REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(liburua.titulua),
+                                                        'a',
+                                                        '1')),
+                                            'o',
+                                            '4')),
+                                'i',
+                                '3')),
+                    'e',
+                    '2')),
+        'a',
+        '1')
+FROM
+    liburua;
+
+
+
+SELECT 
+    alea.Signatura,
+    liburua.ISBN,
+    liburua.Titulua,
+    alea.Prezioa,
+    argitaletxea.ArgitalKodea,
+    argitaletxea.Izena,
+    gaia.GaiKodea,
+    gaia.Izena
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+        INNER JOIN
+    argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea
+        INNER JOIN
+    gaia ON liburua.GaiNagusi = gaia.GaiKodea;
+
+
+SELECT 
+    alea.Signatura,
+    liburua.ISBN,
+    liburua.Titulua,
+    alea.Prezioa,
+    argitaletxea.ArgitalKodea,
+    argitaletxea.Izena,
+    gaia1.GaiKodea,
+    gaia1.Izena,
+    gaia2.GaiKodea,
+    gaia2.Izena
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+        INNER JOIN
+    argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea
+        INNER JOIN
+    gaia gaia1 ON liburua.GaiNagusi = gaia1.GaiKodea
+        INNER JOIN
+    gaia gaia2 ON liburua.GaiBi = gaia2.GaiKodea;
+
+
+SELECT 
+    liburua.Titulua, liburua.Idazlea, liburua.ISBN, gaia.Izena
+FROM
+    liburua
+        INNER JOIN
+    gaia ON liburua.GaiNagusi = gaia.GaiKodea
+WHERE
+    gaia.Izena LIKE 'e%'
+        AND LENGTH(liburua.titulua) = 7;
+
+
+SELECT 
+    liburua.Titulua,
+    liburua.Idazlea,
+    liburua.ISBN,
+    alea.Signatura,
+    alea.Urtea,
+    argitaletxea.Izena
+FROM
+    liburua
+        INNER JOIN
+    alea ON liburua.LiburuKodea = alea.LiburuKodea
+        INNER JOIN
+    argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea;
+
+
+SELECT 
+    SUM(alea.Prezioa)
+FROM
+    alea;
+
+SELECT 
+    COUNT(liburua.LiburuKodea)
+FROM
+    liburua;
+
+SELECT 
+    COUNT(alea.Signatura)
+FROM
+    alea;
+
+SELECT 
+    alea.Signatura,
+    liburua.ISBN,
+    liburua.Titulua,
+    liburua.Idazlea,
+    alea.Prezioa
+FROM
+    alea
+        INNER JOIN
+    liburua ON liburua.LiburuKodea = alea.LiburuKodea
+WHERE
+    alea.Prezioa > 24
+ORDER BY liburua.Titulua ASC;
+
+ 
+ SELECT 
+    alea.*, liburua.Idazlea, liburua.Titulua
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+where (select avg(alea.Prezioa) from alea) < alea.Prezioa;
+
+
+SELECT 
+    gaia.Izena,
+    arduradunak.Izena,
+    arduradunak.Abizena,
+    COUNT(alea.Signatura),
+    SUM(alea.Prezioa)
+FROM
+    gaia
+        INNER JOIN
+    arduradunak ON gaia.ArduradunKodea = arduradunak.ArduradunKodea
+        INNER JOIN
+    liburua ON gaia.GaiKodea = liburua.GaiNagusi
+        INNER JOIN
+    alea ON alea.LiburuKodea = liburua.LiburuKodea
+GROUP BY gaia.izena;
+
+
+SELECT 
+    gaia.izena, gaia.Armairua
+FROM
+    gaia
+        INNER JOIN
+    liburua ON gaia.GaiKodea = liburua.GaiNagusi
+        INNER JOIN
+    alea ON liburua.LiburuKodea = alea.LiburuKodea
+GROUP BY gaia.Izena
+HAVING COUNT(alea.Signatura) > 4
+    OR SUM(alea.Prezioa) > 120;
+
+
+select gaia.Izena, gaia.Armairua, count(alea.Signatura), count(liburua.LiburuKodea), sum(alea.Prezioa)
+from gaia inner join liburua on gaia.GaiKodea = liburua.GaiNagusi
+inner join alea on alea.LiburuKodea = liburua.LiburuKodea
+group by gaia.Izena;

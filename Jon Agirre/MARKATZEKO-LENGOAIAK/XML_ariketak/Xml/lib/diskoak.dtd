@@ -1,0 +1,8 @@
+<!ELEMENT diskoak (diskoa+)>
+<!ELEMENT diskoa (izenburua,egilea,urtea,formatua,prezioa)>
+<!ATTLIST diskoa id NMTOKEN #REQUIRED>
+<!ELEMENT izenburua (#PCDATA)>
+<!ELEMENT egilea (#PCDATA)>
+<!ELEMENT urtea (#PCDATA)>
+<!ELEMENT formatua (#PCDATA)>
+<!ELEMENT prezioa (#PCDATA)>

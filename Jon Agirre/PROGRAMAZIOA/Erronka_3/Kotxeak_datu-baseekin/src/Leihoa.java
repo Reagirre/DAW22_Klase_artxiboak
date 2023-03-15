@@ -385,6 +385,10 @@ public class Leihoa extends JFrame{
 
     private void klikEzabatu() {
         
+        
+        lMezua.setText("Ekintza: kotxea ezabatu");
+        tKodea.requestFocusInWindow();
+        ezabatu();
     }
 
 
@@ -399,9 +403,7 @@ public class Leihoa extends JFrame{
         
         if(ekintza == ALDATU)
             aldatu();
-
-        if(ekintza == EZABATU)
-            ezabatu();
+            
     }
 
 
@@ -529,7 +531,7 @@ public class Leihoa extends JFrame{
                 erregistroak.updateDouble("zaldiak",Double.parseDouble(tZaldiak.getText()));
                 erregistroak.updateDouble("prezioa",Double.parseDouble(tPrezioa.getText()));
                 erregistroak.updateDouble("deskontua",Double.parseDouble(tDeskontua.getText()));
-                erregistroak.insertRow();
+                erregistroak.updateRow();
                 lMezua.setText("Mikroprozesadorea gehitu da!");
                 tKodea.setEditable(false);
                 tFabrikatzailea.setEditable(false);
@@ -546,14 +548,24 @@ public class Leihoa extends JFrame{
                 bUtzi.setEnabled(false);
 
                 if(erregistroak.isFirst())
+                {
                     bAurrekoa.setEnabled(false);
+                }
+                    
                 else
+                {
                     bAurrekoa.setEnabled(true);
+                }
+                    
                 
                 if(erregistroak.isLast())
+                {
                     bAurrekoa.setEnabled(true);
+                }
                 else
+                {
                     bHurrengoa.setEnabled(false);
+                }
                 
                 lMezua.setText("");
 
@@ -569,6 +581,60 @@ public class Leihoa extends JFrame{
     }
 
     private void ezabatu() {
-        
+        if(!tKodea.getText().equals("") && !tFabrikatzailea.getText().equals("") && !tModeloa.getText().equals("") && !tKolorea.getText().equals("")
+        && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
+        {
+            try {
+                erregistroak.moveToCurrentRow();
+                tKodea.setText("");
+                tFabrikatzailea.setText("");
+                tModeloa.setText("");
+                tKolorea.setText("");
+                tZaldiak.setText("");
+                tPrezioa.setText("");
+                tDeskontua.setText("");
+                erregistroak.deleteRow();
+                lMezua.setText("Mikroprozesadorea ezabatu da!");
+                tKodea.setEditable(false);
+                tFabrikatzailea.setEditable(false);
+                tModeloa.setEditable(false);
+                tKolorea.setEditable(false);
+                tZaldiak.setEditable(false);
+                tPrezioa.setEditable(false);
+                tDeskontua.setEditable(false);
+                bGehitu.setEnabled(true);
+                bBilatu.setEnabled(true);
+                bAldatu.setEnabled(true);
+                bEzabatu.setEnabled(true);
+                bAdos.setEnabled(false);
+                bUtzi.setEnabled(false);
+
+                if(erregistroak.isFirst())
+                {
+                    bAurrekoa.setEnabled(false);
+                }else
+                {
+                    bAurrekoa.setEnabled(true);
+                }
+                
+                if(erregistroak.isLast())
+                {
+                    bAurrekoa.setEnabled(true);
+                }else
+                {
+                    bHurrengoa.setEnabled(false);
+                }
+                
+                lMezua.setText("");
+
+            }catch (IllegalArgumentException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+            catch (SQLException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+        }
+        else
+            lMezua.setText("Oharra: eremu guztiak bete behar dira");
     }
 }
