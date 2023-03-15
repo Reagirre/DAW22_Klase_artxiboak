@@ -29,9 +29,10 @@ public class Leihoa extends JFrame{
     private JButton bUtzi;
     private JPanel p;
     private final int GEHITU = 1;
+    private final int BILATU = 2;
+    private final int ALDATU = 3;
+    private final int EZABATU = 4;
     private int ekintza;
-    private final int BILATU = 1;
-    private int aurkitu;
     private Connection konexioa;
     private Statement kontsulta;
     private ResultSet erregistroak;
@@ -350,13 +351,32 @@ public class Leihoa extends JFrame{
         
         lMezua.setText("Ekintza: kotxea bilatu");
         tKodea.requestFocusInWindow();
-        aurkitu = BILATU;
+        ekintza = BILATU;
     }
 
 
 
 
     private void klikAldatu(){
+        tKodea.setEditable(true);
+        tFabrikatzailea.setEditable(true);
+        tModeloa.setEditable(true);
+        tKolorea.setEditable(true);
+        tZaldiak.setEditable(true);
+        tPrezioa.setEditable(true);
+        tDeskontua.setEditable(true);
+        bAurrekoa.setEnabled(false);
+        bHurrengoa.setEnabled(false);
+        bAdos.setEnabled(true);
+        bUtzi.setEnabled(true);
+        bGehitu.setEnabled(false);
+        bBilatu.setEnabled(false);
+        bAldatu.setEnabled(false);
+        bEzabatu.setEnabled(false);
+        
+        lMezua.setText("Ekintza: kotxea aldatu");
+        tKodea.requestFocusInWindow();
+        ekintza = ALDATU;
         
     }
 
@@ -374,8 +394,14 @@ public class Leihoa extends JFrame{
         if(ekintza == GEHITU)
             gehitu();
         
-        if(aurkitu == BILATU)
+        if(ekintza == BILATU)
             bilatu();
+        
+        if(ekintza == ALDATU)
+            aldatu();
+
+        if(ekintza == EZABATU)
+            ezabatu();
     }
 
 
@@ -486,6 +512,63 @@ public class Leihoa extends JFrame{
 
 
     private void bilatu() {
+        
+    }
+
+
+    private void aldatu() {
+        if(!tKodea.getText().equals("") && !tFabrikatzailea.getText().equals("") && !tModeloa.getText().equals("") && !tKolorea.getText().equals("")
+        && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
+        {
+            try {
+                erregistroak.moveToCurrentRow();
+                erregistroak.updateString("kodea", tKodea.getText());
+                erregistroak.updateString("fabrikatzailea",tFabrikatzailea.getText());
+                erregistroak.updateString("modeloa",tModeloa.getText());
+                erregistroak.updateString("kolorea",tKolorea.getText());
+                erregistroak.updateDouble("zaldiak",Double.parseDouble(tZaldiak.getText()));
+                erregistroak.updateDouble("prezioa",Double.parseDouble(tPrezioa.getText()));
+                erregistroak.updateDouble("deskontua",Double.parseDouble(tDeskontua.getText()));
+                erregistroak.insertRow();
+                lMezua.setText("Mikroprozesadorea gehitu da!");
+                tKodea.setEditable(false);
+                tFabrikatzailea.setEditable(false);
+                tModeloa.setEditable(false);
+                tKolorea.setEditable(false);
+                tZaldiak.setEditable(false);
+                tPrezioa.setEditable(false);
+                tDeskontua.setEditable(false);
+                bGehitu.setEnabled(true);
+                bBilatu.setEnabled(true);
+                bAldatu.setEnabled(true);
+                bEzabatu.setEnabled(true);
+                bAdos.setEnabled(false);
+                bUtzi.setEnabled(false);
+
+                if(erregistroak.isFirst())
+                    bAurrekoa.setEnabled(false);
+                else
+                    bAurrekoa.setEnabled(true);
+                
+                if(erregistroak.isLast())
+                    bAurrekoa.setEnabled(true);
+                else
+                    bHurrengoa.setEnabled(false);
+                
+                lMezua.setText("");
+
+            }catch (IllegalArgumentException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+            catch (SQLException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+        }
+        else
+            lMezua.setText("Oharra: eremu guztiak bete behar dira");
+    }
+
+    private void ezabatu() {
         
     }
 }
