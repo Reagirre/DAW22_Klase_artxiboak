@@ -12,6 +12,7 @@ public class Leihoa extends JFrame{
     private JLabel lPrezioa;
     private JLabel lDeskontua;
     private JLabel lMezua;
+    private JLabel lEzabatu;
     private JTextField tKodea;
     private JTextField tFabrikatzailea;
     private JTextField tModeloa;
@@ -28,10 +29,10 @@ public class Leihoa extends JFrame{
     private JButton bAdos;
     private JButton bUtzi;
     private JPanel p;
+    private JPanel pEzabatu;
     private final int GEHITU = 1;
     private final int BILATU = 2;
     private final int ALDATU = 3;
-    private final int EZABATU = 4;
     private int ekintza;
     private Connection konexioa;
     private Statement kontsulta;
@@ -388,6 +389,17 @@ public class Leihoa extends JFrame{
         
         lMezua.setText("Ekintza: kotxea ezabatu");
         tKodea.requestFocusInWindow();
+
+        // pEzabatu = new JPanel();
+
+        // lEzabatu.setText("Kotxea ezabatu nahi duzu. Zihur zaude?");
+        // pEzabatu.add(bAdos);
+        // pEzabatu.add(bUtzi);
+
+
+
+        // bAdos.setBounds (340, 310,100,25);
+        // bUtzi.setBounds (340, 340,100,25);
         ezabatu();
     }
 
