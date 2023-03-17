@@ -272,7 +272,7 @@ WHERE
     MID(alea.signatura, 3, 1) IN (0 , 9);
 
 
-
+/***********17******************/
 SELECT 
     liburua.titulua,
     LENGTH(liburua.titulua) - LENGTH(REPLACE(liburua.titulua, ' ', '')) + 1 hitz_kopurua
@@ -280,6 +280,7 @@ FROM
     liburua;
 
 
+-- /*********18******************/
 SELECT 
     liburua.Titulua,
     (LENGTH(liburua.titulua) - LENGTH(REPLACE(LCASE(liburua.titulua), 'a', ''))) + 
@@ -291,7 +292,7 @@ FROM
     liburua;
 
 
-
+/*************20******************/
 SELECT 
     REPLACE(liburua.titulua, ' ', '*'),
     REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(REPLACE(LCASE(liburua.titulua),
@@ -309,7 +310,7 @@ FROM
     liburua;
 
 
-
+/*************21******************/
 SELECT 
     alea.Signatura,
     liburua.ISBN,
@@ -329,6 +330,7 @@ FROM
     gaia ON liburua.GaiNagusi = gaia.GaiKodea;
 
 
+/*************22******************/
 SELECT 
     alea.Signatura,
     liburua.ISBN,
@@ -352,6 +354,7 @@ FROM
     gaia gaia2 ON liburua.GaiBi = gaia2.GaiKodea;
 
 
+/*************25******************/
 SELECT 
     liburua.Titulua, liburua.Idazlea, liburua.ISBN, gaia.Izena
 FROM
@@ -363,6 +366,7 @@ WHERE
         AND LENGTH(liburua.titulua) = 7;
 
 
+/*************26******************/
 SELECT 
     liburua.Titulua,
     liburua.Idazlea,
@@ -378,6 +382,7 @@ FROM
     argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea;
 
 
+/*************27******************/
 SELECT 
     SUM(alea.Prezioa)
 FROM
@@ -393,6 +398,8 @@ SELECT
 FROM
     alea;
 
+
+/*************28******************/
 SELECT 
     alea.Signatura,
     liburua.ISBN,
@@ -407,7 +414,8 @@ WHERE
     alea.Prezioa > 24
 ORDER BY liburua.Titulua ASC;
 
- 
+
+/*************29******************/
  SELECT 
     alea.*, liburua.Idazlea, liburua.Titulua
 FROM
@@ -417,6 +425,7 @@ FROM
 where (select avg(alea.Prezioa) from alea) < alea.Prezioa;
 
 
+/************* 30******************/
 SELECT 
     gaia.Izena,
     arduradunak.Izena,
@@ -434,6 +443,7 @@ FROM
 GROUP BY gaia.izena;
 
 
+/************* 32******************/
 SELECT 
     gaia.izena, gaia.Armairua
 FROM
@@ -447,7 +457,180 @@ HAVING COUNT(alea.Signatura) > 4
     OR SUM(alea.Prezioa) > 120;
 
 
-select gaia.Izena, gaia.Armairua, count(alea.Signatura), count(liburua.LiburuKodea), sum(alea.Prezioa)
-from gaia inner join liburua on gaia.GaiKodea = liburua.GaiNagusi
-inner join alea on alea.LiburuKodea = liburua.LiburuKodea
-group by gaia.Izena;
+/************* 33******************/
+SELECT 
+    gaia.Izena,
+    gaia.Armairua,
+    COUNT(alea.Signatura),
+    COUNT(liburua.LiburuKodea),
+    SUM(alea.Prezioa)
+FROM
+    gaia
+        INNER JOIN
+    liburua ON gaia.GaiKodea = liburua.GaiNagusi
+        INNER JOIN
+    alea ON alea.LiburuKodea = liburua.LiburuKodea
+GROUP BY gaia.Izena;
+
+
+/************* 34******************/
+SELECT 
+    arduradunak.Abizena,
+    arduradunak.Izena,
+    arduradunak.Titulazioa,
+    gaia.Izena,
+    COUNT(DISTINCT liburua.LiburuKodea)
+FROM
+    arduradunak
+        INNER JOIN
+    gaia ON arduradunak.ArduradunKodea = gaia.ArduradunKodea
+        INNER JOIN
+    liburua ON liburua.GaiNagusi = gaia.GaiKodea
+GROUP BY arduradunak.ArduradunKodea;
+
+
+/************* 35 ******************/
+SELECT 
+    arduradunak.Izena,
+    arduradunak.Abizena,
+    arduradunak.Titulazioa,
+    COUNT(DISTINCT gaia.GaiKodea),
+    COUNT(DISTINCT liburua.LiburuKodea)
+FROM
+    arduradunak
+        INNER JOIN
+    gaia ON arduradunak.ArduradunKodea = gaia.ArduradunKodea
+        INNER JOIN
+    liburua ON gaia.GaiKodea = liburua.GaiNagusi
+GROUP BY arduradunak.ArduradunKodea;
+
+
+/************* 36 ******************/
+/*SELECT 
+    argitaletxea.Izena, argitaletxea.Sukurtsala
+FROM
+    argitaletxea
+WHERE
+    ArgitalKodea NOT IN (SELECT 
+            liburua.ArgitalKodea
+        FROM
+            liburua);*/
+
+
+/************* 36 ******************/
+SELECT 
+    alea.Signatura,
+    liburua.ISBN,
+    liburua.Titulua,
+    gaia.Izena,
+    arduradunak.Izena,
+    arduradunak.Abizena
+FROM
+    alea
+        INNER JOIN
+    liburua ON alea.LiburuKodea = liburua.LiburuKodea
+        INNER JOIN
+    gaia ON liburua.GaiNagusi = gaia.GaiKodea
+        INNER JOIN
+    arduradunak ON arduradunak.ArduradunKodea = gaia.ArduradunKodea
+WHERE
+    arduradunak.ArduradunKodea = (SELECT 
+            arduradunak.ArduradunKodea
+        FROM
+            arduradunak
+        ORDER BY Soldata DESC
+        LIMIT 1);
+
+
+/************* 37 ******************/
+SELECT 
+    argitaletxea.Izena, liburua.Titulua, liburua.ISBN
+FROM
+    liburua
+        INNER JOIN
+    argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea
+        INNER JOIN
+    alea ON alea.LiburuKodea = liburua.LiburuKodea
+WHERE
+    alea.Prezioa = (SELECT 
+            MAX(alea.Prezioa)
+        FROM
+            alea);
+
+
+/************* 38 ******************/
+SELECT 
+    COUNT(liburua.LiburuKodea), argitaletxea.Izena
+FROM
+    liburua
+        INNER JOIN
+    argitaletxea ON liburua.ArgitalKodea = argitaletxea.ArgitalKodea
+GROUP BY liburua.ArgitalKodea
+ORDER BY COUNT(liburua.LiburuKodea) DESC
+LIMIT 1;
+
+
+/************* 40 ******************/
+SELECT 
+    liburua.Titulua, liburua.Idazlea, alea.Signatura
+FROM
+    liburua
+        INNER JOIN
+    alea ON liburua.LiburuKodea = alea.LiburuKodea
+        INNER JOIN
+    gaia ON liburua.GaiNagusi = gaia.GaiKodea
+        OR liburua.GaiBi = gaia.GaiKodea
+WHERE
+    gaia.Izena = 'Elektronika';
+
+
+/************* 41 ******************/
+SELECT 
+    argitaletxea.Izena,
+    gaia.Izena,
+    COUNT(DISTINCT liburua.LiburuKodea),
+    COUNT(alea.Signatura),
+    SUM(alea.Prezioa)
+FROM
+    argitaletxea
+        INNER JOIN
+    liburua ON argitaletxea.ArgitalKodea = liburua.ArgitalKodea
+        INNER JOIN
+    gaia ON gaia.GaiKodea = liburua.GaiNagusi
+        INNER JOIN
+    alea ON alea.LiburuKodea = liburua.LiburuKodea
+GROUP BY gaia.GaiKodea , argitaletxea.ArgitalKodea;
+
+
+/************* 42 ******************/
+SELECT 
+    argitaletxea.Izena,
+    COUNT(DISTINCT liburua.LiburuKodea),
+    COUNT(alea.Signatura),
+    COUNT(DISTINCT gaia.GaiKodea),
+    SUM(alea.Prezioa)
+FROM
+    argitaletxea
+        INNER JOIN
+    liburua ON argitaletxea.ArgitalKodea = liburua.ArgitalKodea
+        INNER JOIN
+    gaia ON gaia.GaiKodea = liburua.GaiNagusi
+        INNER JOIN
+    alea ON alea.LiburuKodea = liburua.LiburuKodea
+GROUP BY argitaletxea.ArgitalKodea;
+
+
+/************* 43 ******************/
+SELECT 
+    gaia.Izena
+FROM
+    gaia
+WHERE
+    gaia.GaiKodea NOT IN (SELECT 
+            liburua.GaiNagusi
+        FROM
+            liburua
+                INNER JOIN
+            alea ON liburua.LiburuKodea = alea.LiburuKodea
+        WHERE
+            alea.Prezioa BETWEEN 12 AND 50);
