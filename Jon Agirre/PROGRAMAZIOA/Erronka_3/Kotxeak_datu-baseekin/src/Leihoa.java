@@ -606,7 +606,15 @@ public class Leihoa extends JFrame{
                 tPrezioa.setText("");
                 tDeskontua.setText("");
                 erregistroak.deleteRow();
-                erregistroak.updateRow();
+                erregistroak.refreshRow();
+                erregistroak.first();
+                tKodea.setText(erregistroak.getString("kodea"));
+                tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
+                tModeloa.setText(erregistroak.getString("modeloa"));
+                tKolorea.setText(erregistroak.getString("kolorea"));
+                tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
+                tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
                 lMezua.setText("Mikroprozesadorea ezabatu da!");
                 tKodea.setEditable(false);
                 tFabrikatzailea.setEditable(false);

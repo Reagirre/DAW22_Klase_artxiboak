@@ -1,0 +1,8 @@
+<!ELEMENT kotxeak (kotxea+)>
+<!ELEMENT kotxea (fabrikatzailea,modeloa,kolorea,prezioa,deskontua)>
+<!ATTLIST kotxea kodea NMTOKEN #REQUIRED>
+<!ELEMENT fabrikatzailea (#PCDATA)>
+<!ELEMENT modeloa (#PCDATA)>
+<!ELEMENT kolorea (#PCDATA)>
+<!ELEMENT prezioa (#PCDATA)>
+<!ELEMENT deskontua (#PCDATA)>

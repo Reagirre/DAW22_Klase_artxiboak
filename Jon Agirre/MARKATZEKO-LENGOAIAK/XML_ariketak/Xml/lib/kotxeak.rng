@@ -1,0 +1,25 @@
+<element name="kotxeak" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="kotxea">
+            <attribute name="kodea">
+                <data type="integer" />
+            </attribute>
+            <element name="fabrikatzailea">
+                <text/>
+            </element>
+            <element name="modeloa">
+                <text/>
+            </element>
+            <element name="kolorea">
+                <text/>
+            </element>
+            <element name="prezioa">
+                <data type="double" />
+            </element>
+            <element name="deskontua">
+                <data type="integer" />
+            </element>
+            
+        </element>
+    </oneOrMore>
+</element>

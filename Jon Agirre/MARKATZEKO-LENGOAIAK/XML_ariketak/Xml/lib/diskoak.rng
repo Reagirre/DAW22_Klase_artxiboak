@@ -1,0 +1,24 @@
+<element name="diskoak" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="diskoa">
+            <attribute name="id">
+                <data type="integer" />
+            </attribute>
+            <element name="izenburua">
+                <text/>
+            </element>
+            <element name="egilea">
+                <text/>
+            </element>
+            <element name="urtea">
+                <data type="integer" />
+            </element>
+            <element name="formatua">
+                <text/>
+            </element>
+            <element name="prezioa">
+                <data type="double" />
+            </element>
+        </element>
+    </oneOrMore>
+</element>

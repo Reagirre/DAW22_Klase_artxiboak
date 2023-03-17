@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="izenburua" type="xsd:string"/>
+    <xsd:element name="egilea" type="xsd:string"/>
+    <xsd:element name="urtea" type="xsd:int"/>
+    <xsd:element name="formatua" type="xsd:string"/>
+    <xsd:element name="prezioa" type="xsd:double"/>
+
+    <xsd:element name="diskoak">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="diskoa" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="diskoa">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="izenburua"/>
+                <xsd:element ref="egilea"/>
+                <xsd:element ref="urtea"/>
+                <xsd:element ref="formatua"/>
+                <xsd:element ref="prezioa"/>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:int" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+            
+</xsd:schema>

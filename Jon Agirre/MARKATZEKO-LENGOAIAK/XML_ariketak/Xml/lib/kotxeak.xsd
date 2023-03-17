@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="fabrikatzailea" type="xsd:string"/>
+    <xsd:element name="modeloa" type="xsd:string"/>
+    <xsd:element name="kolorea" type="xsd:string"/>
+    <xsd:element name="prezioa" type="xsd:double"/>
+    <xsd:element name="deskontua" type="xsd:int"/>
+
+    <xsd:element name="kotxeak">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="kotxea" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="kotxea">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="fabrikatzailea"/>
+                <xsd:element ref="modeloa"/>
+                <xsd:element ref="kolorea"/>
+                <xsd:element ref="prezioa"/>
+                <xsd:element ref="deskontua"/>
+            </xsd:sequence>
+            <xsd:attribute name="kodea" type="xsd:int" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+            
+</xsd:schema>

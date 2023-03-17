@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE diskoak [
-        <!ELEMENT diskoak (diskoa+)>
-        <!ELEMENT diskoa (izenburua,egilea,urtea,formatua,prezioa)>
-        <!ATTLIST diskoa id NMTOKEN #REQUIRED>
-        <!ELEMENT izenburua (#PCDATA)>
-        <!ELEMENT egilea (#PCDATA)>
-        <!ELEMENT urtea (#PCDATA)>
-        <!ELEMENT formatua (#PCDATA)>
-        <!ELEMENT prezioa (#PCDATA)>
-]>
 <diskoak>
         <diskoa id="1">
                 <izenburua>Sgt. Pepper's Lonely Hearts Club Band</izenburua>

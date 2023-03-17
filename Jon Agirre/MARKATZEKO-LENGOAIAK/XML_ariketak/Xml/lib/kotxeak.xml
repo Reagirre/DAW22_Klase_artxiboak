@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE kotxeak SYSTEM "kotxeak.dtd"> -->
+<kotxeak xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="kotxeak.xsd">
+        <kotxea kodea="1">
+                <fabrikatzailea>Opel</fabrikatzailea>
+                <modeloa>Astra</modeloa>
+                <kolorea>Urdina</kolorea>
+                <prezioa>25000</prezioa>
+                <deskontua>5</deskontua>
+        </kotxea>
+        <kotxea kodea="2">
+            <fabrikatzailea>Ford</fabrikatzailea>
+            <modeloa>Focus</modeloa>
+            <kolorea>Beltza</kolorea>
+            <prezioa>24000</prezioa>
+            <deskontua>5</deskontua>
+        </kotxea>
+        <kotxea kodea="3">
+            <fabrikatzailea>Hyundai</fabrikatzailea>
+            <modeloa>i30</modeloa>
+            <kolorea>Zuria</kolorea>
+            <prezioa>21000</prezioa>
+            <deskontua>5</deskontua>
+        </kotxea>
+        <kotxea kodea="4">
+            <fabrikatzailea>Seat</fabrikatzailea>
+            <modeloa>Leon 1.6</modeloa>
+            <kolorea>Gorria</kolorea>
+            <prezioa>27000</prezioa>
+            <deskontua>5</deskontua>
+        </kotxea>
+        <kotxea kodea="5">
+            <fabrikatzailea>Peugeot</fabrikatzailea>
+            <modeloa>308</modeloa>
+            <kolorea>Beltza</kolorea>
+            <prezioa>20000</prezioa>
+            <deskontua>5</deskontua>
+        </kotxea>
+</kotxeak>
