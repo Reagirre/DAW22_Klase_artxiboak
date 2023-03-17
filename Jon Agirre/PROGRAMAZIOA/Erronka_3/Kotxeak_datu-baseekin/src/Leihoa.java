@@ -390,6 +390,8 @@ public class Leihoa extends JFrame{
         lMezua.setText("Ekintza: kotxea ezabatu");
         tKodea.requestFocusInWindow();
 
+
+        
         // pEzabatu = new JPanel();
 
         // lEzabatu.setText("Kotxea ezabatu nahi duzu. Zihur zaude?");
