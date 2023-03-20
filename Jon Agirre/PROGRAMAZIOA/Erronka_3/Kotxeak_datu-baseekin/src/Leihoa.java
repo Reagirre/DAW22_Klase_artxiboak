@@ -12,7 +12,6 @@ public class Leihoa extends JFrame{
     private JLabel lPrezioa;
     private JLabel lDeskontua;
     private JLabel lMezua;
-    private JLabel lEzabatu;
     private JTextField tKodea;
     private JTextField tFabrikatzailea;
     private JTextField tModeloa;
@@ -29,10 +28,10 @@ public class Leihoa extends JFrame{
     private JButton bAdos;
     private JButton bUtzi;
     private JPanel p;
-    private JPanel pEzabatu;
     private final int GEHITU = 1;
     private final int BILATU = 2;
     private final int ALDATU = 3;
+    private final int EZABATU = 4;
     private int ekintza;
     private Connection konexioa;
     private Statement kontsulta;
@@ -385,24 +384,26 @@ public class Leihoa extends JFrame{
 
 
     private void klikEzabatu() {
-        
+        tKodea.setEditable(false);
+        tFabrikatzailea.setEditable(false);
+        tModeloa.setEditable(false);
+        tKolorea.setEditable(false);
+        tZaldiak.setEditable(false);
+        tPrezioa.setEditable(false);
+        tDeskontua.setEditable(false);
+        bAurrekoa.setEnabled(false);
+        bHurrengoa.setEnabled(false);
+        bAdos.setEnabled(true);
+        bUtzi.setEnabled(true);
+        bGehitu.setEnabled(false);
+        bBilatu.setEnabled(false);
+        bAldatu.setEnabled(false);
+        bEzabatu.setEnabled(false);
         
         lMezua.setText("Ekintza: kotxea ezabatu");
         tKodea.requestFocusInWindow();
 
-
-        
-        // pEzabatu = new JPanel();
-
-        // lEzabatu.setText("Kotxea ezabatu nahi duzu. Zihur zaude?");
-        // pEzabatu.add(bAdos);
-        // pEzabatu.add(bUtzi);
-
-
-
-        // bAdos.setBounds (340, 310,100,25);
-        // bUtzi.setBounds (340, 340,100,25);
-        ezabatu();
+        ekintza = EZABATU;
     }
 
 
@@ -412,11 +413,13 @@ public class Leihoa extends JFrame{
         if(ekintza == GEHITU)
             gehitu();
         
-        if(ekintza == BILATU)
+        else if(ekintza == BILATU)
             bilatu();
         
-        if(ekintza == ALDATU)
+        else if(ekintza == ALDATU)
             aldatu();
+        else if(ekintza == EZABATU)
+            ezabatu();
             
     }
 
@@ -459,7 +462,7 @@ public class Leihoa extends JFrame{
                 bAurrekoa.setEnabled(true);
             
             if(erregistroak.isLast())
-                bAurrekoa.setEnabled(false);
+                bHurrengoa.setEnabled(false);
             else
                 bHurrengoa.setEnabled(true);
             
@@ -509,9 +512,9 @@ public class Leihoa extends JFrame{
                     bAurrekoa.setEnabled(true);
                 
                 if(erregistroak.isLast())
-                    bAurrekoa.setEnabled(true);
-                else
                     bHurrengoa.setEnabled(false);
+                else
+                    bHurrengoa.setEnabled(true);
                 
                 lMezua.setText("");
 
@@ -537,7 +540,6 @@ public class Leihoa extends JFrame{
         && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
         {
             try {
-                erregistroak.moveToCurrentRow();
                 erregistroak.updateString("kodea", tKodea.getText());
                 erregistroak.updateString("fabrikatzailea",tFabrikatzailea.getText());
                 erregistroak.updateString("modeloa",tModeloa.getText());
@@ -546,7 +548,6 @@ public class Leihoa extends JFrame{
                 erregistroak.updateDouble("prezioa",Double.parseDouble(tPrezioa.getText()));
                 erregistroak.updateDouble("deskontua",Double.parseDouble(tDeskontua.getText()));
                 erregistroak.updateRow();
-                lMezua.setText("Mikroprozesadorea gehitu da!");
                 tKodea.setEditable(false);
                 tFabrikatzailea.setEditable(false);
                 tModeloa.setEditable(false);
@@ -574,11 +575,11 @@ public class Leihoa extends JFrame{
                 
                 if(erregistroak.isLast())
                 {
-                    bAurrekoa.setEnabled(true);
+                    bHurrengoa.setEnabled(false);
                 }
                 else
                 {
-                    bHurrengoa.setEnabled(false);
+                    bHurrengoa.setEnabled(true);
                 }
                 
                 lMezua.setText("");
@@ -600,15 +601,7 @@ public class Leihoa extends JFrame{
         {
             try {
                 erregistroak.moveToCurrentRow();
-                tKodea.setText("");
-                tFabrikatzailea.setText("");
-                tModeloa.setText("");
-                tKolorea.setText("");
-                tZaldiak.setText("");
-                tPrezioa.setText("");
-                tDeskontua.setText("");
                 erregistroak.deleteRow();
-                erregistroak.refreshRow();
                 erregistroak.first();
                 tKodea.setText(erregistroak.getString("kodea"));
                 tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
@@ -642,10 +635,10 @@ public class Leihoa extends JFrame{
                 
                 if(erregistroak.isLast())
                 {
-                    bAurrekoa.setEnabled(true);
+                    bHurrengoa.setEnabled(false);
                 }else
                 {
-                    bHurrengoa.setEnabled(false);
+                    bHurrengoa.setEnabled(true);
                 }
                 
                 lMezua.setText("");
