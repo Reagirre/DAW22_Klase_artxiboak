@@ -566,7 +566,6 @@ public class Leihoa extends JFrame{
                 {
                     bAurrekoa.setEnabled(false);
                 }
-                    
                 else
                 {
                     bAurrekoa.setEnabled(true);
