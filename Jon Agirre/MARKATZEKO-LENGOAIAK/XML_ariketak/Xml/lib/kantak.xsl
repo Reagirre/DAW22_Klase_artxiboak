@@ -4,10 +4,10 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Kantak</title>
+                <title>Bob Dylanen kantak</title>
             </head>
             <body>
-                <h1>Kantak</h1>
+                <h1>Bob Dylanen kantak</h1>
                 <table>
                     <tr>
                         <th>Id</th>
@@ -15,7 +15,7 @@
                         <th>Egilea</th>
                         <th>Urtea</th>
                     </tr>
-                    <xsl:for-each select="kantak/kanta">
+                    <xsl:for-each select="kantak/kanta[egilea = 'Bob Dylan']">
                         <tr>
                             <td><xsl:value-of select="id"/></td>
                             <td><xsl:value-of select="izenburua"/></td>
