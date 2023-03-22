@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kantak SYSTEM "kantak.dtd">
 <kantak>
         <kanta>
                 <id>1</id>
@@ -656,19 +657,19 @@
         </kanta>
         <kanta>
                 <id>110</id>
-                <izenburua>I�ve Been Loving You Too Long (To Stop Now)</izenburua>
+                <izenburua>I´ve Been Loving You Too Long (To Stop Now)</izenburua>
                 <egilea>Otis Redding</egilea>
                 <urtea>1965</urtea>
         </kanta>
         <kanta>
                 <id>111</id>
-                <izenburua>I�m So Lonesome I Could Cry</izenburua>
+                <izenburua>I´m So Lonesome I Could Cry</izenburua>
                 <egilea>Hank Williams</egilea>
                 <urtea>1949</urtea>
         </kanta>
         <kanta>
                 <id>112</id>
-                <izenburua>That�s All Right</izenburua>
+                <izenburua>That´s All Right</izenburua>
                 <egilea>Elvis Presley</egilea>
                 <urtea>1954</urtea>
         </kanta>
@@ -734,13 +735,13 @@
         </kanta>
         <kanta>
                 <id>123</id>
-                <izenburua>It�s A Man�s Man�s Man�s World</izenburua>
+                <izenburua>It´s A Man´s Man´s Man´s World</izenburua>
                 <egilea>James Brown</egilea>
                 <urtea>1966</urtea>
         </kanta>
         <kanta>
                 <id>124</id>
-                <izenburua>Jumpin� Jack Flash</izenburua>
+                <izenburua>Jumpin´ Jack Flash</izenburua>
                 <egilea>The Rolling Stones</egilea>
                 <urtea>1968</urtea>
         </kanta>
@@ -794,7 +795,7 @@
         </kanta>
         <kanta>
                 <id>133</id>
-                <izenburua>Won�t Get Fooled Again</izenburua>
+                <izenburua>Won´t Get Fooled Again</izenburua>
                 <egilea>The Who</egilea>
                 <urtea>1971</urtea>
         </kanta>
@@ -873,7 +874,7 @@
         <kanta>
                 <id>146</id>
                 <izenburua>Rock Lobster</izenburua>
-                <egilea>The B-52�s</egilea>
+                <egilea>The B-52´s</egilea>
                 <urtea>1979</urtea>
         </kanta>
         <kanta>
@@ -890,7 +891,7 @@
         </kanta>
         <kanta>
                 <id>149</id>
-                <izenburua>Cathy�s Clown</izenburua>
+                <izenburua>Cathy´s Clown</izenburua>
                 <egilea>The Everly Brothers</egilea>
                 <urtea>1960</urtea>
         </kanta>
@@ -914,7 +915,7 @@
         </kanta>
         <kanta>
                 <id>153</id>
-                <izenburua>A Hard Day�s Night</izenburua>
+                <izenburua>A Hard Day´s Night</izenburua>
                 <egilea>The Beatles</egilea>
                 <urtea>1964</urtea>
         </kanta>
@@ -944,13 +945,13 @@
         </kanta>
         <kanta>
                 <id>158</id>
-                <izenburua>(We�re Gonna) Rock Around The Clock</izenburua>
+                <izenburua>(We´re Gonna) Rock Around The Clock</izenburua>
                 <egilea>Bill Haley And His Comets</egilea>
                 <urtea>1954</urtea>
         </kanta>
         <kanta>
                 <id>159</id>
-                <izenburua>I�m Waiting For The Man</izenburua>
+                <izenburua>I´m Waiting For The Man</izenburua>
                 <egilea>The Velvet Underground</egilea>
                 <urtea>1967</urtea>
         </kanta>
@@ -962,14 +963,14 @@
         </kanta>
         <kanta>
                 <id>161</id>
-                <izenburua>I Can�t Stop Loving You</izenburua>
+                <izenburua>I Can´t Stop Loving You</izenburua>
                 <egilea>Ray Charles</egilea>
                 <urtea>1962</urtea>
         </kanta>
         <kanta>
                 <id>162</id>
                 <izenburua>Nothing Compares 2 U</izenburua>
-                <egilea>Sin�ad O�Connor</egilea>
+                <egilea>Sin´ad O´Connor</egilea>
                 <urtea>1990</urtea>
         </kanta>
         <kanta>
@@ -998,7 +999,7 @@
         </kanta>
         <kanta>
                 <id>167</id>
-                <izenburua>Let�s Get It On</izenburua>
+                <izenburua>Let´s Get It On</izenburua>
                 <egilea>Marvin Gaye</egilea>
                 <urtea>1973</urtea>
         </kanta>
@@ -1052,13 +1053,13 @@
         </kanta>
         <kanta>
                 <id>176</id>
-                <izenburua>Don�t Worry Baby</izenburua>
+                <izenburua>Don´t Worry Baby</izenburua>
                 <egilea>The Beach Boys</egilea>
                 <urtea>1964</urtea>
         </kanta>
         <kanta>
                 <id>177</id>
-                <izenburua>Free Fallin�</izenburua>
+                <izenburua>Free Fallin´</izenburua>
                 <egilea>Tom Petty</egilea>
                 <urtea>1989</urtea>
         </kanta>
@@ -1083,7 +1084,7 @@
         <kanta>
                 <id>181</id>
                 <izenburua>Green Onions</izenburua>
-                <egilea>Booker T. And The MG�s</egilea>
+                <egilea>Booker T. And The MG´s</egilea>
                 <urtea>1962</urtea>
         </kanta>
         <kanta>
@@ -1124,19 +1125,19 @@
         </kanta>
         <kanta>
                 <id>188</id>
-                <izenburua>Who�ll Stop The Rain?</izenburua>
+                <izenburua>Who´ll Stop The Rain?</izenburua>
                 <egilea>Creedence Clearwater Revival</egilea>
                 <urtea>1970</urtea>
         </kanta>
         <kanta>
                 <id>189</id>
-                <izenburua>Stayin� Alive</izenburua>
+                <izenburua>Stayin´ Alive</izenburua>
                 <egilea>Bee Gees</egilea>
                 <urtea>1977</urtea>
         </kanta>
         <kanta>
                 <id>190</id>
-                <izenburua>Knocking On Heaven�s Door</izenburua>
+                <izenburua>Knocking On Heaven´s Door</izenburua>
                 <egilea>Bob Dylan</egilea>
                 <urtea>1973</urtea>
         </kanta>
@@ -1172,13 +1173,13 @@
         </kanta>
         <kanta>
                 <id>196</id>
-                <izenburua>Sweet Child O�Mine</izenburua>
-                <egilea>Guns N� Roses</egilea>
+                <izenburua>Sweet Child O´Mine</izenburua>
+                <egilea>Guns N´ Roses</egilea>
                 <urtea>1987</urtea>
         </kanta>
         <kanta>
                 <id>197</id>
-                <izenburua>Don�t Be Cruel</izenburua>
+                <izenburua>Don´t Be Cruel</izenburua>
                 <egilea>Elvis Presley</egilea>
                 <urtea>1956</urtea>
         </kanta>
@@ -1232,7 +1233,7 @@
         </kanta>
         <kanta>
                 <id>206</id>
-                <izenburua>Reach Out, I�ll Be There</izenburua>
+                <izenburua>Reach Out, I´ll Be There</izenburua>
                 <egilea>The Four Tops</egilea>
                 <urtea>1966</urtea>
         </kanta>
@@ -1274,13 +1275,13 @@
         </kanta>
         <kanta>
                 <id>213</id>
-                <izenburua>Your Cheatin� Heart</izenburua>
+                <izenburua>Your Cheatin´ Heart</izenburua>
                 <egilea>Hank Williams</egilea>
                 <urtea>1953</urtea>
         </kanta>
         <kanta>
                 <id>214</id>
-                <izenburua>Rockin� In The Free World</izenburua>
+                <izenburua>Rockin´ In The Free World</izenburua>
                 <egilea>Neil Young</egilea>
                 <urtea>1989</urtea>
         </kanta>
@@ -1293,7 +1294,7 @@
         <kanta>
                 <id>216</id>
                 <izenburua>Do You Believe In Magic</izenburua>
-                <egilea>The Lovin� Spoonful</egilea>
+                <egilea>The Lovin´ Spoonful</egilea>
                 <urtea>1965</urtea>
         </kanta>
         <kanta>
@@ -1311,7 +1312,7 @@
         <kanta>
                 <id>219</id>
                 <izenburua>Spoonful</izenburua>
-                <egilea>Howlin� Wolf</egilea>
+                <egilea>Howlin´ Wolf</egilea>
                 <urtea>1960</urtea>
         </kanta>
         <kanta>
@@ -1400,7 +1401,7 @@
         </kanta>
         <kanta>
                 <id>234</id>
-                <izenburua>I�ll Feel A Whole Lot Better</izenburua>
+                <izenburua>I´ll Feel A Whole Lot Better</izenburua>
                 <egilea>The Byrds</egilea>
                 <urtea>1965</urtea>
         </kanta>
@@ -1455,12 +1456,12 @@
         <kanta>
                 <id>243</id>
                 <izenburua>Love Shack</izenburua>
-                <egilea>The B-52�s</egilea>
+                <egilea>The B-52´s</egilea>
                 <urtea>1989</urtea>
         </kanta>
         <kanta>
                 <id>244</id>
-                <izenburua>Gimme Some Lovin�</izenburua>
+                <izenburua>Gimme Some Lovin´</izenburua>
                 <egilea>The Spencer Davis Group</egilea>
                 <urtea>244</urtea>
         </kanta>
@@ -1574,7 +1575,7 @@
         </kanta>
         <kanta>
                 <id>263</id>
-                <izenburua>He�s A Rebel</izenburua>
+                <izenburua>He´s A Rebel</izenburua>
                 <egilea>The Crystals</egilea>
                 <urtea>1962</urtea>
         </kanta>
@@ -1652,7 +1653,7 @@
         </kanta>
         <kanta>
                 <id>276</id>
-                <izenburua>I�ll Take You There</izenburua>
+                <izenburua>I´ll Take You There</izenburua>
                 <egilea>The Staple Singers</egilea>
                 <urtea>1972</urtea>
         </kanta>
@@ -1676,7 +1677,7 @@
         </kanta>
         <kanta>
                 <id>280</id>
-                <izenburua>Ain�t No Sunshine</izenburua>
+                <izenburua>Ain´t No Sunshine</izenburua>
                 <egilea>Bill Withers</egilea>
                 <urtea>1971</urtea>
         </kanta>
@@ -1700,14 +1701,14 @@
         </kanta>
         <kanta>
                 <id>284</id>
-                <izenburua>(What�s So Funny �Bout) Peace Love And Understanding?</izenburua>
+                <izenburua>(What´s So Funny ´Bout) Peace Love And Understanding?</izenburua>
                 <egilea>Elvis Costello And The Attractions</egilea>
                 <urtea>1979</urtea>
         </kanta>
         <kanta>
                 <id>285</id>
                 <izenburua>Somoke Stack Lightning</izenburua>
-                <egilea>Howlin� Wolf</egilea>
+                <egilea>Howlin´ Wolf</egilea>
                 <urtea>1956</urtea>
         </kanta>
         <kanta>
@@ -1724,13 +1725,13 @@
         </kanta>
         <kanta>
                 <id>288</id>
-                <izenburua>Money (That�s What I Want)</izenburua>
+                <izenburua>Money (That´s What I Want)</izenburua>
                 <egilea>Barrett Strong</egilea>
                 <urtea>1960</urtea>
         </kanta>
         <kanta>
                 <id>289</id>
-                <izenburua>Can�t Buy Me Love</izenburua>
+                <izenburua>Can´t Buy Me Love</izenburua>
                 <egilea>The Beatles</egilea>
                 <urtea>1964</urtea>
         </kanta>
@@ -1742,7 +1743,7 @@
         </kanta>
         <kanta>
                 <id>291</id>
-                <izenburua>She�s Not There</izenburua>
+                <izenburua>She´s Not There</izenburua>
                 <egilea>The Zombies</egilea>
                 <urtea>1964</urtea>
         </kanta>
@@ -1790,7 +1791,7 @@
         </kanta>
         <kanta>
                 <id>299</id>
-                <izenburua>Sign �O� The Times</izenburua>
+                <izenburua>Sign ´O´ The Times</izenburua>
                 <egilea>Prince</egilea>
                 <urtea>1987</urtea>
         </kanta>
@@ -1802,7 +1803,7 @@
         </kanta>
         <kanta>
                 <id>301</id>
-                <izenburua>Da Ya Think I�m Sexy?</izenburua>
+                <izenburua>Da Ya Think I´m Sexy?</izenburua>
                 <egilea>Rod Stewart</egilea>
                 <urtea>1978</urtea>
         </kanta>
@@ -1826,13 +1827,13 @@
         </kanta>
         <kanta>
                 <id>305</id>
-                <izenburua>Say It Loud � I�m Black And I�m Proud</izenburua>
+                <izenburua>Say It Loud ´ I´m Black And I´m Proud</izenburua>
                 <egilea>James Brown</egilea>
                 <urtea>1968</urtea>
         </kanta>
         <kanta>
                 <id>306</id>
-                <izenburua>That�s Entertainment</izenburua>
+                <izenburua>That´s Entertainment</izenburua>
                 <egilea>The Jam</egilea>
                 <urtea>1980</urtea>
         </kanta>
@@ -1850,7 +1851,7 @@
         </kanta>
         <kanta>
                 <id>309</id>
-                <izenburua>What�s Love Got To Do With It</izenburua>
+                <izenburua>What´s Love Got To Do With It</izenburua>
                 <egilea>Tina Turner</egilea>
                 <urtea>1984</urtea>
         </kanta>
@@ -1875,7 +1876,7 @@
         <kanta>
                 <id>313</id>
                 <izenburua>I Put A Spell On You</izenburua>
-                <egilea>Screamin� Jay Hawkins</egilea>
+                <egilea>Screamin´ Jay Hawkins</egilea>
                 <urtea>1956</urtea>
         </kanta>
         <kanta>
@@ -1886,7 +1887,7 @@
         </kanta>
         <kanta>
                 <id>315</id>
-                <izenburua>Don�t Let Me Be Misunderstood</izenburua>
+                <izenburua>Don´t Let Me Be Misunderstood</izenburua>
                 <egilea>The Animals</egilea>
                 <urtea>1965</urtea>
         </kanta>
@@ -1910,7 +1911,7 @@
         </kanta>
         <kanta>
                 <id>319</id>
-                <izenburua>School�s Out</izenburua>
+                <izenburua>School´s Out</izenburua>
                 <egilea>Alice Cooper</egilea>
                 <urtea>1972</urtea>
         </kanta>
@@ -1946,7 +1947,7 @@
         </kanta>
         <kanta>
                 <id>325</id>
-                <izenburua>Good Lovin�</izenburua>
+                <izenburua>Good Lovin´</izenburua>
                 <egilea>The Young Rascals</egilea>
                 <urtea>1966</urtea>
         </kanta>
@@ -1970,7 +1971,7 @@
         </kanta>
         <kanta>
                 <id>329</id>
-                <izenburua>That�s The Way Of The World</izenburua>
+                <izenburua>That´s The Way Of The World</izenburua>
                 <egilea>Earth, Wind And Fire</egilea>
                 <urtea>1975</urtea>
         </kanta>
@@ -1982,7 +1983,7 @@
         </kanta>
         <kanta>
                 <id>331</id>
-                <izenburua>I Can�t Make You Love Me</izenburua>
+                <izenburua>I Can´t Make You Love Me</izenburua>
                 <egilea>Bonnie Raitt</egilea>
                 <urtea>1991</urtea>
         </kanta>
@@ -2024,19 +2025,19 @@
         </kanta>
         <kanta>
                 <id>338</id>
-                <izenburua>Maybe I�m Amazed</izenburua>
+                <izenburua>Maybe I´m Amazed</izenburua>
                 <egilea>Paul McCartney</egilea>
                 <urtea>1970</urtea>
         </kanta>
         <kanta>
                 <id>339</id>
-                <izenburua>You Keep Me Hangin� On</izenburua>
+                <izenburua>You Keep Me Hangin´ On</izenburua>
                 <egilea>The Supremes</egilea>
                 <urtea>1966</urtea>
         </kanta>
         <kanta>
                 <id>340</id>
-                <izenburua>Baba O�Riley</izenburua>
+                <izenburua>Baba O´Riley</izenburua>
                 <egilea>The Who</egilea>
                 <urtea>1971</urtea>
         </kanta>
@@ -2210,7 +2211,7 @@
         </kanta>
         <kanta>
                 <id>369</id>
-                <izenburua>I�m A Man</izenburua>
+                <izenburua>I´m A Man</izenburua>
                 <egilea>Bo Diddley</egilea>
                 <urtea>1955</urtea>
         </kanta>
@@ -2222,7 +2223,7 @@
         </kanta>
         <kanta>
                 <id>371</id>
-                <izenburua>I Can�t Explain</izenburua>
+                <izenburua>I Can´t Explain</izenburua>
                 <egilea>The Who</egilea>
                 <urtea>1965</urtea>
         </kanta>
@@ -2355,18 +2356,18 @@
         <kanta>
                 <id>393</id>
                 <izenburua>Summer In The City</izenburua>
-                <egilea>The Lovin� Spoonful</egilea>
+                <egilea>The Lovin´ Spoonful</egilea>
                 <urtea>1966</urtea>
         </kanta>
         <kanta>
                 <id>394</id>
-                <izenburua>Can�t Help Falling In Love</izenburua>
+                <izenburua>Can´t Help Falling In Love</izenburua>
                 <egilea>Elvis Presley</egilea>
                 <urtea>1961</urtea>
         </kanta>
         <kanta>
                 <id>395</id>
-                <izenburua>Remember (Walkin� In The Sand)</izenburua>
+                <izenburua>Remember (Walkin´ In The Sand)</izenburua>
                 <egilea>The Shangri-Las</egilea>
                 <urtea>1964</urtea>
         </kanta>
@@ -2378,8 +2379,8 @@
         </kanta>
         <kanta>
                 <id>397</id>
-                <izenburua>(Don�t Fear) The Reaper</izenburua>
-                <egilea>Blue �yster Club</egilea>
+                <izenburua>(Don´t Fear) The Reaper</izenburua>
+                <egilea>Blue ´yster Club</egilea>
                 <urtea>1976</urtea>
         </kanta>
         <kanta>
@@ -2402,7 +2403,7 @@
         </kanta>
         <kanta>
                 <id>401</id>
-                <izenburua>Tonight�s The Night</izenburua>
+                <izenburua>Tonight´s The Night</izenburua>
                 <egilea>The Shirelles</egilea>
                 <urtea>1966</urtea>
         </kanta>
@@ -2414,7 +2415,7 @@
         </kanta>
         <kanta>
                 <id>403</id>
-                <izenburua>C�mon Everybody</izenburua>
+                <izenburua>C´mon Everybody</izenburua>
                 <egilea>Eddie Cochran</egilea>
                 <urtea>1958</urtea>
         </kanta>
@@ -2426,7 +2427,7 @@
         </kanta>
         <kanta>
                 <id>405</id>
-                <izenburua>We �ve Only Just Begun</izenburua>
+                <izenburua>We ´ve Only Just Begun</izenburua>
                 <egilea>The Carpenter</egilea>
                 <urtea>1970</urtea>
         </kanta>
@@ -2474,7 +2475,7 @@
         </kanta>
         <kanta>
                 <id>413</id>
-                <izenburua>The Girl Can�t Help It</izenburua>
+                <izenburua>The Girl Can´t Help It</izenburua>
                 <egilea>Little Richard</egilea>
                 <urtea>1957</urtea>
         </kanta>
@@ -2486,7 +2487,7 @@
         </kanta>
         <kanta>
                 <id>415</id>
-                <izenburua>I Can�t Help Myself</izenburua>
+                <izenburua>I Can´t Help Myself</izenburua>
                 <egilea>The Four Tops</egilea>
                 <urtea>1965</urtea>
         </kanta>
@@ -2510,13 +2511,13 @@
         </kanta>
         <kanta>
                 <id>419</id>
-                <izenburua>Nuthin� But A �G� Thang</izenburua>
+                <izenburua>Nuthin´ But A ´G´ Thang</izenburua>
                 <egilea>Dr. Dre</egilea>
                 <urtea>1993</urtea>
         </kanta>
         <kanta>
                 <id>420</id>
-                <izenburua>It�s Your Thing</izenburua>
+                <izenburua>It´s Your Thing</izenburua>
                 <egilea>The Isley Brothers</egilea>
                 <urtea>1969</urtea>
         </kanta>
@@ -2558,7 +2559,7 @@
         </kanta>
         <kanta>
                 <id>427</id>
-                <izenburua>New Year�s Day</izenburua>
+                <izenburua>New Year´s Day</izenburua>
                 <egilea>U2</egilea>
                 <urtea>1983</urtea>
         </kanta>
@@ -2582,7 +2583,7 @@
         </kanta>
         <kanta>
                 <id>431</id>
-                <izenburua>Ain�t It A Shame</izenburua>
+                <izenburua>Ain´t It A Shame</izenburua>
                 <egilea>Fats Domino</egilea>
                 <urtea>1955</urtea>
         </kanta>
@@ -2648,7 +2649,7 @@
         </kanta>
         <kanta>
                 <id>442</id>
-                <izenburua>Keep A Knockin�</izenburua>
+                <izenburua>Keep A Knockin´</izenburua>
                 <egilea>Little Richard</egilea>
                 <urtea>1957</urtea>
         </kanta>
@@ -2715,7 +2716,7 @@
         <kanta>
                 <id>453</id>
                 <izenburua>Paradise City</izenburua>
-                <egilea>Guns N� Roses</egilea>
+                <egilea>Guns N´ Roses</egilea>
                 <urtea>1987</urtea>
         </kanta>
         <kanta>
@@ -2750,7 +2751,7 @@
         </kanta>
         <kanta>
                 <id>459</id>
-                <izenburua>Rollin� Stone</izenburua>
+                <izenburua>Rollin´ Stone</izenburua>
                 <egilea>Muddy Waters</egilea>
                 <urtea>1948</urtea>
         </kanta>
@@ -2799,7 +2800,7 @@
         <kanta>
                 <id>467</id>
                 <izenburua>Wellcome To The Jungle</izenburua>
-                <egilea>Guns N� Roses</egilea>
+                <egilea>Guns N´ Roses</egilea>
                 <urtea>1987</urtea>
         </kanta>
         <kanta>
@@ -2810,7 +2811,7 @@
         </kanta>
         <kanta>
                 <id>469</id>
-                <izenburua>It�s Too Late</izenburua>
+                <izenburua>It´s Too Late</izenburua>
                 <egilea>Carole King</egilea>
                 <urtea>1970</urtea>
         </kanta>
@@ -2840,7 +2841,7 @@
         </kanta>
         <kanta>
                 <id>474</id>
-                <izenburua>One Nation Under A Groove � Parte 1</izenburua>
+                <izenburua>One Nation Under A Groove ´ Parte 1</izenburua>
                 <egilea>Funkadelic</egilea>
                 <urtea>1978</urtea>
         </kanta>
@@ -2888,7 +2889,7 @@
         </kanta>
         <kanta>
                 <id>482</id>
-                <izenburua>I�m Eighteen</izenburua>
+                <izenburua>I´m Eighteen</izenburua>
                 <egilea>Alice Cooper</egilea>
                 <urtea>1971</urtea>
         </kanta>
@@ -2900,7 +2901,7 @@
         </kanta>
         <kanta>
                 <id>484</id>
-                <izenburua>I Love Rock �N Roll</izenburua>
+                <izenburua>I Love Rock ´N Roll</izenburua>
                 <egilea>Joan Jett And The Blackhearts</egilea>
                 <urtea>1982</urtea>
         </kanta>
@@ -2942,7 +2943,7 @@
         </kanta>
         <kanta>
                 <id>491</id>
-                <izenburua>You Don�t Have To Say You Love Me</izenburua>
+                <izenburua>You Don´t Have To Say You Love Me</izenburua>
                 <egilea>Dusty Springfield</egilea>
                 <urtea>1966</urtea>
         </kanta>

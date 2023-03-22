@@ -78,3 +78,19 @@ grant select on oracleariketa2.* to 'ane'@'localhost';
 
 grant update on oracleariketa2.* to 'ane'@'localhost';
 
+grant insert on oracleariketa2.* to 'jon'@'localhost';
+
+grant select on oracleariketa2.* to 'jon'@'localhost';
+
+grant create on oracleariketa2.* to 'jon'@'localhost';
+grant update on oracleariketa2.* to 'jon'@'localhost';
+
+grant insert on ariketa10.* to 'ane'@'localhost';
+
+grant select on ariketa10.* to 'ane'@'localhost';
+
+grant create on ariketa10.* to 'ane'@'localhost';
+grant update on ariketa10.* to 'ane'@'localhost';
+
+grant select on mysql.user to 'jon'@'localhost';
+

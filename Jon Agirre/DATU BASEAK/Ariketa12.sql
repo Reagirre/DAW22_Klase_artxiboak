@@ -48,4 +48,20 @@ UPDATE aaa
 SET 
     nn = UCASE(nn);
 
+use ariketa10;
+
+UPDATE ikasle_notak 
+SET 
+    nota1 = nota1 - 1
+WHERE
+    ikasle_notak.Ikasle_izena = (SELECT 
+            ikasle_izena
+        FROM
+            (SELECT 
+                ikasle_notak.ikasle_izena
+            FROM
+                ikasle_notak
+            ORDER BY ikasle_notak.nota1 ASC
+            LIMIT 1) AS taula);
+
 
