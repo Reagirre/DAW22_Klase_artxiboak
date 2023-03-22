@@ -275,14 +275,12 @@ public class ObjetuenArrayListBat
                     System.out.println("\n- Mikroprozesadorea bilatu -");
                     System.out.println("----------------------------");
                     System.out.print("Kodea: ");
-                    kodea = sarrera.nextLine();
+                    datua = sarrera.nextLine();
                     
                     while (true)
                     {  
                         try
                         {
-                            System.out.print("Kodea: ");
-                            datua = sarrera.nextLine();
                             
                             if(!datua.equals(""))
                             {
@@ -301,7 +299,10 @@ public class ObjetuenArrayListBat
                     }
                     
                     mikroprozesadorea = DatuBasea.bilatu(kodea);
-
+                    if(mikroprozesadorea == null)
+                        System.out.println("Mikroprozesadorea ez da aurkitu");
+                    else
+                        mikroprozesadorea.erakutsi();
                     break;
 
                 case 3:
@@ -601,10 +602,12 @@ public class ObjetuenArrayListBat
                                     {
                                         DatuBasea.ezabatu(kodea);
                                         System.out.println("Mikroprozesadorea ezabatu da");
+                                        break;
                                     }
                                     else
                                     {
                                         System.out.println("Mikroprozesadorea ez da ezabatu");
+                                        break;
                                     }
                                 }
                                 else
@@ -618,7 +621,6 @@ public class ObjetuenArrayListBat
                             }
                         }
                     }
-                    sarrera.close();
                     break;
                                  
                 case 5:  

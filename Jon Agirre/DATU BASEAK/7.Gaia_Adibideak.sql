@@ -77,3 +77,4 @@ grant insert on oracleariketa2.* to 'ane'@'localhost';
 grant select on oracleariketa2.* to 'ane'@'localhost';
 
 grant update on oracleariketa2.* to 'ane'@'localhost';
+
