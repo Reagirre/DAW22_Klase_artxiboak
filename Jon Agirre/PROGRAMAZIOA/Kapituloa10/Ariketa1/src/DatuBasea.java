@@ -60,6 +60,9 @@ public class DatuBasea
         }
         return mikroprozesadorea;
     }
+
+
+
     public static Mikroprozesadorea ezabatu(String kodea) {
         try {
 
@@ -99,9 +102,14 @@ public class DatuBasea
         }
         return null;
     }
+
+    
     public static Mikroprozesadorea aldatu(Mikroprozesadorea mikroprozesadorea) {
         return null;
     }
+
+
+    
     public static Mikroprozesadorea gehitu(Mikroprozesadorea mikroprozesadorea) {
 
         try {

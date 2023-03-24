@@ -50,6 +50,8 @@ SET
 
 use ariketa10;
 
+
+
 UPDATE ikasle_notak 
 SET 
     nota1 = nota1 - 1
@@ -65,3 +67,57 @@ WHERE
             LIMIT 1) AS taula);
 
 
+SELECT 
+    ikasle_notak.ikasle_izena,
+    GREATEST(nota1, nota2, nota3),
+    LEAST(nota1, nota2, nota3),
+    ((nota1 + nota2 + nota3) / 3)
+FROM
+    ikasle_notak;
+
+
+set password for 'ane'@'localhost' = '0001';
+
+
+use oracleariketa2;
+
+SELECT 
+    departa.depizen,
+    langile.abizena,
+    langile.soldata,
+    bajak.zergatia,
+    bajak.baja
+FROM
+    departa
+        INNER JOIN
+    langile ON departa.dept_zk = langile.dept_zk
+        INNER JOIN
+    bajak ON bajak.lan_zk = langile.lan_zk
+WHERE
+    bajak.alta IS NULL;
+
+
+SELECT 
+    COUNT(langile.lan_zk) langileak
+FROM
+    langile
+        INNER JOIN
+    bajak ON bajak.lan_zk = langile.lan_zk
+        INNER JOIN
+    departa ON langile.dept_zk = departa.dept_zk
+WHERE
+    bajak.alta IS NULL
+        AND departa.depizen = 'salmentak';
+
+
+UPDATE bajak 
+SET 
+    bajak.alta = CURDATE()
+WHERE
+    bajak.lan_zk = (SELECT 
+            langile.lan_zk
+        FROM
+            langile
+        WHERE
+            langile.abizena = 'Longarte')
+        AND bajak.alta IS NULL;

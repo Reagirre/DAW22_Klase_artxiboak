@@ -63,7 +63,8 @@ grant select on oracleariketa2.langile to 'ane'@'localhost';
 
 grant select on oracleariketa2.departa to 'ane'@'localhost';
 
-flush privileges;
+flush privile
+ges;
 
 grant update on oracleariketa2.langile to 'ane'@'localhost';
 grant update on oracleariketa2.departa to 'ane'@'localhost';
@@ -94,3 +95,19 @@ grant update on ariketa10.* to 'ane'@'localhost';
 
 grant select on mysql.user to 'jon'@'localhost';
 
+revoke select on ariketa10.* from 'ane'@'localhost';
+revoke insert on ariketa10.* from 'ane'@'localhost';
+revoke update on ariketa10.* from 'ane'@'localhost';
+
+revoke select, insert, update on ariketa10.* from 'ane'@'localhost';
+
+create user 'josu'@'localhost';
+select * from mysql.user;
+
+
+grant insert, select, create view, update on oracleariketa2.* to 'josu'@'localhost';
+flush privileges;
+
+grant all privileges on oracleariketa2.* to 'josu'@'localhost';
+
+flush privileges;
