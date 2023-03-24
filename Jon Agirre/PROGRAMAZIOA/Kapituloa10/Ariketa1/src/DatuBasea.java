@@ -68,10 +68,10 @@ public class DatuBasea
 
             Connection konexioa;
             PreparedStatement kontsulta;
-            ResultSet erregistroak;
             String url;
             String erabiltzailea;
             String pasahitza;
+            int emaitza;
 
             // mysql datu-basearen kontroladorea kargatu
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
@@ -85,9 +85,9 @@ public class DatuBasea
             // kontsulta sortu eta exekutatu
             kontsulta = konexioa.prepareStatement("delete from osagaiak.mikroprozesadoreak where kodea=?");
             kontsulta.setString(1, kodea);
-            erregistroak = kontsulta.executeQuery();
+            emaitza = kontsulta.executeUpdate();
 
-            erregistroak.close();
+            
             kontsulta.close();
             konexioa.close();
 
@@ -109,7 +109,7 @@ public class DatuBasea
     }
 
 
-    
+
     public static Mikroprozesadorea gehitu(Mikroprozesadorea mikroprozesadorea) {
 
         try {
