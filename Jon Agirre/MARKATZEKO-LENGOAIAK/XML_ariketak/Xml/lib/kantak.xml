@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE kantak SYSTEM "kantak.dtd">
+<?xml-stylesheet href="kantak.xsl" type="text/xsl"?>
 <kantak>
         <kanta>
                 <id>1</id>

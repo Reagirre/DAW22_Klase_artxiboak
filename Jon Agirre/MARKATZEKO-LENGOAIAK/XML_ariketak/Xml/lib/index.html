@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>60. hamarkadakoak ez diren kantak</title>
+        <script>
+            function kantakErakutsi()
+            {
+                var httpRequest = new XMLHttpRequest();
+                httpRequest.onreadystatechange = function(){
+                    if(httpRequest.readyState == 4)
+                    {
+                        if(httpRequest.status == 200)
+                            xml = httpRequest.responseXML;
+                        else{
+                            xml = false;
+                            document.getElementById("kantak").innerHTML = "Errorea: " + httpRequest.status;
+                        }
+                    }
+                }
+                httpRequest.open("GET", "kantak.xml", false);
+                httpRequest.send("");
+
+                httpRequest.onreadystatechange = function(){
+                    if(httpRequest.readyState == 4)
+                    {
+                        if(httpRequest.status == 200)
+                            xsl = httpRequest.responseXML;
+                        else{
+                            xsl = false;
+                            document.getElementById("kantak").innerHTML = "Errorea: " + httpRequest.status;
+                        }
+                    }
+                }
+
+                httpRequest.open("GET", "kantak.xsl", false);
+                httpRequest.send("");
+
+                if(xml != false && xsl != false)
+                {
+                    xsltProcessor = new XSLTProcessor();
+
+                    xsltProcessor.importStylesheet(xsl);
+
+                    emaitza = xsltProcessor.transformToFragment(xml, document);
+
+                    document.getElementById("kantak").appendChild(emaitza);
+                }
+            }
+        </script>
+    </head>
+    <body onload="kantakErakutsi()">
+        <h1>60.hamarkadakoak ez diren kantak</h1>
+        <div id="kantak"></div>
+    </body>
+</html>
