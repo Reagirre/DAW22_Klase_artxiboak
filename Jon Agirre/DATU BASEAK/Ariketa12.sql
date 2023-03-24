@@ -121,3 +121,23 @@ WHERE
         WHERE
             langile.abizena = 'Longarte')
         AND bajak.alta IS NULL;
+
+
+SELECT 
+    langile.abizena,
+    langile.lanbidea,
+    langile.soldata,
+    ikastaro.ikastaro_izena,
+    ikastaro.hasi,
+    ikastaro.bukatu,
+    ikastaro.orduak
+FROM
+    langile
+        INNER JOIN
+    ikastaro ON langile.lan_zk = ikastaro.lan_zk
+        INNER JOIN
+    departa ON departa.dept_zk = langile.dept_zk
+WHERE
+    departa.depizen = 'Ikerketa';
+
+
