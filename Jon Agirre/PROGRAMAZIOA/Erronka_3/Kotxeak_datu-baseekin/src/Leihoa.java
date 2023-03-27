@@ -384,13 +384,6 @@ public class Leihoa extends JFrame{
 
 
     private void klikEzabatu() {
-        tKodea.setEditable(false);
-        tFabrikatzailea.setEditable(false);
-        tModeloa.setEditable(false);
-        tKolorea.setEditable(false);
-        tZaldiak.setEditable(false);
-        tPrezioa.setEditable(false);
-        tDeskontua.setEditable(false);
         bAurrekoa.setEnabled(false);
         bHurrengoa.setEnabled(false);
         bAdos.setEnabled(true);
@@ -401,7 +394,6 @@ public class Leihoa extends JFrame{
         bEzabatu.setEnabled(false);
         
         lMezua.setText("Ekintza: kotxea ezabatu");
-        tKodea.requestFocusInWindow();
 
         ekintza = EZABATU;
     }
@@ -599,7 +591,6 @@ public class Leihoa extends JFrame{
         && !tZaldiak.getText().equals("") && !tPrezioa.getText().equals("") && !tDeskontua.getText().equals(""))
         {
             try {
-                erregistroak.moveToCurrentRow();
                 erregistroak.deleteRow();
                 erregistroak.first();
                 tKodea.setText(erregistroak.getString("kodea"));
@@ -609,7 +600,6 @@ public class Leihoa extends JFrame{
                 tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
                 tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                 tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
-                lMezua.setText("Mikroprozesadorea ezabatu da!");
                 tKodea.setEditable(false);
                 tFabrikatzailea.setEditable(false);
                 tModeloa.setEditable(false);
