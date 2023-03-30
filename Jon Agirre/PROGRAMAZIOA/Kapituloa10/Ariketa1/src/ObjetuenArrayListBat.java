@@ -343,29 +343,29 @@ public class ObjetuenArrayListBat
                     {
                         
                         
-                        while(true)
-                        {
-                            try
-                            {
-                                System.out.print("Kodea[" + mikroprozesadorea.getKodea() + "]: ");
-                                datua = sarrera.nextLine();
+                        // while(true)
+                        // {
+                        //     try
+                        //     {
+                        //         System.out.print("Kodea[" + mikroprozesadorea.getKodea() + "]: ");
+                        //         datua = sarrera.nextLine();
 
-                                if(!datua.equals(""))
-                                {
-                                    kodea = datua;
-                                    mikroprozesadorea.setKodea(kodea);                               
+                        //         if(!datua.equals(""))
+                        //         {
+                        //             kodea = datua;
+                        //             mikroprozesadorea.setKodea(kodea);                               
                                             
-                                }
-                                else
-                                {
-                                    break;
-                                }
-                            }
-                            catch(IllegalArgumentException e)
-                            {
-                                System.out.println(e.getMessage());
-                            }
-                        }
+                        //         }
+                        //         else
+                        //         {
+                        //             break;
+                        //         }
+                        //     }
+                        //     catch(IllegalArgumentException e)
+                        //     {
+                        //         System.out.println(e.getMessage());
+                        //     }
+                        // }
                         
                         while(true)
                         {

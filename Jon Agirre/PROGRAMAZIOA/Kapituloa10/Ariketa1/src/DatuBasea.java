@@ -4,15 +4,15 @@ public class DatuBasea
 {
     public static Mikroprozesadorea bilatu(String kodea) {
         Mikroprozesadorea mikroprozesadorea = null;
-        try {
-            
-            Connection konexioa;
-            PreparedStatement kontsulta;
-            ResultSet erregistroak;
-            String url;
-            String erabiltzailea;
-            String pasahitza;
+        
+        Connection konexioa;
+        PreparedStatement kontsulta;
+        ResultSet erregistroak;
+        String url;
+        String erabiltzailea;
+        String pasahitza;
 
+        try {
             // mysql datu-basearen kontroladorea kargatu
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 
@@ -63,16 +63,16 @@ public class DatuBasea
 
 
 
-    public static Mikroprozesadorea ezabatu(String kodea) {
+    public static int ezabatu(String kodea) {
+        
+        Connection konexioa;
+        PreparedStatement kontsulta;
+        String url;
+        String erabiltzailea;
+        String pasahitza;
+        int emaitza = 0;
+        
         try {
-
-            Connection konexioa;
-            PreparedStatement kontsulta;
-            String url;
-            String erabiltzailea;
-            String pasahitza;
-            int emaitza;
-
             // mysql datu-basearen kontroladorea kargatu
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 
@@ -100,27 +100,76 @@ public class DatuBasea
         } catch (SQLException e) {
             System.out.printf("Salbuespena: %s\n", e);
         }
-        return null;
+        return emaitza;
     }
 
     
-    public static Mikroprozesadorea aldatu(Mikroprozesadorea mikroprozesadorea) {
-        return null;
+    public static int aldatu(Mikroprozesadorea mikroprozesadorea) {
+
+        Connection konexioa;
+        PreparedStatement kontsulta;
+        String url;
+        String erabiltzailea;
+        String pasahitza;
+        String sql;
+        int emaitza = 0;
+
+
+        try {
+            // mysql datu-basearen kontroladorea kargatu
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+
+            // datu-basera konektatu
+            url = "jdbc:mysql://localhost:3306/osagaiak";
+            erabiltzailea = "root";
+            pasahitza = "1230";
+            konexioa = DriverManager.getConnection(url,erabiltzailea, pasahitza);
+
+            // kontsulta sortu eta exekutatu
+            sql = "update mikroprozesadoreak set ekoizlea=?, modeloa=?, socketa=?, frekuentzia=?, prezioa=?, deskontua=? where kodea=?";
+            kontsulta = konexioa.prepareStatement(sql);
+            kontsulta.setString(1, mikroprozesadorea.getEkoizlea());
+            kontsulta.setString(2, mikroprozesadorea.getModeloa());
+            kontsulta.setString(3, mikroprozesadorea.getSocketa());
+            kontsulta.setDouble(4, mikroprozesadorea.getFrekuentzia());
+            kontsulta.setDouble(5, mikroprozesadorea.getPrezioa());
+            kontsulta.setInt(6, mikroprozesadorea.getDeskontua());
+            kontsulta.setString(7,mikroprozesadorea.getKodea());
+            emaitza = kontsulta.executeUpdate();
+
+            System.out.printf("Eguneratutako erregistro kopurua: %d\n", emaitza);
+
+            kontsulta.close();
+            konexioa.close();
+
+        } catch (ClassNotFoundException e) {
+            System.out.printf("Salbuespena: %s\n", e);
+        } catch (InstantiationException e) {
+            System.out.printf("Salbuespena: %s\n", e);
+        } catch (IllegalAccessException e) {
+            System.out.printf("Salbuespena: %s\n", e);
+        } catch (SQLException e) {
+            System.out.printf("Salbuespena: %s\n", e);
+        }
+
+        return emaitza;
     }
 
 
 
-    public static Mikroprozesadorea gehitu(Mikroprozesadorea mikroprozesadorea) {
+    public static int gehitu(Mikroprozesadorea mikroprozesadorea) {
 
+        Connection konexioa;
+        PreparedStatement kontsulta;
+        String url;
+        String erabiltzailea;
+        String pasahitza;
+        String sql;
+        int emaitza = 0;
+        
         try {
 
-            Connection konexioa;
-            PreparedStatement kontsulta;
-            String url;
-            String erabiltzailea;
-            String pasahitza;
-            String sql;
-            int emaitza;
+            
             // mysql datu-basearen kontroladorea kargatu
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 
@@ -139,13 +188,14 @@ public class DatuBasea
             kontsulta.setString(4, mikroprozesadorea.getSocketa());
             kontsulta.setDouble(5, mikroprozesadorea.getFrekuentzia());
             kontsulta.setDouble(6, mikroprozesadorea.getPrezioa());
-            kontsulta.setDouble(7, mikroprozesadorea.getDeskontua());
+            kontsulta.setInt(7, mikroprozesadorea.getDeskontua());
             emaitza = kontsulta.executeUpdate();
 
             System.out.printf("Txertatutako erregistro kopurua: %d\n", emaitza);
 
             kontsulta.close();
             konexioa.close();
+            
 
         } catch (ClassNotFoundException e) {
             System.out.printf("Salbuespena: %s\n", e);
@@ -156,7 +206,6 @@ public class DatuBasea
         } catch (SQLException e) {
             System.out.printf("Salbuespena: %s\n", e);
         }
-
-        return null;
+        return emaitza;
     }
 }
