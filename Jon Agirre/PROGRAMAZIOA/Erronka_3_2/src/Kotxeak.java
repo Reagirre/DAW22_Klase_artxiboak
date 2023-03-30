@@ -2,7 +2,7 @@
 // Objetuen arrayList bat sortzeko eta manipulatzeko programa
 import java.util.*;
 
-public class ObjetuenArrayListBat
+public class Kotxeak
 {
     public static void main(String[] args)
     {
