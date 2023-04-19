@@ -15,10 +15,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>60. hamarkadako kantak</title>
+        <title>Kotxeak</title>
     </head>
     <body>
-        <h1>60. hamarkadako kantak</h1>
+        <h1>Kotxeak</h1>
         <%
 
         Builder builder;
@@ -28,8 +28,8 @@
         Nodes nodes;
         try{
             builder = new Builder();
-            xml = builder.build(new File("c:\\xampp\\tomcat\\webapps\\web_aplikazioa1\\kantak.xml"));
-            xsl = builder.build(new File("c:\\xampp\\tomcat\\webapps\\web_aplikazioa1\\kantak.xsl"));
+            xml = builder.build(new File("c:\\xampp\\tomcat\\webapps\\web_aplikazioa1\\kotxeak.xml"));
+            xsl = builder.build(new File("c:\\xampp\\tomcat\\webapps\\web_aplikazioa1\\kotxeak.xsl"));
             transform = new XSLTransform(xsl);
             nodes = transform.transform(xml);
 

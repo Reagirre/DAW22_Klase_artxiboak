@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>60. hamarkadakoak ez diren kantak</title>
+        <title>Kotxeak</title>
         <script>
-            function kantakErakutsi()
+            function kotxeakErakutsi()
             {
                 var httpRequest = new XMLHttpRequest();
                 httpRequest.onreadystatechange = function(){
@@ -14,11 +14,11 @@
                             xml = httpRequest.responseXML;
                         else{
                             xml = false;
-                            document.getElementById("kantak").innerHTML = "Errorea: " + httpRequest.status;
+                            document.getElementById("kotxeak").innerHTML = "Errorea: " + httpRequest.status;
                         }
                     }
                 }
-                httpRequest.open("GET", "kantak.xml", false);
+                httpRequest.open("GET", "kotxeak.xml", false);
                 httpRequest.send("");
 
                 httpRequest.onreadystatechange = function(){
@@ -28,12 +28,12 @@
                             xsl = httpRequest.responseXML;
                         else{
                             xsl = false;
-                            document.getElementById("kantak").innerHTML = "Errorea: " + httpRequest.status;
+                            document.getElementById("kotxeak").innerHTML = "Errorea: " + httpRequest.status;
                         }
                     }
                 }
 
-                httpRequest.open("GET", "kantak.xsl", false);
+                httpRequest.open("GET", "kotxeak.xsl", false);
                 httpRequest.send("");
 
                 if(xml != false && xsl != false)
@@ -44,13 +44,13 @@
 
                     emaitza = xsltProcessor.transformToFragment(xml, document);
 
-                    document.getElementById("kantak").appendChild(emaitza);
+                    document.getElementById("kotxeak").appendChild(emaitza);
                 }
             }
         </script>
     </head>
-    <body onload="kantakErakutsi()">
-        <h1>60.hamarkadakoak ez diren kantak</h1>
-        <div id="kantak"></div>
+    <body onload="kotxeakErakutsi()">
+        <h1>Kotxeak</h1>
+        <div id="kotxeak"></div>
     </body>
 </html>
