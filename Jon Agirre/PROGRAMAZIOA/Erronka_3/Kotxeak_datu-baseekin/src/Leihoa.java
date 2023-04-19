@@ -523,7 +523,22 @@ public class Leihoa extends JFrame{
 
 
     private void bilatu() {
-        
+        if(!tKodea.getText().equals(""))
+        {
+            try {
+                tKodea
+            
+            } catch (IllegalArgumentException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+            catch (SQLException e) {
+                lMezua.setText("Salbuespena: " + e.getMessage());
+            }
+        }
+        else
+        {
+            lMezua.setText("Kodea sartu behar da!");
+        }
     }
 
 
