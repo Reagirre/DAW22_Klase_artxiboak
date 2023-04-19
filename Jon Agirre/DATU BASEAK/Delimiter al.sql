@@ -1,3 +1,5 @@
+use oracleariketa2;
+
 
 delimiter $$
 create function MezuaItzuli() returns varchar(20)
@@ -43,10 +45,158 @@ WHERE
     end if;
 
 	SELECT 
-    lan_zk, abizena, soldata, extra
-FROM
-    langile
-WHERE
-    lan_zk = id
+		lan_zk, abizena, soldata, extra
+	FROM
+		langile
+	WHERE
+		lan_zk = id;
 end $$
 delimiter ;
+
+delimiter $$
+create function soldataMaximoa() returns numeric
+begin
+	declare soldataMaximoa numeric;
+    
+    select langile.soldata into soldataMaximoa
+    from langile
+    order by soldata desc
+    limit 1;
+    
+    return soldataMaximoa;
+end $$
+delimiter ;
+
+select soldataMaximoa();
+
+
+delimiter $$
+create procedure batetikHamarrera()
+begin
+	declare i int;
+    set i = 1;
+	while i < 10 do
+		select i;
+        set i = i + 1;
+	end while;
+end $$
+delimiter ;
+
+call batetikHamarrera();
+
+delimiter $$
+create procedure karratua(in x numeric)
+begin 
+	declare i numeric;
+    set i = 1;
+    while i <= x do
+		select i, i*i;
+        set i = i + 1;
+	end while;
+end $$
+delimiter ;
+
+call karratua(3);
+
+delimiter $$
+create function bakoitia(x int) returns boolean
+begin 
+	if x mod 2 = 0 then
+		return false;
+	else
+		return true;
+	end if;
+end $$
+delimiter ;
+
+
+delimiter $$
+create function saria(id numeric) returns numeric
+begin 
+	declare saria numeric;
+    
+    select langile.soldata * 0.05 into saria
+    from langile
+    where langile.lan_zk = id;
+    
+    return saria;
+end $$
+delimiter ;
+
+select saria(7369);
+
+
+delimiter $$
+create function saria2(id numeric) returns varchar(50)
+begin
+	declare saria numeric;
+    declare mezua varchar(50);
+    
+    select langile.soldata * 0.05 into saria
+    from langile
+    where langile.lan_zk = id;
+    
+    if saria is null then
+		set mezua = 'Langilea ez da existitzen';
+        return mezua;
+	else
+		return saria;
+	end if;
+end $$
+delimiter ;
+
+select saria2(122);
+
+
+delimiter $$
+create function saria3(id numeric) returns varchar(50)
+begin
+	declare saria numeric;
+    declare mezua varchar(50);
+    declare alta date;
+    
+    select alta_data into alta
+    from langile
+    where langile.lan_zk = id;
+    
+    if year(alta) < 1985 then
+		set saria = 400;
+	else 
+		set saria = 300;
+	end if;
+    
+    if saria is null then
+		set mezua = 'Ez da langilea existitzen';
+        return mezua;
+	else
+		return saria;
+	end if;
+end $$
+delimiter ;
+
+select saria3(7369)saria;
+
+delimiter $$
+create procedure sariaGehitu(id numeric) 
+begin
+	declare saria numeric;
+    declare alta date;
+    
+    select langile.soldata * 0.05 into saria
+    from langile
+    where langile.lan_zk = id;
+    
+    
+    if year(alta) < 1985 then
+		set saria = 400;
+	else 
+		set saria = 300;
+	end if;
+    
+    update langile
+    set soldata = soldata + saria
+    where lan_zk = id;
+end $$
+delimiter ;
+
+call sariaGehitu(7369);
