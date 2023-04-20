@@ -541,31 +541,12 @@ public class Leihoa extends JFrame{
                 tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
                 tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
                 tKodea.setEditable(false);
-                bGehitu.setEnabled(true);
+                bGehitu.setEnabled(false);
                 bBilatu.setEnabled(true);
                 bAldatu.setEnabled(true);
                 bEzabatu.setEnabled(true);
                 bAdos.setEnabled(false);
                 bUtzi.setEnabled(false);
-
-                if(erregistroak.isFirst())
-                {
-                    bAurrekoa.setEnabled(false);
-                }
-                else
-                {
-                    bAurrekoa.setEnabled(true);
-                }
-                    
-                
-                if(erregistroak.isLast())
-                {
-                    bHurrengoa.setEnabled(false);
-                }
-                else
-                {
-                    bHurrengoa.setEnabled(true);
-                }
                 
                 lMezua.setText("");
             
