@@ -526,9 +526,12 @@ public class Leihoa extends JFrame{
         {
             try {
                 erregistroak.first();
-                while(tKodea.getText().equals(erregistroak.getString("kodea")))
+                while(!erregistroak.isLast())
                 {
-                    erregistroak.next();
+                    if(tKodea.getText().equals(erregistroak.getString("kodea")))
+                        break;
+                    else 
+                        erregistroak.next();
                 }
                 tKodea.setText(erregistroak.getString("kodea"));
                 tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
@@ -544,6 +547,27 @@ public class Leihoa extends JFrame{
                 bEzabatu.setEnabled(true);
                 bAdos.setEnabled(false);
                 bUtzi.setEnabled(false);
+
+                if(erregistroak.isFirst())
+                {
+                    bAurrekoa.setEnabled(false);
+                }
+                else
+                {
+                    bAurrekoa.setEnabled(true);
+                }
+                    
+                
+                if(erregistroak.isLast())
+                {
+                    bHurrengoa.setEnabled(false);
+                }
+                else
+                {
+                    bHurrengoa.setEnabled(true);
+                }
+                
+                lMezua.setText("");
             
             } catch (IllegalArgumentException e) {
                 lMezua.setText("Salbuespena: " + e.getMessage());
