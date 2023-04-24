@@ -436,7 +436,7 @@ public class Leihoa extends JFrame{
         bEzabatu.setEnabled(true);
 
         try {
-            if(ekintza == GEHITU){
+            if(ekintza == GEHITU || ekintza == BILATU){
                 erregistroak.first();
                 tKodea.setText(erregistroak.getString("kodea"));
                 tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
