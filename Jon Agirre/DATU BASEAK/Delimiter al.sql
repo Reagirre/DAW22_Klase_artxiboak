@@ -200,3 +200,73 @@ end $$
 delimiter ;
 
 call sariaGehitu(7369);
+
+
+
+delimiter $$
+create function batura(x int, y int) returns int
+begin 
+	declare batu int;
+    set batu = 0;
+	while x <= y do
+		set batu = batu + x;
+        set x = x + 1;
+    end while;
+	return batu;
+end $$ 
+delimiter ;
+
+select batura(1,10);
+
+
+delimiter $$
+create procedure biZenbakienArtekoZenbakiak(in zenbakia1 int, in zenbakia2 int) 
+begin
+	if zenbakia1 < zenbakia2 then
+		while zenbakia1 <= zenbakia2 do
+			select zenbakia1;
+			set zenbakia1 = zenbakia1 + 1;
+        end while;
+	elseif zenbakia2 < zenbakia1 then
+		while zenbakia1 <= zenbakia2 do
+			select zenbakia2;
+			set zenbakia2 = zenbakia2 + 1;
+        end while;
+	else
+		select 'Bi zenbakiak berdinak dira';
+	end if;
+end $$
+delimiter ;
+
+call biZenbakienArtekoZenbakiak(10,15);
+
+
+delimiter $$
+create procedure soldataIgoera(in id numeric) 
+begin
+	declare lanbidea varchar(20);
+    declare soldata numeric;
+	select langile.lanbidea, langile.soldata into lanbidea, soldata
+    from langile
+    where langile.lan_zk = id;
+    
+    if lanbidea = 'Saltzaile' then
+		set soldata = soldata + (soldata * 5 / 100);
+	elseif lanbidea = 'Analista' then
+		set soldata = soldata + (soldata * 7 / 100);
+	elseif lanbidea = 'Langile' then
+		set soldata = soldata + (soldata * 8 / 100);
+	elseif lanbidea = 'Lehendakari' then
+		set soldata = soldata + (soldata * 12 / 100);
+	elseif lanbidea = 'Zuzendari' then
+		set soldata = soldata + (soldata * 10 / 100);
+	elseif lanbidea is null then
+		select 'Ez da langilerik existitzen';
+	end if;
+    
+    select langile.lan_zk, langile.abizena, langile.lanbidea, langile.soldata, soldata
+    from langile
+    where langile.lan_zk = id;
+        
+end $$
+delimiter ;
