@@ -270,3 +270,46 @@ begin
         
 end $$
 delimiter ;
+
+call soldataIgoera(7369);
+
+
+delimiter $$
+create procedure katea(in aukera int, in testua varchar(20)) 
+begin
+	declare kont int;
+    set kont = 1;
+	if aukera = 1 then
+		if binary(testua) = binary(upper(testua)) then
+			select 'Testua letra larriz idatzita dago';
+		else
+			select 'Testua letra xehez idatzita dago';
+		end if;
+    elseif aukera = 2 then
+		while kont <= length(testua) do
+			select substr(testua, kont, 1);
+			set kont = kont + 1;
+        end while;
+    elseif aukera = 3 then
+		set kont = length(testua);
+		while 0 < kont do
+			select substr(testua, kont, 1);
+			set kont = kont - 1;
+        end while;
+    elseif aukera = 4 then
+        if locate(" ", testua) = 0 then
+			select testua;
+		else
+			select substr(testua, 1, locate(" ", testua));
+            select substr(testua, locate(" ", testua));
+		end if;
+    else
+		select 'Ez da aukera zuzena';
+    end if;
+        
+end $$
+delimiter ;
+
+call katea(4, 'Hezkuntza berria');
+
+drop procedure katea;
