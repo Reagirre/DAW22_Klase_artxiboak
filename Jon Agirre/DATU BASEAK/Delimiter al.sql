@@ -303,6 +303,19 @@ begin
 			select substr(testua, 1, locate(" ", testua));
             select substr(testua, locate(" ", testua));
 		end if;
+        /*
+			while i <= length(testua) do
+				set letra = substr(testua, i, 1);
+                if letra = ' ' then
+					select hitza;
+                    set hitza = '';
+				else
+					set hitza = concat(hitza, letra);
+				end if;
+                set i = i + 1;
+			end while;
+            select hitza;
+        */
     else
 		select 'Ez da aukera zuzena';
     end if;
