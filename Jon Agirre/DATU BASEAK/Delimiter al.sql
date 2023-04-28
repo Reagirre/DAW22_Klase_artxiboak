@@ -326,3 +326,104 @@ delimiter ;
 call katea(4, 'Hezkuntza berria');
 
 drop procedure katea;
+
+
+
+delimiter $$
+create procedure datuakErakutsi() 
+begin
+	declare v_abizena varchar(20);
+    declare v_lanbidea varchar(20);
+    declare v_soldata numeric(7,2);
+    declare v_lan_zk numeric(3);
+    declare atera boolean;
+    
+    declare cursor_langile cursor for
+    select abizena, lanbidea, soldata, lan_zk
+    from langile;
+    
+    declare continue handler for not found set atera = true;
+    
+    open cursor_langile;
+		lan_loop: loop
+			fetch cursor_langile into v_abizena, v_lanbidea, v_soldata, v_lan_zk;
+            if atera = true then
+				leave lan_loop;
+			end if;
+            if id = v_lan_zk then
+				select v_abizena, v_lanbidea, v_soldata;
+			end if;
+        end loop;
+	close cursor_langile;
+end $$
+delimiter ;
+
+
+delimiter $$
+create procedure datuakErakutsi() 
+begin
+	declare v_abizena varchar(20);
+    declare v_lanbidea varchar(20);
+    declare v_soldata numeric(7,2);
+    declare v_alta_data numeric(3);
+    declare atera boolean;
+    declare kont int;
+    declare batuketa int;
+    
+    declare cursor_langile cursor for
+    select abizena, soldata, alta_data
+    from langile;
+    
+    declare continue handler for not found set atera = true;
+    set kont = 0;
+    set batuketa = 0;
+    
+    open cursor_langile;
+		langile_loop: loop
+			fetch cursor_langile into v_abizena, v_lanbidea, v_soldata, v_lan_zk;
+            if atera = true then
+				leave langile_loop;
+			end if;
+            
+            select v_abizena, v_alta_data, v_soldata;
+            set kont = kont + 1;
+            set batuketa = batuketa + v_soldata;
+            
+        end loop;
+        select kont;
+        select batuketa;
+        
+	close cursor_langile;
+end $$
+delimiter ;
+
+
+
+delimiter $$
+create procedure departaLangileKopurua() 
+begin
+	declare v_departaIzena varchar(20);
+    declare v_langileKopurua varchar(20);
+    declare atera boolean;
+    
+    declare cursor_departa cursor for
+    select departa.depizen, count(langile.lan_zk)
+    from departa inner join langile on departa.DEPT_ZK = langile.dept_zk
+    group by departa.dept_zk;
+    
+    declare continue handler for not found set atera = true;
+    
+    open cursor_departa;
+		departa_loop: loop
+			fetch cursor_langile into v_departaIzena, v_langileKopurua;
+            if atera = true then
+				leave departa_loop;
+			end if;
+            
+            select v_departaIzena, v_langileKopurua;
+            
+        end loop;
+        
+	close cursor_departa;
+end $$
+delimiter ;
