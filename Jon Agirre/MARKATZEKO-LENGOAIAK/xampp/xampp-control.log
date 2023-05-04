@@ -1,0 +1,107 @@
+14:12:32  [main] 	Initializing Control Panel
+14:12:32  [main] 	Windows Version:  Enterprise  64-bit
+14:12:32  [main] 	XAMPP Version: 8.2.0
+14:12:32  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+14:12:32  [main] 	You are not running with administrator rights! This will work for
+14:12:32  [main] 	most application stuff but whenever you do something with services
+14:12:32  [main] 	there will be a security dialogue or things will break! So think 
+14:12:32  [main] 	about running this application with administrator rights!
+14:12:32  [main] 	XAMPP Installation Directory: "c:\xampp\"
+14:12:32  [main] 	Checking for prerequisites
+14:12:34  [main] 	All prerequisites found
+14:12:34  [main] 	Initializing Modules
+14:12:34  [mysql] 	Problem detected!
+14:12:34  [mysql] 	Port 3306 in use by "Unable to open process"!
+14:12:34  [mysql] 	MySQL WILL NOT start without the configured ports free!
+14:12:34  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+14:12:34  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+14:12:34  [main] 	Starting Check-Timer
+14:12:34  [main] 	Control Panel Ready
+14:12:38  [Tomcat] 	Attempting to start Tomcat app...
+14:12:48  [Tomcat] 	Status change detected: running
+14:18:48  [Tomcat] 	Tomcat Started/Stopped with errors, return code: -1073741510
+14:18:48  [Tomcat] 	Make sure you have Java JDK or JRE installed and the required ports are free
+14:18:48  [Tomcat] 	Check the "/xampp/tomcat/logs" folder for more information
+14:18:48  [Tomcat] 	Status change detected: stopped
+14:18:48  [Tomcat] 	Error: Tomcat shutdown unexpectedly.
+14:18:48  [Tomcat] 	This may be due to a blocked port, missing dependencies, 
+14:18:48  [Tomcat] 	improper privileges, a crash, or a shutdown by another method.
+14:18:48  [Tomcat] 	Press the Logs button to view error logs and check
+14:18:48  [Tomcat] 	the Windows Event Viewer for more clues
+14:18:48  [Tomcat] 	If you need more help, copy and post this
+14:18:48  [Tomcat] 	entire log window on the forums
+14:18:50  [Tomcat] 	Attempting to start Tomcat app...
+14:18:58  [Tomcat] 	Status change detected: running
+14:23:45  [Tomcat] 	Attempting to stop Tomcat
+14:23:46  [Tomcat] 	Status change detected: stopped
+14:23:53  [main] 	Deinitializing Modules
+14:23:53  [main] 	Deinitializing Control Panel
+
+11:39:22  [main] 	Initializing Control Panel
+11:39:22  [main] 	Windows Version:  Enterprise  64-bit
+11:39:22  [main] 	XAMPP Version: 8.2.0
+11:39:22  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+11:39:22  [main] 	You are not running with administrator rights! This will work for
+11:39:22  [main] 	most application stuff but whenever you do something with services
+11:39:22  [main] 	there will be a security dialogue or things will break! So think 
+11:39:22  [main] 	about running this application with administrator rights!
+11:39:22  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:39:22  [main] 	Checking for prerequisites
+11:39:23  [main] 	All prerequisites found
+11:39:23  [main] 	Initializing Modules
+11:39:23  [mysql] 	Problem detected!
+11:39:23  [mysql] 	Port 3306 in use by "Unable to open process"!
+11:39:23  [mysql] 	MySQL WILL NOT start without the configured ports free!
+11:39:23  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+11:39:23  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+11:39:23  [main] 	Starting Check-Timer
+11:39:23  [main] 	Control Panel Ready
+11:39:26  [Tomcat] 	Attempting to start Tomcat app...
+11:39:37  [Tomcat] 	Status change detected: running
+11:52:07  [main] 	Executing "c:\xampp\Tomcat\conf"
+11:56:07  [Tomcat] 	Attempting to stop Tomcat
+11:56:08  [Tomcat] 	Status change detected: stopped
+11:56:17  [Apache] 	Attempting to start Apache app...
+11:56:17  [Apache] 	Status change detected: running
+11:56:23  [Tomcat] 	Attempting to start Tomcat app...
+11:56:30  [Apache] 	Attempting to stop Apache (PID: 4444)
+11:56:30  [Apache] 	Attempting to stop Apache (PID: 1304)
+11:56:31  [Apache] 	Status change detected: stopped
+11:56:31  [Tomcat] 	Status change detected: running
+13:10:47  [Tomcat] 	Attempting to stop Tomcat
+13:10:49  [Tomcat] 	Status change detected: stopped
+13:38:30  [main] 	Deinitializing Modules
+13:38:30  [main] 	Deinitializing Control Panel
+
+14:19:34  [main] 	Initializing Control Panel
+14:19:34  [main] 	Windows Version:  Enterprise  64-bit
+14:19:34  [main] 	XAMPP Version: 8.2.0
+14:19:34  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+14:19:34  [main] 	You are not running with administrator rights! This will work for
+14:19:34  [main] 	most application stuff but whenever you do something with services
+14:19:34  [main] 	there will be a security dialogue or things will break! So think 
+14:19:34  [main] 	about running this application with administrator rights!
+14:19:34  [main] 	XAMPP Installation Directory: "c:\xampp\"
+14:19:34  [main] 	Checking for prerequisites
+14:19:35  [main] 	All prerequisites found
+14:19:35  [main] 	Initializing Modules
+14:19:35  [mysql] 	Problem detected!
+14:19:35  [mysql] 	Port 3306 in use by "Unable to open process"!
+14:19:35  [mysql] 	MySQL WILL NOT start without the configured ports free!
+14:19:35  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+14:19:35  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+14:19:35  [main] 	Starting Check-Timer
+14:19:35  [main] 	Control Panel Ready
+14:19:36  [Tomcat] 	Attempting to start Tomcat app...
+14:19:49  [Tomcat] 	Attempting to start Tomcat app...
+14:19:52  [Tomcat] 	Status change detected: running
+14:20:22  [Apache] 	Attempting to start Apache app...
+14:20:22  [Apache] 	Status change detected: running
+14:20:25  [Tomcat] 	Attempting to stop Tomcat
+14:20:30  [Tomcat] 	Status change detected: stopped
+14:21:38  [Apache] 	Attempting to stop Apache (PID: 2624)
+14:21:38  [Apache] 	Attempting to stop Apache (PID: 7976)
+14:21:38  [Apache] 	Status change detected: stopped
+14:22:05  [main] 	Deinitializing Modules
+14:22:05  [main] 	Deinitializing Control Panel
+
