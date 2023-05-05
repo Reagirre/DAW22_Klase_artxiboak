@@ -399,12 +399,15 @@ delimiter ;
 
 
 
-delimiter $$
+delimiter $$;
 create procedure departaLangileKopurua() 
 begin
 	declare v_departaIzena varchar(20);
-    declare v_langileKopurua varchar(20);
+    declare v_langileKopurua int;
     declare atera boolean;
+    
+    set v_departaIzena = '';
+    set v_langileKopurua = 0;
     
     declare cursor_departa cursor for
     select departa.depizen, count(langile.lan_zk)
@@ -425,5 +428,54 @@ begin
         end loop;
         
 	close cursor_departa;
+end $$
+delimiter ;
+
+
+delimiter $$;
+create procedure bistaratuDepartaInfo(IN departaID numeric)
+begin
+	
+    declare v_abizena varchar(20);
+    declare v_lan_zk numeric;
+    declare v_zergaitia varchar(50);
+    declare v_altaData date;
+    declare v_departa_zk numeric;
+    
+    declare continue handler for not found set atera = true;
+    
+	
+    
+    select langile.abizena, langile.lan_zk, bajak.zergatia, bajak.alta
+    from langile inner join bajak on langile.lan_zk = bajak.lan_zk
+    where langile.dept_zk = departaID;
+    
+    select departa.dept_zk into v_departa_zk
+    from departa
+    where departa.dept_zk = departaID;
+    
+    if v_departa_zk is null then
+		select 'Ez da departamentua existitzen';
+	else
+		select departa.dept_zk, departa.depizen, departa.herria
+		from departa
+		where departa.dept_zk = departaID;
+	end if;
+        
+    open cursor_langile;
+		langile_loop: loop
+			fetch cursor_langile into v_abizena, v_lan_zk, v_zergaitia, v_altaData;
+            if atera = true then
+				leave langile_loop;
+			end if;
+            
+            if v_altaData is null then
+				select v_abizena, v_lan_zk, v_zergaitia, v_altaData;
+			else
+				select  v_abizena, v_lan_zk, v_bajaData;
+            end if;
+        end loop;
+	close cursor_langile;
+    
 end $$
 delimiter ;
