@@ -479,3 +479,16 @@ begin
     
 end $$
 delimiter ;
+
+
+delimiter $$
+create function gehituALetraz() returns numeric
+begin
+	declare suma numeric;
+    
+    select sum(langile.soldata) into suma
+    from langile
+    where langile.abizena like 'a%';
+end $$
+delimiter ;
+    
