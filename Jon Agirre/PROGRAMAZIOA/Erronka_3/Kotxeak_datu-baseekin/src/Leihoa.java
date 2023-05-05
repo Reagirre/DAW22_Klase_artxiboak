@@ -628,44 +628,70 @@ public class Leihoa extends JFrame{
         try {
             erregistroak.deleteRow();
             erregistroak.first();
-            tKodea.setText(erregistroak.getString("kodea"));
-            tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
-            tModeloa.setText(erregistroak.getString("modeloa"));
-            tKolorea.setText(erregistroak.getString("kolorea"));
-            tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
-            tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
-            tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
-            tKodea.setEditable(false);
-            tFabrikatzailea.setEditable(false);
-            tModeloa.setEditable(false);
-            tKolorea.setEditable(false);
-            tZaldiak.setEditable(false);
-            tPrezioa.setEditable(false);
-            tDeskontua.setEditable(false);
-            bGehitu.setEnabled(true);
-            bBilatu.setEnabled(true);
-            bAldatu.setEnabled(true);
-            bEzabatu.setEnabled(true);
-            bAdos.setEnabled(false);
-            bUtzi.setEnabled(false);
+            if(!erregistroak.next())
+            {
+                tKodea.setEditable(false);
+                tFabrikatzailea.setEditable(false);
+                tModeloa.setEditable(false);
+                tKolorea.setEditable(false);
+                tZaldiak.setEditable(false);
+                tPrezioa.setEditable(false);
+                tDeskontua.setEditable(false);
+                bGehitu.setEnabled(true);
+                bBilatu.setEnabled(false);
+                bAldatu.setEnabled(false);
+                bEzabatu.setEnabled(false);
+                bAdos.setEnabled(false);
+                bUtzi.setEnabled(false);
+                tKodea.setText("");
+                tFabrikatzailea.setText("");
+                tModeloa.setText("");
+                tKolorea.setText("");
+                tZaldiak.setText("");
+                tPrezioa.setText("");
+                tDeskontua.setText("");
+            }
+            else{
+                tKodea.setText(erregistroak.getString("kodea"));
+                tFabrikatzailea.setText(erregistroak.getString("fabrikatzailea"));
+                tModeloa.setText(erregistroak.getString("modeloa"));
+                tKolorea.setText(erregistroak.getString("kolorea"));
+                tZaldiak.setText(String.valueOf(erregistroak.getDouble("zaldiak")));
+                tPrezioa.setText(String.valueOf(erregistroak.getDouble("prezioa")));
+                tDeskontua.setText(String.valueOf(erregistroak.getDouble("deskontua")));
+                tKodea.setEditable(false);
+                tFabrikatzailea.setEditable(false);
+                tModeloa.setEditable(false);
+                tKolorea.setEditable(false);
+                tZaldiak.setEditable(false);
+                tPrezioa.setEditable(false);
+                tDeskontua.setEditable(false);
+                bGehitu.setEnabled(true);
+                bBilatu.setEnabled(true);
+                bAldatu.setEnabled(true);
+                bEzabatu.setEnabled(true);
+                bAdos.setEnabled(false);
+                bUtzi.setEnabled(false);
 
-            if(erregistroak.isFirst())
-            {
-                bAurrekoa.setEnabled(false);
-            }else
-            {
-                bAurrekoa.setEnabled(true);
+                if(erregistroak.isFirst())
+                {
+                    bAurrekoa.setEnabled(false);
+                }else
+                {
+                    bAurrekoa.setEnabled(true);
+                }
+                
+                if(erregistroak.isLast())
+                {
+                    bHurrengoa.setEnabled(false);
+                }else
+                {
+                    bHurrengoa.setEnabled(true);
+                }
+                
+                lMezua.setText("");
             }
             
-            if(erregistroak.isLast())
-            {
-                bHurrengoa.setEnabled(false);
-            }else
-            {
-                bHurrengoa.setEnabled(true);
-            }
-            
-            lMezua.setText("");
 
         }catch (IllegalArgumentException e) {
             lMezua.setText("Salbuespena: " + e.getMessage());
