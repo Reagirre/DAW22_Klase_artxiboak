@@ -22,6 +22,8 @@ where irakasleak.id_Irakasle = id;
 end $$
 delimiter ;
 
+call abizenaSoldata(7369);
+
 
 delimiter $$
 create procedure extra(in id numeric)
@@ -109,6 +111,7 @@ begin
 end $$
 delimiter ;
 
+select bakoitia(11);
 
 delimiter $$
 create function saria(id numeric) returns numeric
